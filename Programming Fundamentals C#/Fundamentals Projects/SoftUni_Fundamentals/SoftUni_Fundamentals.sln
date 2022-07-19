@@ -373,7 +373,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ReplaceRepeatingChars", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.StringExplosion", "Exercise08\07.StringExplosion\07.StringExplosion.csproj", "{8DF2FFCB-389E-4561-80BD-64DA204CA082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.LettersChangeNumbers", "Exercise08\08.LettersChangeNumbers\08.LettersChangeNumbers.csproj", "{424F7794-6D94-47CE-9A4E-A882F2F4C5CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.LettersChangeNumbers", "Exercise08\08.LettersChangeNumbers\08.LettersChangeNumbers.csproj", "{424F7794-6D94-47CE-9A4E-A882F2F4C5CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromeSublist", "LongestPalindromeSublist\LongestPalindromeSublist.csproj", "{3AC9AD66-E251-4E54-8687-B43D5E1014D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1049,6 +1051,10 @@ Global
 		{424F7794-6D94-47CE-9A4E-A882F2F4C5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424F7794-6D94-47CE-9A4E-A882F2F4C5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{424F7794-6D94-47CE-9A4E-A882F2F4C5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC9AD66-E251-4E54-8687-B43D5E1014D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC9AD66-E251-4E54-8687-B43D5E1014D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC9AD66-E251-4E54-8687-B43D5E1014D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC9AD66-E251-4E54-8687-B43D5E1014D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
