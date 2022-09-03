@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mid Exam Prep", "Mid Exam Prep", "{C1C9E362-E61B-4F1C-ADDC-E6EDE43516C0}"
 EndProject
@@ -463,11 +463,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WildZoo", "Final Exam 07
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final Exam Retake 15 August 2022", "Final Exam Retake 15 August 2022", "{03BC6F61-791C-4450-A27F-66B8A78FF8F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Warrior'sQuest", "Final Exam Retake 15 August 2022\01.Warrior'sQuest\01.Warrior'sQuest.csproj", "{9E76B943-D93D-47BF-B353-17A5154DAA26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Warrior'sQuest", "Final Exam Retake 15 August 2022\01.Warrior'sQuest\01.Warrior'sQuest.csproj", "{9E76B943-D93D-47BF-B353-17A5154DAA26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ArriveKathmandu", "Final Exam Retake 15 August 2022\02.ArriveKathmandu\02.ArriveKathmandu.csproj", "{A5925DE0-8F07-47D5-A0CE-99865803C659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ArriveKathmandu", "Final Exam Retake 15 August 2022\02.ArriveKathmandu\02.ArriveKathmandu.csproj", "{A5925DE0-8F07-47D5-A0CE-99865803C659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.BakeryShop", "Final Exam Retake 15 August 2022\03.BakeryShop\03.BakeryShop.csproj", "{0D8BB931-FB02-4ED6-80DD-BAEA8AFBD24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.BakeryShop", "Final Exam Retake 15 August 2022\03.BakeryShop\03.BakeryShop.csproj", "{0D8BB931-FB02-4ED6-80DD-BAEA8AFBD24B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.3.RecursiveFibonacci", "Exercise03.1\03.3.RecursiveFibonacci\03.3.RecursiveFibonacci.csproj", "{CA407762-E15C-4FB1-A1D1-C38A69758170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.4.FoldAndSum", "Exercise03.1\03.4.FoldAndSum\03.4.FoldAndSum.csproj", "{C060542B-4840-45C5-BF0F-ECA037997A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1303,6 +1307,14 @@ Global
 		{0D8BB931-FB02-4ED6-80DD-BAEA8AFBD24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D8BB931-FB02-4ED6-80DD-BAEA8AFBD24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D8BB931-FB02-4ED6-80DD-BAEA8AFBD24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA407762-E15C-4FB1-A1D1-C38A69758170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA407762-E15C-4FB1-A1D1-C38A69758170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA407762-E15C-4FB1-A1D1-C38A69758170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA407762-E15C-4FB1-A1D1-C38A69758170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C060542B-4840-45C5-BF0F-ECA037997A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C060542B-4840-45C5-BF0F-ECA037997A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C060542B-4840-45C5-BF0F-ECA037997A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C060542B-4840-45C5-BF0F-ECA037997A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1514,6 +1526,8 @@ Global
 		{9E76B943-D93D-47BF-B353-17A5154DAA26} = {03BC6F61-791C-4450-A27F-66B8A78FF8F5}
 		{A5925DE0-8F07-47D5-A0CE-99865803C659} = {03BC6F61-791C-4450-A27F-66B8A78FF8F5}
 		{0D8BB931-FB02-4ED6-80DD-BAEA8AFBD24B} = {03BC6F61-791C-4450-A27F-66B8A78FF8F5}
+		{CA407762-E15C-4FB1-A1D1-C38A69758170} = {72A56CDA-1C76-4CAA-A3A9-280DF235B3B4}
+		{C060542B-4840-45C5-BF0F-ECA037997A33} = {72A56CDA-1C76-4CAA-A3A9-280DF235B3B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9803BAF2-72A9-4A15-B2AE-A8B8D9A372B2}
