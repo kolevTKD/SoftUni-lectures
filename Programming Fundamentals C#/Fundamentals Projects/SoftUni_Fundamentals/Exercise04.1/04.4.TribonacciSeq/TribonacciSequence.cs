@@ -2,19 +2,24 @@
 
 namespace _04._4.TribonacciSeq
 {
-    internal class Program
+    internal class TribonacciSequence
     {
         public static int[] memo;
         static void Main(string[] args)
         {
             int num = int.Parse(Console.ReadLine());
             memo = new int[num + 1];
-            TribonacciSequence(num);
+            TribSequence(num);
             PrintTrib(memo);
         }
 
-        static int TribonacciSequence(int num)
+        static int TribSequence(int num)
         {
+            if (memo.Length == 2)
+            {
+                memo[0] = 1;
+            }
+
             if (num <= 1)
             {
                 return memo[num] = 1;
@@ -22,7 +27,7 @@ namespace _04._4.TribonacciSeq
 
             if (num == 2)
             {
-                return memo[num] = TribonacciSequence(num - 1) + TribonacciSequence(num - 2);
+                return memo[num] = TribSequence(num - 1) + TribSequence(num - 2);
             }
 
             if (memo[num] != 0)
@@ -30,7 +35,7 @@ namespace _04._4.TribonacciSeq
                 return memo[num];
             }
 
-            memo[num] = TribonacciSequence(num - 1) + TribonacciSequence(num - 2) + TribonacciSequence(num - 3);
+            memo[num] = TribSequence(num - 1) + TribSequence(num - 2) + TribSequence(num - 3);
             return memo[num];
 
         }
