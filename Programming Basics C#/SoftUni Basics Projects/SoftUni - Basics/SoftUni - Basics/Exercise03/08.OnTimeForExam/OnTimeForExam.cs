@@ -27,6 +27,7 @@ namespace _08.OnTimeForExam
             {
                 arrival = "On Time";
             }
+
             else if (differnceExamArrival > 0)
             {
 
