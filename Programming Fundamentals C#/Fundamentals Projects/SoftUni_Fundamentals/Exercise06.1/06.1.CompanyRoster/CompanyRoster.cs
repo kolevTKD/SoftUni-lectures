@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace _06._1.CompanyRoster
 {
-    internal class Program
+    internal class CompanyRoster
     {
         static void Main(string[] args)
         {
@@ -22,7 +22,7 @@ namespace _06._1.CompanyRoster
                 Employee employee = new Employee(name, salary, department);
                 employees.Add(employee);
 
-                bool depExists = (departments.Any(x => x.Name == department)) ? true : false;
+                bool depExists = departments.Any(x => x.Name == department) ? true : false;
 
                 if (!depExists)
                 {
