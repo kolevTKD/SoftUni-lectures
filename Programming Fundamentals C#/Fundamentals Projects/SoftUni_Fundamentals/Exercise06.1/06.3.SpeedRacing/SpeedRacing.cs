@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _06._3.SpeedRacing
 {
-    internal class Program
+    internal class SpeedRacing
     {
         static void Main(string[] args)
         {
