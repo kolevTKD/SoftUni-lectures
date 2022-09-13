@@ -8,6 +8,7 @@ namespace _06._3.SpeedRacing
         static void Main(string[] args)
         {
             List<Car> carList = GetInfo();
+            Print(carList);
         }
 
         static List<Car> GetInfo()
@@ -28,13 +29,34 @@ namespace _06._3.SpeedRacing
                 carList.Add(car);
             }
 
+            while (true)
+            {
+                string[] carDrive = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+                if (carDrive[0] == "End")
+                {
+                    break;
+                }
+
+                string carModel = carDrive[1];
+                int amountOfKm = int.Parse(carDrive[2]);
+
+                Car currentCar = carList.Find(x => x.Model == carModel);
+                currentCar.Drive(amountOfKm);
+
+            }
+
             return carList;
         }
 
-        static List<Car> Drive(List<Car> carList)
+        static void Print(List<Car> carList)
         {
-            
+            foreach (Car car in carList)
+            {
+                Console.WriteLine($"{car.Model} {car.FuelCap:f2} {car.Distance}");
+            }
         }
+
     }
 
     class Car
@@ -51,5 +73,23 @@ namespace _06._3.SpeedRacing
         public double FuelCap { get; set; }
         public double FuelPerKm { get; set; }
         public int Distance { get; set; }
+
+        public Car Drive(int amountOfKm)
+        {
+            double usedFuel = FuelPerKm * amountOfKm;
+
+            if (FuelCap - usedFuel >= 0)
+            {
+                Distance += amountOfKm;
+                FuelCap -= usedFuel;
+            }
+
+            else
+            {
+                Console.WriteLine("Insufficient fuel for the drive");
+            }
+
+            return this;
+        }
     }
 }
