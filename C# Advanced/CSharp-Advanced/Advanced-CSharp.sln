@@ -53,7 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayModification"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.PascalTriangle", "Lab02 - Multidimensional Arrays\07.PascalTriangle\07.PascalTriangle.csproj", "{2F5ACC5A-5689-466B-B3DB-F1EC5BE91859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BalancedParentheses", "Exercise01 - Stacks And Queues\08.BalancedParentheses\08.BalancedParentheses.csproj", "{385D0341-F25E-46E7-9D8B-59F53CC77E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.BalancedParentheses", "Exercise01 - Stacks And Queues\08.BalancedParentheses\08.BalancedParentheses.csproj", "{385D0341-F25E-46E7-9D8B-59F53CC77E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SimpleTextEditor", "Exercise01 - Stacks And Queues\09.SimpleTextEditor\09.SimpleTextEditor.csproj", "{64A9EF99-6EC1-4F43-8C06-03F2483F7C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Crossroads", "Exercise01 - Stacks And Queues\10.Crossroads\10.Crossroads.csproj", "{DC654434-2D26-4F60-AC12-4788B627AB82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{385D0341-F25E-46E7-9D8B-59F53CC77E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{385D0341-F25E-46E7-9D8B-59F53CC77E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385D0341-F25E-46E7-9D8B-59F53CC77E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A9EF99-6EC1-4F43-8C06-03F2483F7C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A9EF99-6EC1-4F43-8C06-03F2483F7C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A9EF99-6EC1-4F43-8C06-03F2483F7C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A9EF99-6EC1-4F43-8C06-03F2483F7C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC654434-2D26-4F60-AC12-4788B627AB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC654434-2D26-4F60-AC12-4788B627AB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC654434-2D26-4F60-AC12-4788B627AB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC654434-2D26-4F60-AC12-4788B627AB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +193,8 @@ Global
 		{474422F8-9B3A-4DE9-9738-A7373CD7E935} = {162B5091-81DC-47C9-9EE6-776BCEF74443}
 		{2F5ACC5A-5689-466B-B3DB-F1EC5BE91859} = {162B5091-81DC-47C9-9EE6-776BCEF74443}
 		{385D0341-F25E-46E7-9D8B-59F53CC77E3C} = {80A57A8A-860F-49BF-BB65-31F306499994}
+		{64A9EF99-6EC1-4F43-8C06-03F2483F7C20} = {80A57A8A-860F-49BF-BB65-31F306499994}
+		{DC654434-2D26-4F60-AC12-4788B627AB82} = {80A57A8A-860F-49BF-BB65-31F306499994}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
