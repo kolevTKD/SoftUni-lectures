@@ -61,7 +61,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Crossroads", "Exercise01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.KeyRevolver", "Exercise01 - Stacks And Queues\11.KeyRevolver\11.KeyRevolver.csproj", "{0E47CE76-8AD1-4F30-90CB-5493E0DF25C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.CupsAndBottles", "Exercise01 - Stacks And Queues\12.CupsAndBottles\12.CupsAndBottles.csproj", "{CBE94A5B-BFDC-4E66-BE8D-F92703DBCC85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.CupsAndBottles", "Exercise01 - Stacks And Queues\12.CupsAndBottles\12.CupsAndBottles.csproj", "{CBE94A5B-BFDC-4E66-BE8D-F92703DBCC85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise02 - Multidimensional Arrays", "Exercise02 - Multidimensional Arrays", "{D1CF9813-95F3-40C0-AB1B-0E43DC04D677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DiagonalDifference", "Exercise02 - Multidimensional Arrays\01.DiagonalDifference\01.DiagonalDifference.csproj", "{925E4318-C7B0-4715-84A4-AB57E8B4984C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +181,10 @@ Global
 		{CBE94A5B-BFDC-4E66-BE8D-F92703DBCC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE94A5B-BFDC-4E66-BE8D-F92703DBCC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE94A5B-BFDC-4E66-BE8D-F92703DBCC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925E4318-C7B0-4715-84A4-AB57E8B4984C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925E4318-C7B0-4715-84A4-AB57E8B4984C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925E4318-C7B0-4715-84A4-AB57E8B4984C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925E4318-C7B0-4715-84A4-AB57E8B4984C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +217,7 @@ Global
 		{DC654434-2D26-4F60-AC12-4788B627AB82} = {80A57A8A-860F-49BF-BB65-31F306499994}
 		{0E47CE76-8AD1-4F30-90CB-5493E0DF25C9} = {80A57A8A-860F-49BF-BB65-31F306499994}
 		{CBE94A5B-BFDC-4E66-BE8D-F92703DBCC85} = {80A57A8A-860F-49BF-BB65-31F306499994}
+		{925E4318-C7B0-4715-84A4-AB57E8B4984C} = {D1CF9813-95F3-40C0-AB1B-0E43DC04D677}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
