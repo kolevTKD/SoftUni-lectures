@@ -71,19 +71,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SquaresInMatrix", "Exerc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab03 - Sets and Dictionaries Advanced", "Lab03 - Sets and Dictionaries Advanced", "{8565A836-6858-4156-A7FE-241EDF9EFC4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountSameValuesInArray", "Lab03 - Sets and Dictionaries Advanced\01.CountSameValuesInArray\01.CountSameValuesInArray.csproj", "{59291D53-3CA8-413E-AD09-CBD32E116B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CountSameValuesInArray", "Lab03 - Sets and Dictionaries Advanced\01.CountSameValuesInArray\01.CountSameValuesInArray.csproj", "{59291D53-3CA8-413E-AD09-CBD32E116B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AverageStudentGrades", "Lab03 - Sets and Dictionaries Advanced\02.AverageStudentGrades\02.AverageStudentGrades.csproj", "{DCA8DD79-AF12-4335-8ECF-2C67F903E880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.AverageStudentGrades", "Lab03 - Sets and Dictionaries Advanced\02.AverageStudentGrades\02.AverageStudentGrades.csproj", "{DCA8DD79-AF12-4335-8ECF-2C67F903E880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Largest3Numbers", "Lab03 - Sets and Dictionaries Advanced\03.Largest3Numbers\03.Largest3Numbers.csproj", "{6A13433C-DB49-409C-B44F-8F9D66B0B57D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Largest3Numbers", "Lab03 - Sets and Dictionaries Advanced\03.Largest3Numbers\03.Largest3Numbers.csproj", "{6A13433C-DB49-409C-B44F-8F9D66B0B57D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ProductShop", "Lab03 - Sets and Dictionaries Advanced\04.ProductShop\04.ProductShop.csproj", "{D56D4243-8986-455D-9CCA-7D2405577D32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ProductShop", "Lab03 - Sets and Dictionaries Advanced\04.ProductShop\04.ProductShop.csproj", "{D56D4243-8986-455D-9CCA-7D2405577D32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CitiesByContinentAndCountry", "Lab03 - Sets and Dictionaries Advanced\05.CitiesByContinentAndCountry\05.CitiesByContinentAndCountry.csproj", "{3816914B-0E7B-4F1E-9F2B-628B74E673C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CitiesByContinentAndCountry", "Lab03 - Sets and Dictionaries Advanced\05.CitiesByContinentAndCountry\05.CitiesByContinentAndCountry.csproj", "{3816914B-0E7B-4F1E-9F2B-628B74E673C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RecordUniqueNames", "Lab03 - Sets and Dictionaries Advanced\06.RecordUniqueNames\06.RecordUniqueNames.csproj", "{C1632988-5675-47B4-B837-D17F44772BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.RecordUniqueNames", "Lab03 - Sets and Dictionaries Advanced\06.RecordUniqueNames\06.RecordUniqueNames.csproj", "{C1632988-5675-47B4-B837-D17F44772BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ParkingLot", "Lab03 - Sets and Dictionaries Advanced\07.ParkingLot\07.ParkingLot.csproj", "{87689E4D-6D5E-4032-B455-40682226AC6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.ParkingLot", "Lab03 - Sets and Dictionaries Advanced\07.ParkingLot\07.ParkingLot.csproj", "{87689E4D-6D5E-4032-B455-40682226AC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SoftUniParty", "Lab03 - Sets and Dictionaries Advanced\08.SoftUniParty\08.SoftUniParty.csproj", "{58505EA6-A655-4D59-9F08-0ACD4E82AFB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +237,10 @@ Global
 		{87689E4D-6D5E-4032-B455-40682226AC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87689E4D-6D5E-4032-B455-40682226AC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87689E4D-6D5E-4032-B455-40682226AC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58505EA6-A655-4D59-9F08-0ACD4E82AFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58505EA6-A655-4D59-9F08-0ACD4E82AFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58505EA6-A655-4D59-9F08-0ACD4E82AFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58505EA6-A655-4D59-9F08-0ACD4E82AFB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +282,7 @@ Global
 		{3816914B-0E7B-4F1E-9F2B-628B74E673C1} = {8565A836-6858-4156-A7FE-241EDF9EFC4C}
 		{C1632988-5675-47B4-B837-D17F44772BA1} = {8565A836-6858-4156-A7FE-241EDF9EFC4C}
 		{87689E4D-6D5E-4032-B455-40682226AC6A} = {8565A836-6858-4156-A7FE-241EDF9EFC4C}
+		{58505EA6-A655-4D59-9F08-0ACD4E82AFB4} = {8565A836-6858-4156-A7FE-241EDF9EFC4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
