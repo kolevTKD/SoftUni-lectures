@@ -87,15 +87,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.ParkingLot", "Lab03 - Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.SoftUniParty", "Lab03 - Sets and Dictionaries Advanced\08.SoftUniParty\08.SoftUniParty.csproj", "{58505EA6-A655-4D59-9F08-0ACD4E82AFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximalSum", "Exercise02 - Multidimensional Arrays\03.MaximalSum\03.MaximalSum.csproj", "{C5B84F6F-07C5-4DA0-B9A6-678054F692FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximalSum", "Exercise02 - Multidimensional Arrays\03.MaximalSum\03.MaximalSum.csproj", "{C5B84F6F-07C5-4DA0-B9A6-678054F692FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatrixShuffling", "Exercise02 - Multidimensional Arrays\04.MatrixShuffling\04.MatrixShuffling.csproj", "{700F3EAE-69B4-4DAE-900A-C27757B86468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MatrixShuffling", "Exercise02 - Multidimensional Arrays\04.MatrixShuffling\04.MatrixShuffling.csproj", "{700F3EAE-69B4-4DAE-900A-C27757B86468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SnakeMoves", "Exercise02 - Multidimensional Arrays\05.SnakeMoves\05.SnakeMoves.csproj", "{48BA553D-31BE-4BC4-B891-D9D98905668B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SnakeMoves", "Exercise02 - Multidimensional Arrays\05.SnakeMoves\05.SnakeMoves.csproj", "{48BA553D-31BE-4BC4-B891-D9D98905668B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayManipulator", "Exercise02 - Multidimensional Arrays\06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{0F38E9E0-4F3B-4AD9-90D9-E27485084214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayManipulator", "Exercise02 - Multidimensional Arrays\06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{0F38E9E0-4F3B-4AD9-90D9-E27485084214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightGame", "Exercise02 - Multidimensional Arrays\07.KnightGame\07.KnightGame.csproj", "{B69A8338-80D7-4FB4-BDD0-B884CFDD7708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightGame", "Exercise02 - Multidimensional Arrays\07.KnightGame\07.KnightGame.csproj", "{B69A8338-80D7-4FB4-BDD0-B884CFDD7708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise03 - Sets and Dictionaries Advanced", "Exercise03 - Sets and Dictionaries Advanced", "{A97B3C50-5209-4F7C-934B-29BDFF569B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab04 - Streams, Files and Directories", "Lab04 - Streams, Files and Directories", "{78EFC07B-A762-4956-B248-AB3C32C93149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddLines", "Lab04 - Streams, Files and Directories\01.OddLines\01.OddLines.csproj", "{2B8BA265-8286-41A1-AABB-B995946BF772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbers", "Lab04 - Streams, Files and Directories\02.LineNumbers\02.LineNumbers.csproj", "{25D29A13-D55E-4DE6-966D-05525819950D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCount", "Lab04 - Streams, Files and Directories\03.WordCount\03.WordCount.csproj", "{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +281,18 @@ Global
 		{B69A8338-80D7-4FB4-BDD0-B884CFDD7708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B69A8338-80D7-4FB4-BDD0-B884CFDD7708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B69A8338-80D7-4FB4-BDD0-B884CFDD7708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8BA265-8286-41A1-AABB-B995946BF772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8BA265-8286-41A1-AABB-B995946BF772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8BA265-8286-41A1-AABB-B995946BF772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8BA265-8286-41A1-AABB-B995946BF772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D29A13-D55E-4DE6-966D-05525819950D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D29A13-D55E-4DE6-966D-05525819950D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D29A13-D55E-4DE6-966D-05525819950D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D29A13-D55E-4DE6-966D-05525819950D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,6 +340,9 @@ Global
 		{48BA553D-31BE-4BC4-B891-D9D98905668B} = {D1CF9813-95F3-40C0-AB1B-0E43DC04D677}
 		{0F38E9E0-4F3B-4AD9-90D9-E27485084214} = {D1CF9813-95F3-40C0-AB1B-0E43DC04D677}
 		{B69A8338-80D7-4FB4-BDD0-B884CFDD7708} = {D1CF9813-95F3-40C0-AB1B-0E43DC04D677}
+		{2B8BA265-8286-41A1-AABB-B995946BF772} = {78EFC07B-A762-4956-B248-AB3C32C93149}
+		{25D29A13-D55E-4DE6-966D-05525819950D} = {78EFC07B-A762-4956-B248-AB3C32C93149}
+		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
