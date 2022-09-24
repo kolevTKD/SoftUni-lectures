@@ -101,11 +101,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise03 - Sets and Dicti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab04 - Streams, Files and Directories", "Lab04 - Streams, Files and Directories", "{78EFC07B-A762-4956-B248-AB3C32C93149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddLines", "Lab04 - Streams, Files and Directories\01.OddLines\01.OddLines.csproj", "{2B8BA265-8286-41A1-AABB-B995946BF772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.OddLines", "Lab04 - Streams, Files and Directories\01.OddLines\01.OddLines.csproj", "{2B8BA265-8286-41A1-AABB-B995946BF772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbers", "Lab04 - Streams, Files and Directories\02.LineNumbers\02.LineNumbers.csproj", "{25D29A13-D55E-4DE6-966D-05525819950D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LineNumbers", "Lab04 - Streams, Files and Directories\02.LineNumbers\02.LineNumbers.csproj", "{25D29A13-D55E-4DE6-966D-05525819950D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCount", "Lab04 - Streams, Files and Directories\03.WordCount\03.WordCount.csproj", "{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WordCount", "Lab04 - Streams, Files and Directories\03.WordCount\03.WordCount.csproj", "{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MergeFiles", "Lab04 - Streams, Files and Directories\04.MergeFiles\04.MergeFiles.csproj", "{E8C06792-FFD6-49BE-90EC-B7703506D27F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -293,6 +295,10 @@ Global
 		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C06792-FFD6-49BE-90EC-B7703506D27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C06792-FFD6-49BE-90EC-B7703506D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C06792-FFD6-49BE-90EC-B7703506D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C06792-FFD6-49BE-90EC-B7703506D27F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -343,6 +349,7 @@ Global
 		{2B8BA265-8286-41A1-AABB-B995946BF772} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 		{25D29A13-D55E-4DE6-966D-05525819950D} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 		{6DF699A9-D277-4D7E-ADB6-5EB158EE5E5F} = {78EFC07B-A762-4956-B248-AB3C32C93149}
+		{E8C06792-FFD6-49BE-90EC-B7703506D27F} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
