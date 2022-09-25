@@ -109,17 +109,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WordCount", "Lab04 - Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MergeFiles", "Lab04 - Streams, Files and Directories\04.MergeFiles\04.MergeFiles.csproj", "{E8C06792-FFD6-49BE-90EC-B7703506D27F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.UniqueUsernames", "Exercise03 - Sets and Dictionaries Advanced\01.UniqueUserNames\01.UniqueUsernames.csproj", "{443C98E9-B63E-43EA-BA4D-57C20409DE70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.UniqueUsernames", "Exercise03 - Sets and Dictionaries Advanced\01.UniqueUserNames\01.UniqueUsernames.csproj", "{443C98E9-B63E-43EA-BA4D-57C20409DE70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SetsOfElements", "Exercise03 - Sets and Dictionaries Advanced\02.SetsOfElements\02.SetsOfElements.csproj", "{D84E4971-499F-417D-8973-659C5D6C4144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SetsOfElements", "Exercise03 - Sets and Dictionaries Advanced\02.SetsOfElements\02.SetsOfElements.csproj", "{D84E4971-499F-417D-8973-659C5D6C4144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PeriodicTable", "Exercise03 - Sets and Dictionaries Advanced\03.PeriodicTable\03.PeriodicTable.csproj", "{6B2DE757-AB17-409A-AECB-A20D207C9907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PeriodicTable", "Exercise03 - Sets and Dictionaries Advanced\03.PeriodicTable\03.PeriodicTable.csproj", "{6B2DE757-AB17-409A-AECB-A20D207C9907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.EvenTimes", "Exercise03 - Sets and Dictionaries Advanced\04.EvenTimes\04.EvenTimes.csproj", "{12A8292A-3ABE-4F49-BA3C-86571BF30DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.EvenTimes", "Exercise03 - Sets and Dictionaries Advanced\04.EvenTimes\04.EvenTimes.csproj", "{12A8292A-3ABE-4F49-BA3C-86571BF30DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CountSymbols", "Exercise03 - Sets and Dictionaries Advanced\05.CountSymbols\05.CountSymbols.csproj", "{AA0AEE7B-2DC1-4338-8F59-423727C77E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CountSymbols", "Exercise03 - Sets and Dictionaries Advanced\05.CountSymbols\05.CountSymbols.csproj", "{AA0AEE7B-2DC1-4338-8F59-423727C77E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Wardrobe", "Exercise03 - Sets and Dictionaries Advanced\06.Wardrobe\06.Wardrobe.csproj", "{D99D1674-85BE-4A1A-AE84-8463D08CDFBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Wardrobe", "Exercise03 - Sets and Dictionaries Advanced\06.Wardrobe\06.Wardrobe.csproj", "{D99D1674-85BE-4A1A-AE84-8463D08CDFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TheV-Logger", "Exercise03 - Sets and Dictionaries Advanced\07.TheV-Logger\07.TheV-Logger.csproj", "{C997B04E-2F33-4B53-9276-CB7E3056DE2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,6 +337,10 @@ Global
 		{D99D1674-85BE-4A1A-AE84-8463D08CDFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D99D1674-85BE-4A1A-AE84-8463D08CDFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D99D1674-85BE-4A1A-AE84-8463D08CDFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -392,6 +398,7 @@ Global
 		{12A8292A-3ABE-4F49-BA3C-86571BF30DDA} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 		{AA0AEE7B-2DC1-4338-8F59-423727C77E88} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 		{D99D1674-85BE-4A1A-AE84-8463D08CDFBA} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
+		{C997B04E-2F33-4B53-9276-CB7E3056DE2A} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}

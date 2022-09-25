@@ -9,20 +9,16 @@ namespace _03.PeriodicTable
         static void Main(string[] args)
         {
             int count = int.Parse(Console.ReadLine());
-            HashSet<string> periodicElements = new HashSet<string>();
+            SortedSet<string> periodicElements = new SortedSet<string>();
 
             for (int i = 0; i < count; i++)
             {
                 string[] chemicalCompounds = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-                foreach (var element in chemicalCompounds)
-                {
-                    periodicElements.Add(element);
-                }
+                periodicElements.UnionWith(chemicalCompounds);
             }
 
-            List<string> chemicalElements = periodicElements.OrderBy(x => x).ToList();
-            Console.WriteLine(String.Join(' ', chemicalElements));
+            Console.WriteLine(String.Join(' ', periodicElements));
         }
     }
 }

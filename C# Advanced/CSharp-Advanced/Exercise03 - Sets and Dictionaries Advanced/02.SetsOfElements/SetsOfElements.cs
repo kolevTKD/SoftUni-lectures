@@ -11,8 +11,8 @@ namespace _02.SetsOfElements
             int[] dimensions = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
             int set1Length = dimensions[0];
             int set2Length = dimensions[1];
-            HashSet<string> firstElements = new HashSet<string>(set1Length);
-            HashSet<string> secondElements = new HashSet<string>(set2Length);
+            HashSet<string> firstElements = new HashSet<string>();
+            HashSet<string> secondElements = new HashSet<string>();
 
             for (int i = 0; i < set1Length + set2Length; i++)
             {
@@ -26,17 +26,9 @@ namespace _02.SetsOfElements
 
                 firstElements.Add(element);
             }
+            firstElements.IntersectWith(secondElements);
 
-            HashSet<string> uniques = new HashSet<string>();
-            foreach (string element in firstElements)
-            {
-                if (secondElements.Contains(element))
-                {
-                    uniques.Add(element);
-                }
-            }
-
-            Console.WriteLine($"{string.Join(' ', uniques)}");
+            Console.WriteLine($"{string.Join(' ', firstElements)}");
         }
     }
 }
