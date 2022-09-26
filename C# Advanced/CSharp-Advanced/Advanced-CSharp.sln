@@ -121,7 +121,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CountSymbols", "Exercise
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Wardrobe", "Exercise03 - Sets and Dictionaries Advanced\06.Wardrobe\06.Wardrobe.csproj", "{D99D1674-85BE-4A1A-AE84-8463D08CDFBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TheV-Logger", "Exercise03 - Sets and Dictionaries Advanced\07.TheV-Logger\07.TheV-Logger.csproj", "{C997B04E-2F33-4B53-9276-CB7E3056DE2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TheV-Logger", "Exercise03 - Sets and Dictionaries Advanced\07.TheV-Logger\07.TheV-Logger.csproj", "{C997B04E-2F33-4B53-9276-CB7E3056DE2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ExtractSpecialBytes", "Lab04 - Streams, Files and Directories\05.ExtractSpecialBytes\05.ExtractSpecialBytes.csproj", "{5AD501CF-8168-463C-93F7-F4F1D1502574}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SplitMergeBinaryFiles", "Lab04 - Streams, Files and Directories\06.SplitMergeBinaryFiles\06.SplitMergeBinaryFiles.csproj", "{4EBC5927-2BD4-4587-90BE-94F0A01CA43F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.FolderSize", "Lab04 - Streams, Files and Directories\07.FolderSize\07.FolderSize.csproj", "{35C5A888-3CF1-45F5-9ECA-0274C92C7598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -341,6 +347,18 @@ Global
 		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C997B04E-2F33-4B53-9276-CB7E3056DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD501CF-8168-463C-93F7-F4F1D1502574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD501CF-8168-463C-93F7-F4F1D1502574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD501CF-8168-463C-93F7-F4F1D1502574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD501CF-8168-463C-93F7-F4F1D1502574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -399,6 +417,9 @@ Global
 		{AA0AEE7B-2DC1-4338-8F59-423727C77E88} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 		{D99D1674-85BE-4A1A-AE84-8463D08CDFBA} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 		{C997B04E-2F33-4B53-9276-CB7E3056DE2A} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
+		{5AD501CF-8168-463C-93F7-F4F1D1502574} = {78EFC07B-A762-4956-B248-AB3C32C93149}
+		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F} = {78EFC07B-A762-4956-B248-AB3C32C93149}
+		{35C5A888-3CF1-45F5-9ECA-0274C92C7598} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
