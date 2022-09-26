@@ -127,7 +127,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ExtractSpecialBytes", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SplitMergeBinaryFiles", "Lab04 - Streams, Files and Directories\06.SplitMergeBinaryFiles\06.SplitMergeBinaryFiles.csproj", "{4EBC5927-2BD4-4587-90BE-94F0A01CA43F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.FolderSize", "Lab04 - Streams, Files and Directories\07.FolderSize\07.FolderSize.csproj", "{35C5A888-3CF1-45F5-9ECA-0274C92C7598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.FolderSize", "Lab04 - Streams, Files and Directories\07.FolderSize\07.FolderSize.csproj", "{35C5A888-3CF1-45F5-9ECA-0274C92C7598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Ranking", "Exercise03 - Sets and Dictionaries Advanced\08.Ranking\08.Ranking.csproj", "{1B61BA39-6977-422D-A06E-9E25474693CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -359,6 +361,10 @@ Global
 		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C5A888-3CF1-45F5-9ECA-0274C92C7598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B61BA39-6977-422D-A06E-9E25474693CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B61BA39-6977-422D-A06E-9E25474693CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B61BA39-6977-422D-A06E-9E25474693CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B61BA39-6977-422D-A06E-9E25474693CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,6 +426,7 @@ Global
 		{5AD501CF-8168-463C-93F7-F4F1D1502574} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 		{35C5A888-3CF1-45F5-9ECA-0274C92C7598} = {78EFC07B-A762-4956-B248-AB3C32C93149}
+		{1B61BA39-6977-422D-A06E-9E25474693CF} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
