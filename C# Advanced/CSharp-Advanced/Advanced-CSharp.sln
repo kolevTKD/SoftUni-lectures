@@ -135,9 +135,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise04 - Streams, Files
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab05 - Functional Programming", "Lab05 - Functional Programming", "{8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SortEvenNumbers", "Lab05 - Functional Programming\01.SortEvenNumbers\01.SortEvenNumbers.csproj", "{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SortEvenNumbers", "Lab05 - Functional Programming\01.SortEvenNumbers\01.SortEvenNumbers.csproj", "{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumNumbers", "Lab05 - Functional Programming\02.SumNumbers\02.SumNumbers.csproj", "{3EE6319C-809C-4560-BAE9-E3C8DC955A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumNumbers", "Lab05 - Functional Programming\02.SumNumbers\02.SumNumbers.csproj", "{3EE6319C-809C-4560-BAE9-E3C8DC955A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CountUppercaseWords", "Lab05 - Functional Programming\03.CountUppercaseWords\03.CountUppercaseWords.csproj", "{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.AddVAT", "Lab05 - Functional Programming\04.AddVAT\04.AddVAT.csproj", "{708269AA-3F7C-4537-B1E3-3D00B81D1D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -381,6 +385,14 @@ Global
 		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -445,6 +457,8 @@ Global
 		{1B61BA39-6977-422D-A06E-9E25474693CF} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 		{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 		{3EE6319C-809C-4560-BAE9-E3C8DC955A40} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
+		{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
+		{708269AA-3F7C-4537-B1E3-3D00B81D1D46} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
