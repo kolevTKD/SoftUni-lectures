@@ -129,7 +129,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SplitMergeBinaryFiles", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.FolderSize", "Lab04 - Streams, Files and Directories\07.FolderSize\07.FolderSize.csproj", "{35C5A888-3CF1-45F5-9ECA-0274C92C7598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Ranking", "Exercise03 - Sets and Dictionaries Advanced\08.Ranking\08.Ranking.csproj", "{1B61BA39-6977-422D-A06E-9E25474693CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Ranking", "Exercise03 - Sets and Dictionaries Advanced\08.Ranking\08.Ranking.csproj", "{1B61BA39-6977-422D-A06E-9E25474693CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise04 - Streams, Files and Directories", "Exercise04 - Streams, Files and Directories", "{8355C0BC-9CF4-4B92-BD8B-F8D1AF98710A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab05 - Functional Programming", "Lab05 - Functional Programming", "{8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SortEvenNumbers", "Lab05 - Functional Programming\01.SortEvenNumbers\01.SortEvenNumbers.csproj", "{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumNumbers", "Lab05 - Functional Programming\02.SumNumbers\02.SumNumbers.csproj", "{3EE6319C-809C-4560-BAE9-E3C8DC955A40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -365,6 +373,14 @@ Global
 		{1B61BA39-6977-422D-A06E-9E25474693CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B61BA39-6977-422D-A06E-9E25474693CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B61BA39-6977-422D-A06E-9E25474693CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE6319C-809C-4560-BAE9-E3C8DC955A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -427,6 +443,8 @@ Global
 		{4EBC5927-2BD4-4587-90BE-94F0A01CA43F} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 		{35C5A888-3CF1-45F5-9ECA-0274C92C7598} = {78EFC07B-A762-4956-B248-AB3C32C93149}
 		{1B61BA39-6977-422D-A06E-9E25474693CF} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
+		{57619BE1-05E3-4FB2-A8F3-6309E6FC3E6D} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
+		{3EE6319C-809C-4560-BAE9-E3C8DC955A40} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
