@@ -143,11 +143,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CountUppercaseWords", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.AddVAT", "Lab05 - Functional Programming\04.AddVAT\04.AddVAT.csproj", "{708269AA-3F7C-4537-B1E3-3D00B81D1D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FilterByAge", "Lab05 - Functional Programming\05.FilterByAge\05.FilterByAge.csproj", "{10842EC6-A5BE-4A69-8883-26FA3B03E68D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FilterByAge", "Lab05 - Functional Programming\05.FilterByAge\05.FilterByAge.csproj", "{10842EC6-A5BE-4A69-8883-26FA3B03E68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SoftUniExamResults", "Exercise03 - Sets and Dictionaries Advanced\09.SoftUniExamResults\09.SoftUniExamResults.csproj", "{B4F77A4D-F38A-4797-B239-32631608BDBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.SoftUniExamResults", "Exercise03 - Sets and Dictionaries Advanced\09.SoftUniExamResults\09.SoftUniExamResults.csproj", "{B4F77A4D-F38A-4797-B239-32631608BDBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ForceBook", "Exercise03 - Sets and Dictionaries Advanced\10.ForceBook\10.ForceBook.csproj", "{A5D513B8-30FF-40AB-935A-3A8B4789D220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.ForceBook", "Exercise03 - Sets and Dictionaries Advanced\10.ForceBook\10.ForceBook.csproj", "{A5D513B8-30FF-40AB-935A-3A8B4789D220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.EvenLines", "Exercise04 - Streams, Files and Directories\01.EvenLines\01.EvenLines.csproj", "{EF9BC400-DC87-4409-82DF-E0A683BFB229}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +413,10 @@ Global
 		{A5D513B8-30FF-40AB-935A-3A8B4789D220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D513B8-30FF-40AB-935A-3A8B4789D220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D513B8-30FF-40AB-935A-3A8B4789D220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9BC400-DC87-4409-82DF-E0A683BFB229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9BC400-DC87-4409-82DF-E0A683BFB229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9BC400-DC87-4409-82DF-E0A683BFB229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9BC400-DC87-4409-82DF-E0A683BFB229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -480,6 +486,7 @@ Global
 		{10842EC6-A5BE-4A69-8883-26FA3B03E68D} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 		{B4F77A4D-F38A-4797-B239-32631608BDBD} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
 		{A5D513B8-30FF-40AB-935A-3A8B4789D220} = {A97B3C50-5209-4F7C-934B-29BDFF569B74}
+		{EF9BC400-DC87-4409-82DF-E0A683BFB229} = {8355C0BC-9CF4-4B92-BD8B-F8D1AF98710A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
