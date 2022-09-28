@@ -139,9 +139,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SortEvenNumbers", "Lab05
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumNumbers", "Lab05 - Functional Programming\02.SumNumbers\02.SumNumbers.csproj", "{3EE6319C-809C-4560-BAE9-E3C8DC955A40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CountUppercaseWords", "Lab05 - Functional Programming\03.CountUppercaseWords\03.CountUppercaseWords.csproj", "{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CountUppercaseWords", "Lab05 - Functional Programming\03.CountUppercaseWords\03.CountUppercaseWords.csproj", "{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.AddVAT", "Lab05 - Functional Programming\04.AddVAT\04.AddVAT.csproj", "{708269AA-3F7C-4537-B1E3-3D00B81D1D46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.AddVAT", "Lab05 - Functional Programming\04.AddVAT\04.AddVAT.csproj", "{708269AA-3F7C-4537-B1E3-3D00B81D1D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FilterByAge", "Lab05 - Functional Programming\05.FilterByAge\05.FilterByAge.csproj", "{10842EC6-A5BE-4A69-8883-26FA3B03E68D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,10 @@ Global
 		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{708269AA-3F7C-4537-B1E3-3D00B81D1D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10842EC6-A5BE-4A69-8883-26FA3B03E68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10842EC6-A5BE-4A69-8883-26FA3B03E68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10842EC6-A5BE-4A69-8883-26FA3B03E68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10842EC6-A5BE-4A69-8883-26FA3B03E68D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -459,6 +465,7 @@ Global
 		{3EE6319C-809C-4560-BAE9-E3C8DC955A40} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 		{8FAFB706-FA17-48B0-A6FE-2772F0E1D3D0} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 		{708269AA-3F7C-4537-B1E3-3D00B81D1D46} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
+		{10842EC6-A5BE-4A69-8883-26FA3B03E68D} = {8E9E34A3-D5F4-427D-B356-66B28D0EEB2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
