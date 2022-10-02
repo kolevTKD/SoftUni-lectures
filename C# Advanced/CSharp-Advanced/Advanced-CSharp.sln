@@ -171,19 +171,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CopyDirectory", "Exercis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ZipAndExtract", "Exercise04 - Streams, Files and Directories\06.ZipAndExtract\06.ZipAndExtract.csproj", "{02B2FBC4-D05E-4485-80C7-BE946E0002CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.AppliedArithmetics", "Exercise05 - Functional Programming\05.AppliedArithmetics\05.AppliedArithmetics.csproj", "{5D4D29B8-37B4-47CA-B7AB-04FFE49ACB72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.AppliedArithmetics", "Exercise05 - Functional Programming\05.AppliedArithmetics\05.AppliedArithmetics.csproj", "{5D4D29B8-37B4-47CA-B7AB-04FFE49ACB72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ReverseAndExclude", "Exercise05 - Functional Programming\06.ReverseAndExclude\06.ReverseAndExclude.csproj", "{9DA649BA-945A-40BF-950C-63894A7B789F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ReverseAndExclude", "Exercise05 - Functional Programming\06.ReverseAndExclude\06.ReverseAndExclude.csproj", "{9DA649BA-945A-40BF-950C-63894A7B789F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PredicateForNames", "Exercise05 - Functional Programming\07.PredicateForNames\07.PredicateForNames.csproj", "{5A2D500F-6726-4246-A274-8A91C1421390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.PredicateForNames", "Exercise05 - Functional Programming\07.PredicateForNames\07.PredicateForNames.csproj", "{5A2D500F-6726-4246-A274-8A91C1421390}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab06 - Defining Classes", "Lab06 - Defining Classes", "{6DD20C7E-B5E5-4E17-8BB6-85A1468BAC13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CarExtension", "Lab06 - Defining Classes\02.CarExtension\02.CarExtension.csproj", "{4C80E951-79A9-461A-A7F0-92FCEB2B4A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CarExtension", "Lab06 - Defining Classes\02.CarExtension\02.CarExtension.csproj", "{4C80E951-79A9-461A-A7F0-92FCEB2B4A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Car", "Lab06 - Defining Classes\01.Car\01.Car.csproj", "{28DEC139-F250-42D7-BD1E-6BC46E15254D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Car", "Lab06 - Defining Classes\01.Car\01.Car.csproj", "{28DEC139-F250-42D7-BD1E-6BC46E15254D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CarConstructors", "Lab06 - Defining Classes\03.CarConstructors\03.CarConstructors.csproj", "{613A64FD-6E4A-40B8-897C-6CF4A8A5D4F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CarConstructors", "Lab06 - Defining Classes\03.CarConstructors\03.CarConstructors.csproj", "{613A64FD-6E4A-40B8-897C-6CF4A8A5D4F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CarEngineAndTires", "Lab06 - Defining Classes\04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{48636F92-24C5-444A-9323-7BEF35CCBFDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -511,6 +513,10 @@ Global
 		{613A64FD-6E4A-40B8-897C-6CF4A8A5D4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{613A64FD-6E4A-40B8-897C-6CF4A8A5D4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{613A64FD-6E4A-40B8-897C-6CF4A8A5D4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48636F92-24C5-444A-9323-7BEF35CCBFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48636F92-24C5-444A-9323-7BEF35CCBFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48636F92-24C5-444A-9323-7BEF35CCBFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48636F92-24C5-444A-9323-7BEF35CCBFDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -596,6 +602,7 @@ Global
 		{4C80E951-79A9-461A-A7F0-92FCEB2B4A2F} = {6DD20C7E-B5E5-4E17-8BB6-85A1468BAC13}
 		{28DEC139-F250-42D7-BD1E-6BC46E15254D} = {6DD20C7E-B5E5-4E17-8BB6-85A1468BAC13}
 		{613A64FD-6E4A-40B8-897C-6CF4A8A5D4F0} = {6DD20C7E-B5E5-4E17-8BB6-85A1468BAC13}
+		{48636F92-24C5-444A-9323-7BEF35CCBFDC} = {6DD20C7E-B5E5-4E17-8BB6-85A1468BAC13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
