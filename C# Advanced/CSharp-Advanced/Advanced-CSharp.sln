@@ -187,7 +187,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CarConstructors", "Lab06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CarEngineAndTires", "Lab06 - Defining Classes\04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{48636F92-24C5-444A-9323-7BEF35CCBFDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SpecialCars", "Lab06 - Defining Classes\05.SpecialCars\05.SpecialCars.csproj", "{E9DF974B-B67F-48D0-A693-03D1D6653E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SpecialCars", "Lab06 - Defining Classes\05.SpecialCars\05.SpecialCars.csproj", "{E9DF974B-B67F-48D0-A693-03D1D6653E75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise06 - Defining Classes", "Exercise06 - Defining Classes", "{94569ABF-A470-452D-AA25-40303C43FA69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
