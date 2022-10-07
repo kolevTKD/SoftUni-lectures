@@ -195,19 +195,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.ListOfPredicates", "Exer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.PredicateParty", "Exercise05 - Functional Programming\09.PredicateParty\09.PredicateParty.csproj", "{35F0ED62-D8A8-417E-BB79-F75C76AB15A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.PartyReservationFilterModule", "Exercise05 - Functional Programming\10.PartyReservationFilterModule\10.PartyReservationFilterModule.csproj", "{D5F145F5-CD9E-4CAA-A614-74611FF9E8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.PartyReservationFilterModule", "Exercise05 - Functional Programming\10.PartyReservationFilterModule\10.PartyReservationFilterModule.csproj", "{D5F145F5-CD9E-4CAA-A614-74611FF9E8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.TriFunction", "Exercise05 - Functional Programming\11.TriFunction\11.TriFunction.csproj", "{A351B0ED-1418-4D23-8FF2-CD0A2D9C3E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.TriFunction", "Exercise05 - Functional Programming\11.TriFunction\11.TriFunction.csproj", "{A351B0ED-1418-4D23-8FF2-CD0A2D9C3E3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingLinkedList", "ImplementingLinkedList\ImplementingLinkedList.csproj", "{907A87FB-4C9D-4FE8-8961-648B978557F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingLinkedList", "ImplementingLinkedList\ImplementingLinkedList.csproj", "{907A87FB-4C9D-4FE8-8961-648B978557F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineAClassPerson", "Exercise06 - Defining Classes\01.DefineAClassPerson\01.DefineAClassPerson.csproj", "{67C310C5-2822-492C-A18C-D2DE5BD822D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineAClassPerson", "Exercise06 - Defining Classes\01.DefineAClassPerson\01.DefineAClassPerson.csproj", "{67C310C5-2822-492C-A18C-D2DE5BD822D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreatingConstructors", "Exercise06 - Defining Classes\02.CreatingConstructors\02.CreatingConstructors.csproj", "{BD001CE7-FC10-487A-BB20-CD01B2D54968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CreatingConstructors", "Exercise06 - Defining Classes\02.CreatingConstructors\02.CreatingConstructors.csproj", "{BD001CE7-FC10-487A-BB20-CD01B2D54968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OldestFamilyMember", "Exercise06 - Defining Classes\03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{8FBE5C44-7605-4C06-A655-AD22DCA836E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.OldestFamilyMember", "Exercise06 - Defining Classes\03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{8FBE5C44-7605-4C06-A655-AD22DCA836E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OpinionPoll", "Exercise06 - Defining Classes\04.OpinionPoll\04.OpinionPoll.csproj", "{9A5E48B5-7D14-4312-99B3-3F68E15391DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.OpinionPoll", "Exercise06 - Defining Classes\04.OpinionPoll\04.OpinionPoll.csproj", "{9A5E48B5-7D14-4312-99B3-3F68E15391DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab07 - Generics", "Lab07 - Generics", "{F4C401A9-CE3C-4EB3-912C-765339547BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BoxOfT", "Lab07 - Generics\BoxOfT\01.BoxOfT.csproj", "{5C30940D-0166-4ABE-9063-5DAAE21FD0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GenericArrayCreator", "Lab07 - Generics\GenericArrayCreator\02.GenericArrayCreator.csproj", "{5BCFD854-8EC5-48A7-B47F-F77A860F3256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.GenericScale", "Lab07 - Generics\GenericScale\03.GenericScale.csproj", "{8B91F503-C872-46A0-AB6B-89670228DEE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -579,6 +587,18 @@ Global
 		{9A5E48B5-7D14-4312-99B3-3F68E15391DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5E48B5-7D14-4312-99B3-3F68E15391DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5E48B5-7D14-4312-99B3-3F68E15391DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C30940D-0166-4ABE-9063-5DAAE21FD0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C30940D-0166-4ABE-9063-5DAAE21FD0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C30940D-0166-4ABE-9063-5DAAE21FD0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C30940D-0166-4ABE-9063-5DAAE21FD0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCFD854-8EC5-48A7-B47F-F77A860F3256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCFD854-8EC5-48A7-B47F-F77A860F3256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCFD854-8EC5-48A7-B47F-F77A860F3256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCFD854-8EC5-48A7-B47F-F77A860F3256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B91F503-C872-46A0-AB6B-89670228DEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B91F503-C872-46A0-AB6B-89670228DEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B91F503-C872-46A0-AB6B-89670228DEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B91F503-C872-46A0-AB6B-89670228DEE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -674,6 +694,9 @@ Global
 		{BD001CE7-FC10-487A-BB20-CD01B2D54968} = {94569ABF-A470-452D-AA25-40303C43FA69}
 		{8FBE5C44-7605-4C06-A655-AD22DCA836E7} = {94569ABF-A470-452D-AA25-40303C43FA69}
 		{9A5E48B5-7D14-4312-99B3-3F68E15391DC} = {94569ABF-A470-452D-AA25-40303C43FA69}
+		{5C30940D-0166-4ABE-9063-5DAAE21FD0E2} = {F4C401A9-CE3C-4EB3-912C-765339547BF4}
+		{5BCFD854-8EC5-48A7-B47F-F77A860F3256} = {F4C401A9-CE3C-4EB3-912C-765339547BF4}
+		{8B91F503-C872-46A0-AB6B-89670228DEE5} = {F4C401A9-CE3C-4EB3-912C-765339547BF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}
