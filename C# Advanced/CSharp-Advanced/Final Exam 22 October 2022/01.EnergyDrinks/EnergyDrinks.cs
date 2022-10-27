@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace _01.EnergyDrinks
 {
-    public class Program
+    public class EnergyDrinks
     {
         static void Main(string[] args)
         {

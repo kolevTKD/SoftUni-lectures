@@ -229,7 +229,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final Exam 22 October 2022"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.EnergyDrinks", "Final Exam 22 October 2022\01.EnergyDrinks\01.EnergyDrinks.csproj", "{CBC3EFC6-E01D-4EBD-AE50-7C7EEE921813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RallyRacing", "Final Exam 22 October 2022\02.RallyRacing\02.RallyRacing.csproj", "{AD78EA56-CD9F-435E-9C0F-6B794827FEEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.RallyRacing", "Final Exam 22 October 2022\02.RallyRacing\02.RallyRacing.csproj", "{AD78EA56-CD9F-435E-9C0F-6B794827FEEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ComputerArchitecture", "Final Exam 22 October 2022\03.ComputerArchitectre\03.ComputerArchitecture.csproj", "{5D6A11C6-5349-481C-ACBB-A593A55D5004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.PokemonTrainer", "Exercise06 - Defining Classes\09.PokemonTrainer\09.PokemonTrainer.csproj", "{4338D73D-08CC-4D35-9557-3E6BB473E171}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniParking", "..\Advanced C#\06 - Defining Classes\10. SoftUni Parking_Skeleton\SoftUniParking\SoftUniParking.csproj", "{56F71B31-EDDE-4A89-9EFA-AEB3DBB55408}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -637,6 +643,18 @@ Global
 		{AD78EA56-CD9F-435E-9C0F-6B794827FEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD78EA56-CD9F-435E-9C0F-6B794827FEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD78EA56-CD9F-435E-9C0F-6B794827FEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6A11C6-5349-481C-ACBB-A593A55D5004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6A11C6-5349-481C-ACBB-A593A55D5004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6A11C6-5349-481C-ACBB-A593A55D5004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6A11C6-5349-481C-ACBB-A593A55D5004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4338D73D-08CC-4D35-9557-3E6BB473E171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4338D73D-08CC-4D35-9557-3E6BB473E171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4338D73D-08CC-4D35-9557-3E6BB473E171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4338D73D-08CC-4D35-9557-3E6BB473E171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F71B31-EDDE-4A89-9EFA-AEB3DBB55408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F71B31-EDDE-4A89-9EFA-AEB3DBB55408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F71B31-EDDE-4A89-9EFA-AEB3DBB55408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F71B31-EDDE-4A89-9EFA-AEB3DBB55408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -741,6 +759,9 @@ Global
 		{CFFD242B-3985-42A4-AC23-851AC7CF4E24} = {94569ABF-A470-452D-AA25-40303C43FA69}
 		{CBC3EFC6-E01D-4EBD-AE50-7C7EEE921813} = {C542AFED-91D0-4B57-A610-07B877F5A1F6}
 		{AD78EA56-CD9F-435E-9C0F-6B794827FEEA} = {C542AFED-91D0-4B57-A610-07B877F5A1F6}
+		{5D6A11C6-5349-481C-ACBB-A593A55D5004} = {C542AFED-91D0-4B57-A610-07B877F5A1F6}
+		{4338D73D-08CC-4D35-9557-3E6BB473E171} = {94569ABF-A470-452D-AA25-40303C43FA69}
+		{56F71B31-EDDE-4A89-9EFA-AEB3DBB55408} = {94569ABF-A470-452D-AA25-40303C43FA69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA635782-C26B-4E64-AB28-F0EFA1E912AF}

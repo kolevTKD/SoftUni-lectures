@@ -2,7 +2,7 @@
 
 namespace _02.RallyRacing
 {
-    internal class Program
+    internal class RallyRacing
     {
         static void Main(string[] args)
         {
