@@ -11,11 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultipleInheritance", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HierarchicalInheritance", "Lab01 - Inheritance\03.HierarchicalInheritance\03.HierarchicalInheritance.csproj", "{51A0102F-CDBE-468C-9065-16747546E202}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RandomList", "Lab01 - Inheritance\04.RandomList\04.RandomList.csproj", "{24482F15-889D-482E-B8E1-97973CF61BE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.RandomList", "Lab01 - Inheritance\04.RandomList\04.RandomList.csproj", "{24482F15-889D-482E-B8E1-97973CF61BE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{C84CFB83-9040-4E57-8028-0A216767BBCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{C84CFB83-9040-4E57-8028-0A216767BBCD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise01 - Inheritance", "Exercise01 - Inheritance", "{235E2C5C-9949-4478-9248-438511A458BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab02 - Encapsulation", "Lab02 - Encapsulation", "{3599A30A-80E5-4680-8BDA-A1EF033602C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SortPersonsByNameAndAge", "Lab02 - Encapsulation\01.SortPersonsByNameAndAge\01.SortPersonsByNameAndAge.csproj", "{83574EC9-5528-47EF-A239-DA08D87B7AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SalaryIncrease", "Lab02 - Encapsulation\02.SalaryIncrease\02.SalaryIncrease.csproj", "{5DFBCED5-A27E-414F-A015-8FE82B4C9CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ValidationOfData", "Lab02 - Encapsulation\03.ValidationOfData\03.ValidationOfData.csproj", "{6087215C-FED8-4A2E-B300-29E39742659E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FirstAndReserveTeam", "Lab02 - Encapsulation\04.FirstAndReserveTeam\04.FirstAndReserveTeam.csproj", "{0534022D-40A2-4591-9C74-1B4DB6A9F54D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +53,22 @@ Global
 		{C84CFB83-9040-4E57-8028-0A216767BBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84CFB83-9040-4E57-8028-0A216767BBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84CFB83-9040-4E57-8028-0A216767BBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83574EC9-5528-47EF-A239-DA08D87B7AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83574EC9-5528-47EF-A239-DA08D87B7AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83574EC9-5528-47EF-A239-DA08D87B7AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83574EC9-5528-47EF-A239-DA08D87B7AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFBCED5-A27E-414F-A015-8FE82B4C9CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFBCED5-A27E-414F-A015-8FE82B4C9CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFBCED5-A27E-414F-A015-8FE82B4C9CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFBCED5-A27E-414F-A015-8FE82B4C9CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6087215C-FED8-4A2E-B300-29E39742659E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6087215C-FED8-4A2E-B300-29E39742659E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6087215C-FED8-4A2E-B300-29E39742659E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6087215C-FED8-4A2E-B300-29E39742659E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0534022D-40A2-4591-9C74-1B4DB6A9F54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0534022D-40A2-4591-9C74-1B4DB6A9F54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0534022D-40A2-4591-9C74-1B4DB6A9F54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0534022D-40A2-4591-9C74-1B4DB6A9F54D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +79,10 @@ Global
 		{51A0102F-CDBE-468C-9065-16747546E202} = {81365905-4FDF-4B43-8E8A-331E37D2794E}
 		{24482F15-889D-482E-B8E1-97973CF61BE6} = {81365905-4FDF-4B43-8E8A-331E37D2794E}
 		{C84CFB83-9040-4E57-8028-0A216767BBCD} = {81365905-4FDF-4B43-8E8A-331E37D2794E}
+		{83574EC9-5528-47EF-A239-DA08D87B7AB5} = {3599A30A-80E5-4680-8BDA-A1EF033602C6}
+		{5DFBCED5-A27E-414F-A015-8FE82B4C9CA5} = {3599A30A-80E5-4680-8BDA-A1EF033602C6}
+		{6087215C-FED8-4A2E-B300-29E39742659E} = {3599A30A-80E5-4680-8BDA-A1EF033602C6}
+		{0534022D-40A2-4591-9C74-1B4DB6A9F54D} = {3599A30A-80E5-4680-8BDA-A1EF033602C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D3450F-31EA-4BED-A1BC-3C2409010C69}
