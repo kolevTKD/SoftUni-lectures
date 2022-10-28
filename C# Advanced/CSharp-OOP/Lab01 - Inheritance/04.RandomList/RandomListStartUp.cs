@@ -6,7 +6,7 @@ namespace CustomRandomList
     {
         static void Main(string[] args)
         {
-            RandomList randomList = new RandomList();
+            RandomList<string> randomList = new RandomList<string>();
             randomList.Add("1");
             randomList.Add("2");
             randomList.Add("3");

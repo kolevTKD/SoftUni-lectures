@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RandomList", "Lab01 - In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{C84CFB83-9040-4E57-8028-0A216767BBCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise01 - Inheritance", "Exercise01 - Inheritance", "{235E2C5C-9949-4478-9248-438511A458BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
