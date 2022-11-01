@@ -27,17 +27,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ValidationOfData", "Lab0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FirstAndReserveTeam", "Lab02 - Encapsulation\04.FirstAndReserveTeam\04.FirstAndReserveTeam.csproj", "{0534022D-40A2-4591-9C74-1B4DB6A9F54D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Person", "Exercise01 - Inheritance\01.Person\01.Person.csproj", "{B8B6CDD8-6B65-4DC3-83DB-7A5FE9D7BD19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Person", "Exercise01 - Inheritance\01.Person\01.Person.csproj", "{B8B6CDD8-6B65-4DC3-83DB-7A5FE9D7BD19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Zoo", "Exercise01 - Inheritance\02.Zoo\02.Zoo.csproj", "{5D19B716-C104-4270-BB26-111C088B0F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Zoo", "Exercise01 - Inheritance\02.Zoo\02.Zoo.csproj", "{5D19B716-C104-4270-BB26-111C088B0F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PlayersAndMonsters", "Exercise01 - Inheritance\03.PlayersAndMonsters\03.PlayersAndMonsters.csproj", "{1771B1B4-5D9E-4DDA-859D-50AD3B68C96F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PlayersAndMonsters", "Exercise01 - Inheritance\03.PlayersAndMonsters\03.PlayersAndMonsters.csproj", "{1771B1B4-5D9E-4DDA-859D-50AD3B68C96F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.NeedForSpeed", "Exercise01 - Inheritance\04.NeedForSpeed\04.NeedForSpeed.csproj", "{2A683F08-C6E6-48FC-9207-E94C2DE3546A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.NeedForSpeed", "Exercise01 - Inheritance\04.NeedForSpeed\04.NeedForSpeed.csproj", "{2A683F08-C6E6-48FC-9207-E94C2DE3546A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Restaurant", "Exercise01 - Inheritance\05.Restaurant\05.Restaurant.csproj", "{DB752154-7ADA-4F11-8DF3-59DC2DBCAFE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Restaurant", "Exercise01 - Inheritance\05.Restaurant\05.Restaurant.csproj", "{DB752154-7ADA-4F11-8DF3-59DC2DBCAFE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Animals", "Exercise01 - Inheritance\06.Animals\06.Animals.csproj", "{5140117D-F2BC-409E-9D81-10E34B5DECD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Animals", "Exercise01 - Inheritance\06.Animals\06.Animals.csproj", "{5140117D-F2BC-409E-9D81-10E34B5DECD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise02 - Encapsulation", "Exercise02 - Encapsulation", "{5BB41B28-EE51-4524-8769-B926BDCF056C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab03 - Interfaces and Abstraction", "Lab03 - Interfaces and Abstraction", "{D3B37AF6-E36C-4C12-BD56-D5E0F5F2ADEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Shapes", "Lab03 - Interfaces and Abstraction\01.Shapes\01.Shapes.csproj", "{816BB5F5-588C-44C7-953A-E48E620DC3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Cars", "Lab03 - Interfaces and Abstraction\02.Cars\02.Cars.csproj", "{0A258809-157A-4298-A079-5D5A6EFA8F01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,14 @@ Global
 		{5140117D-F2BC-409E-9D81-10E34B5DECD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5140117D-F2BC-409E-9D81-10E34B5DECD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5140117D-F2BC-409E-9D81-10E34B5DECD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816BB5F5-588C-44C7-953A-E48E620DC3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816BB5F5-588C-44C7-953A-E48E620DC3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816BB5F5-588C-44C7-953A-E48E620DC3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816BB5F5-588C-44C7-953A-E48E620DC3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A258809-157A-4298-A079-5D5A6EFA8F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A258809-157A-4298-A079-5D5A6EFA8F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A258809-157A-4298-A079-5D5A6EFA8F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A258809-157A-4298-A079-5D5A6EFA8F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +141,8 @@ Global
 		{2A683F08-C6E6-48FC-9207-E94C2DE3546A} = {235E2C5C-9949-4478-9248-438511A458BD}
 		{DB752154-7ADA-4F11-8DF3-59DC2DBCAFE0} = {235E2C5C-9949-4478-9248-438511A458BD}
 		{5140117D-F2BC-409E-9D81-10E34B5DECD5} = {235E2C5C-9949-4478-9248-438511A458BD}
+		{816BB5F5-588C-44C7-953A-E48E620DC3BE} = {D3B37AF6-E36C-4C12-BD56-D5E0F5F2ADEC}
+		{0A258809-157A-4298-A079-5D5A6EFA8F01} = {D3B37AF6-E36C-4C12-BD56-D5E0F5F2ADEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D3450F-31EA-4BED-A1BC-3C2409010C69}
