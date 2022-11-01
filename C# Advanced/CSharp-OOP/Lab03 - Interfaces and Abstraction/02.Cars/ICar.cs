@@ -6,8 +6,8 @@ namespace Cars
 {
     public interface ICar
     {
-        public string Model { get; set; }
-        public string Color { get; set; }
+        public string Model { get; }
+        public string Color { get; }
         string Start();
         string Stop();
     }
