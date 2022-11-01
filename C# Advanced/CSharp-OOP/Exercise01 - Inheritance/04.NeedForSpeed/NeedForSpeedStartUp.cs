@@ -6,7 +6,9 @@ namespace NeedForSpeed
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SportCar supra = new SportCar(200, 20);
+            supra.Drive(1);
+            Console.WriteLine(supra.Fuel);
         }
     }
 }
