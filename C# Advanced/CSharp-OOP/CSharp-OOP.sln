@@ -61,11 +61,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise03 - Interfaces and
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab04 - Polymorphism", "Lab04 - Polymorphism", "{B7F19299-0E24-4546-A13E-496F30630601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.MathOperation", "Lab04 - Polymorphism\01.MathOperation\01.MathOperation.csproj", "{D29B17DF-50E6-4AD6-93EB-0F97E1ACE1F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.MathOperation", "Lab04 - Polymorphism\01.MathOperation\01.MathOperation.csproj", "{D29B17DF-50E6-4AD6-93EB-0F97E1ACE1F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Animals", "Lab04 - Polymorphism\02.Animals\02.Animals.csproj", "{66E8604C-B64A-47FD-9BD6-BCC0428D66F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Animals", "Lab04 - Polymorphism\02.Animals\02.Animals.csproj", "{66E8604C-B64A-47FD-9BD6-BCC0428D66F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Shapes", "Lab04 - Polymorphism\03.Shapes\03.Shapes.csproj", "{EF48BAB7-6F93-4C8B-A476-680C59D4171D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Shapes", "Lab04 - Polymorphism\03.Shapes\03.Shapes.csproj", "{EF48BAB7-6F93-4C8B-A476-680C59D4171D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineAnInterfaceIPerson", "Exercise03 - Interfaces and Abstraction\01.DefineAnInterfaceIPerson\01.DefineAnInterfaceIPerson.csproj", "{4A58E3DC-B94E-4859-8E82-57EE0C21B44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultipleImplementation", "Exercise03 - Interfaces and Abstraction\02.MultipleImplementation\02.MultipleImplementation.csproj", "{6982002B-D8DA-47AF-95F4-60211B16AB9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +177,14 @@ Global
 		{EF48BAB7-6F93-4C8B-A476-680C59D4171D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF48BAB7-6F93-4C8B-A476-680C59D4171D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF48BAB7-6F93-4C8B-A476-680C59D4171D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A58E3DC-B94E-4859-8E82-57EE0C21B44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A58E3DC-B94E-4859-8E82-57EE0C21B44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A58E3DC-B94E-4859-8E82-57EE0C21B44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A58E3DC-B94E-4859-8E82-57EE0C21B44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6982002B-D8DA-47AF-95F4-60211B16AB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6982002B-D8DA-47AF-95F4-60211B16AB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6982002B-D8DA-47AF-95F4-60211B16AB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6982002B-D8DA-47AF-95F4-60211B16AB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,6 +215,8 @@ Global
 		{D29B17DF-50E6-4AD6-93EB-0F97E1ACE1F4} = {B7F19299-0E24-4546-A13E-496F30630601}
 		{66E8604C-B64A-47FD-9BD6-BCC0428D66F8} = {B7F19299-0E24-4546-A13E-496F30630601}
 		{EF48BAB7-6F93-4C8B-A476-680C59D4171D} = {B7F19299-0E24-4546-A13E-496F30630601}
+		{4A58E3DC-B94E-4859-8E82-57EE0C21B44C} = {29935164-6B60-4DB0-99D0-C0FCFBB67D0F}
+		{6982002B-D8DA-47AF-95F4-60211B16AB9F} = {29935164-6B60-4DB0-99D0-C0FCFBB67D0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D3450F-31EA-4BED-A1BC-3C2409010C69}
