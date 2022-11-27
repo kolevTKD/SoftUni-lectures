@@ -75,9 +75,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Telephony", "Exercise03 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.BorderControl", "Exercise03 - Interfaces and Abstraction\04.BorderControl\04.BorderControl.csproj", "{9F84A671-D876-4580-8D54-C4F7E843AF34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BirthdayCelebrations", "Exercise03 - Interfaces and Abstraction\05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{D89DB7C3-5946-46DE-8B13-8560BE47A4A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BirthdayCelebrations", "Exercise03 - Interfaces and Abstraction\05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{D89DB7C3-5946-46DE-8B13-8560BE47A4A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FoodShortage", "Exercise03 - Interfaces and Abstraction\06.FoodShortage\06.FoodShortage.csproj", "{F7B9BF20-BC88-4E2E-A226-0795C7E9A8D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.FoodShortage", "Exercise03 - Interfaces and Abstraction\06.FoodShortage\06.FoodShortage.csproj", "{F7B9BF20-BC88-4E2E-A226-0795C7E9A8D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise04 - Polymorphism", "Exercise04 - Polymorphism", "{C6D7195D-7FD5-4130-8B21-8D5AD0968C02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Vehicles", "Exercise04 - Polymorphism\01.Vehicles\01.Vehicles.csproj", "{0C7A1BB2-3A3F-441A-A347-D1AC877C04DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.VehiclesExtension", "Exercise04 - Polymorphism\02.VehiclesExtension\02.VehiclesExtension.csproj", "{835AA5E9-93F4-45DD-80A9-367FB53B879B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +215,14 @@ Global
 		{F7B9BF20-BC88-4E2E-A226-0795C7E9A8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B9BF20-BC88-4E2E-A226-0795C7E9A8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B9BF20-BC88-4E2E-A226-0795C7E9A8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7A1BB2-3A3F-441A-A347-D1AC877C04DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7A1BB2-3A3F-441A-A347-D1AC877C04DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7A1BB2-3A3F-441A-A347-D1AC877C04DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7A1BB2-3A3F-441A-A347-D1AC877C04DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835AA5E9-93F4-45DD-80A9-367FB53B879B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835AA5E9-93F4-45DD-80A9-367FB53B879B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835AA5E9-93F4-45DD-80A9-367FB53B879B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835AA5E9-93F4-45DD-80A9-367FB53B879B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -245,6 +259,8 @@ Global
 		{9F84A671-D876-4580-8D54-C4F7E843AF34} = {29935164-6B60-4DB0-99D0-C0FCFBB67D0F}
 		{D89DB7C3-5946-46DE-8B13-8560BE47A4A6} = {29935164-6B60-4DB0-99D0-C0FCFBB67D0F}
 		{F7B9BF20-BC88-4E2E-A226-0795C7E9A8D2} = {29935164-6B60-4DB0-99D0-C0FCFBB67D0F}
+		{0C7A1BB2-3A3F-441A-A347-D1AC877C04DF} = {C6D7195D-7FD5-4130-8B21-8D5AD0968C02}
+		{835AA5E9-93F4-45DD-80A9-367FB53B879B} = {C6D7195D-7FD5-4130-8B21-8D5AD0968C02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D3450F-31EA-4BED-A1BC-3C2409010C69}
