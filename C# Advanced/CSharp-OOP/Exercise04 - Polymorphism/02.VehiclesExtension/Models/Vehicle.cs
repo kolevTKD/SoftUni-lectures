@@ -32,17 +32,17 @@
 
         public virtual void Refuel(double liters)
         {
-            if (this.FuelQuantity + liters > this.TankCapacity)
-            {
-                throw new ImmersiveFuelAmountException(string.Format(ExceptionMessages.IMMERSIVE_FUEL_AMOUNT, liters));
-            }
-
-            else if (liters <= 0)
+            if (liters <= 0)
             {
                 throw new InvalidFuelQuantityException();
             }
 
-             this.FuelQuantity += liters;
+            else if (this.FuelQuantity + liters > this.TankCapacity)
+            {
+                throw new ImmersiveFuelAmountException(string.Format(ExceptionMessages.IMMERSIVE_FUEL_AMOUNT, liters));
+            }
+
+            this.FuelQuantity += liters;
         }
 
         public override string ToString()

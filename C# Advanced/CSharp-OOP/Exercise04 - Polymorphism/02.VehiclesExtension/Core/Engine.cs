@@ -93,7 +93,7 @@
             else if (cmd == "DriveEmpty")
             {
                 Bus bus = vehicleToProcess as Bus;
-                bus.DriveEmpty(quantity);
+                this.writer.WriteLine(bus.DriveEmpty(quantity));
             }
 
             else if (cmd == "Refuel")

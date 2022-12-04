@@ -9,11 +9,13 @@
         {
         }
 
-        public void DriveEmpty(double kilometers)
+        public string DriveEmpty(double kilometers)
         {
             base.FuelConsumption -= FUEL_CONSUMPTION_INCREMENT;
-            base.Drive(kilometers);
+            string result = base.Drive(kilometers);
             base.FuelConsumption += FUEL_CONSUMPTION_INCREMENT;
+
+            return result;
         }
     }
 }
