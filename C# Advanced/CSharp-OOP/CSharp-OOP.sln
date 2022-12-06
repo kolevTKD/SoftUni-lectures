@@ -95,9 +95,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SquareRoot", "Lab - Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.EnterNumbers", "Lab - Exception and Error Handling\02.EnterNumbers\02.EnterNumbers.csproj", "{938ADADF-642A-4EE0-805B-BA33612FFE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Cards", "Lab - Exception and Error Handling\03.Cards\03.Cards.csproj", "{769E238E-31DA-4C3B-9E83-36D65A1163A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Cards", "Lab - Exception and Error Handling\03.Cards\03.Cards.csproj", "{769E238E-31DA-4C3B-9E83-36D65A1163A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumOfIntegers", "Lab - Exception and Error Handling\04.SumOfIntegers\04.SumOfIntegers.csproj", "{AA5DDA9F-DF19-4DE1-92A6-9F68B08CC79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SumOfIntegers", "Lab - Exception and Error Handling\04.SumOfIntegers\04.SumOfIntegers.csproj", "{AA5DDA9F-DF19-4DE1-92A6-9F68B08CC79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PlayCatch", "Lab - Exception and Error Handling\05.PlayCatch\05.PlayCatch.csproj", "{2A2DBF7E-C942-4AB6-A0A6-94CA1B9D4CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.MoneyTransactions", "Lab - Exception and Error Handling\06.MoneyTransactions\06.MoneyTransactions.csproj", "{B2C61032-A6C1-44A0-AAD3-9365508A92FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,14 @@ Global
 		{AA5DDA9F-DF19-4DE1-92A6-9F68B08CC79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5DDA9F-DF19-4DE1-92A6-9F68B08CC79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5DDA9F-DF19-4DE1-92A6-9F68B08CC79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2DBF7E-C942-4AB6-A0A6-94CA1B9D4CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2DBF7E-C942-4AB6-A0A6-94CA1B9D4CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2DBF7E-C942-4AB6-A0A6-94CA1B9D4CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2DBF7E-C942-4AB6-A0A6-94CA1B9D4CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C61032-A6C1-44A0-AAD3-9365508A92FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C61032-A6C1-44A0-AAD3-9365508A92FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C61032-A6C1-44A0-AAD3-9365508A92FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C61032-A6C1-44A0-AAD3-9365508A92FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -305,6 +317,8 @@ Global
 		{938ADADF-642A-4EE0-805B-BA33612FFE68} = {27CDC0D4-F87D-45AF-B05A-1011488568C2}
 		{769E238E-31DA-4C3B-9E83-36D65A1163A6} = {27CDC0D4-F87D-45AF-B05A-1011488568C2}
 		{AA5DDA9F-DF19-4DE1-92A6-9F68B08CC79F} = {27CDC0D4-F87D-45AF-B05A-1011488568C2}
+		{2A2DBF7E-C942-4AB6-A0A6-94CA1B9D4CCF} = {27CDC0D4-F87D-45AF-B05A-1011488568C2}
+		{B2C61032-A6C1-44A0-AAD3-9365508A92FB} = {27CDC0D4-F87D-45AF-B05A-1011488568C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D3450F-31EA-4BED-A1BC-3C2409010C69}
