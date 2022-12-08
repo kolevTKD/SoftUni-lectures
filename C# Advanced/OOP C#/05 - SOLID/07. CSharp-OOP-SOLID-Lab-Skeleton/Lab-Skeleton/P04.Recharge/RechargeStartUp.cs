@@ -2,7 +2,7 @@
 {
     using System;
 
-    class Program
+    class RechargeStartUp
     {
         static void Main()
         {

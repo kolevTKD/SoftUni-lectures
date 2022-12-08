@@ -1,6 +1,6 @@
-﻿namespace P04.Recharge
+﻿namespace P04.Recharge.Models
 {
-    public abstract class Worker : ISleeper, IRechargeable
+    public abstract class Worker
     {
         private string id;
         private int workingHours;
@@ -12,11 +12,7 @@
 
         public void Work(int hours)
         {
-            this.workingHours += hours;
+            workingHours += hours;
         }
-
-        public abstract void Sleep();
-
-        public abstract void Recharge();
     }
 }

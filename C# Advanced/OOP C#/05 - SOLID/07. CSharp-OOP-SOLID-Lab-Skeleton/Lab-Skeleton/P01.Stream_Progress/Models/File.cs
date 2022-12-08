@@ -1,14 +1,15 @@
-﻿namespace P01.Stream_Progress
+﻿namespace Models
 {
-    public class File
+    using P01.Stream_Progress.Models.Contracts;
+    public class File : IStreamable
     {
         private string name;
 
         public File(string name, int length, int bytesSent)
         {
             this.name = name;
-            this.Length = length;
-            this.BytesSent = bytesSent;
+            Length = length;
+            BytesSent = bytesSent;
         }
 
         public int Length { get; set; }
