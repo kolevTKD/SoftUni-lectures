@@ -125,7 +125,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Collector", "Lab06 - Ref
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CreateAttribute", "Lab06 - Reflection and Attributes\05.CreateAttribute\05.CreateAttribute.csproj", "{0AD04109-6FA6-409B-8ED5-48154255A7F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CodeTracker", "Lab06 - Reflection and Attributes\06.CodeTracker\06.CodeTracker.csproj", "{F7C240B5-3A28-4C72-8186-B1E7C2386519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.CodeTracker", "Lab06 - Reflection and Attributes\06.CodeTracker\06.CodeTracker.csproj", "{F7C240B5-3A28-4C72-8186-B1E7C2386519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise06 - Reflection and Attributes", "Exercise06 - Reflection and Attributes", "{7B64232A-2B98-46E7-A0FC-FBA4DFAE7AA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "Exercise06 - Reflection and Attributes\ReflectionAndAttributes\CommandPattern\CommandPattern.csproj", "{C96B5767-16AE-41E3-8B2A-26222476A584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationAttributes", "Exercise06 - Reflection and Attributes\ReflectionAndAttributes\ValidationAttributes\ValidationAttributes.csproj", "{4B3DC07A-8DA3-447A-9B39-149203D001B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -337,6 +343,14 @@ Global
 		{F7C240B5-3A28-4C72-8186-B1E7C2386519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C240B5-3A28-4C72-8186-B1E7C2386519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C240B5-3A28-4C72-8186-B1E7C2386519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96B5767-16AE-41E3-8B2A-26222476A584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96B5767-16AE-41E3-8B2A-26222476A584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96B5767-16AE-41E3-8B2A-26222476A584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96B5767-16AE-41E3-8B2A-26222476A584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3DC07A-8DA3-447A-9B39-149203D001B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3DC07A-8DA3-447A-9B39-149203D001B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3DC07A-8DA3-447A-9B39-149203D001B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3DC07A-8DA3-447A-9B39-149203D001B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +407,8 @@ Global
 		{48522BC0-3532-4C73-8629-2D2B04ADE4BC} = {A2AF47A0-2BF9-4B05-B454-29DB1159DDEF}
 		{0AD04109-6FA6-409B-8ED5-48154255A7F3} = {A2AF47A0-2BF9-4B05-B454-29DB1159DDEF}
 		{F7C240B5-3A28-4C72-8186-B1E7C2386519} = {A2AF47A0-2BF9-4B05-B454-29DB1159DDEF}
+		{C96B5767-16AE-41E3-8B2A-26222476A584} = {7B64232A-2B98-46E7-A0FC-FBA4DFAE7AA5}
+		{4B3DC07A-8DA3-447A-9B39-149203D001B5} = {7B64232A-2B98-46E7-A0FC-FBA4DFAE7AA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D3450F-31EA-4BED-A1BC-3C2409010C69}
