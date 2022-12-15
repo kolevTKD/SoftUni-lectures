@@ -1,10 +1,10 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using ValidationAttributes.Utilities.Attributes;
-
-namespace ValidationAttributes.Utilities
+﻿namespace ValidationAttributes.Utilities
 {
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
+    using Attributes;
     public static class Validator
     {
         public static bool IsValid(object obj)
@@ -27,7 +27,7 @@ namespace ValidationAttributes.Utilities
 
                 foreach (object customAttribute in customAttributes)
                 {
-                    
+
                     MethodInfo isValidMethod = customAttribute.GetType()
                         .GetMethods(BindingFlags.Instance | BindingFlags.Public)
                         .FirstOrDefault(mi => mi.Name == "IsValid");
