@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RandomList", "Lab01 - In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{6BA03489-2852-4EEB-B501-A6C8638E66CB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excercise01 - Inheritance", "Excercise01 - Inheritance", "{EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Person\Person.csproj", "{F1467CB9-B840-4D89-A5D7-8B89FED83153}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Zoo\Zoo.csproj", "{052803FD-CB63-4A31-93BE-89558433679B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayersAndMonsters", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\PlayersAndMonsters\PlayersAndMonsters.csproj", "{6E267FAF-3567-4600-9771-6A9F3758385B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +49,18 @@ Global
 		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1467CB9-B840-4D89-A5D7-8B89FED83153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1467CB9-B840-4D89-A5D7-8B89FED83153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1467CB9-B840-4D89-A5D7-8B89FED83153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1467CB9-B840-4D89-A5D7-8B89FED83153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052803FD-CB63-4A31-93BE-89558433679B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052803FD-CB63-4A31-93BE-89558433679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052803FD-CB63-4A31-93BE-89558433679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052803FD-CB63-4A31-93BE-89558433679B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E267FAF-3567-4600-9771-6A9F3758385B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E267FAF-3567-4600-9771-6A9F3758385B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E267FAF-3567-4600-9771-6A9F3758385B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E267FAF-3567-4600-9771-6A9F3758385B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +71,9 @@ Global
 		{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B} = {97E7EE2A-79F2-4503-8550-45005140D639}
 		{E3D63786-28E8-4F4C-9DE0-0566C2DE994B} = {97E7EE2A-79F2-4503-8550-45005140D639}
 		{6BA03489-2852-4EEB-B501-A6C8638E66CB} = {97E7EE2A-79F2-4503-8550-45005140D639}
+		{F1467CB9-B840-4D89-A5D7-8B89FED83153} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
+		{052803FD-CB63-4A31-93BE-89558433679B} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
+		{6E267FAF-3567-4600-9771-6A9F3758385B} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
