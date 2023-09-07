@@ -7,9 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab01 - Inheritance", "Lab0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SingleInheritance", "Lab01 - Inheritance\01.SingleInheritance\01.SingleInheritance.csproj", "{C52AD86D-A770-485D-817F-5A7FAD587E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultipleInheritance", "Lab01 - Inheritance\02.MultipleInheritance\02.MultipleInheritance.csproj", "{01FAFA3E-7DF8-4F70-B988-A037A94E4BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultipleInheritance", "Lab01 - Inheritance\02.MultipleInheritance\02.MultipleInheritance.csproj", "{01FAFA3E-7DF8-4F70-B988-A037A94E4BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.HierarchicalInheritance", "Lab01 - Inheritance\03.HierarchicalInheritance\03.HierarchicalInheritance.csproj", "{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HierarchicalInheritance", "Lab01 - Inheritance\03.HierarchicalInheritance\03.HierarchicalInheritance.csproj", "{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RandomList", "Lab01 - Inheritance\04.RandomList\04.RandomList.csproj", "{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{6BA03489-2852-4EEB-B501-A6C8638E66CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA03489-2852-4EEB-B501-A6C8638E66CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +49,8 @@ Global
 		{C52AD86D-A770-485D-817F-5A7FAD587E6D} = {97E7EE2A-79F2-4503-8550-45005140D639}
 		{01FAFA3E-7DF8-4F70-B988-A037A94E4BD5} = {97E7EE2A-79F2-4503-8550-45005140D639}
 		{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B} = {97E7EE2A-79F2-4503-8550-45005140D639}
+		{E3D63786-28E8-4F4C-9DE0-0566C2DE994B} = {97E7EE2A-79F2-4503-8550-45005140D639}
+		{6BA03489-2852-4EEB-B501-A6C8638E66CB} = {97E7EE2A-79F2-4503-8550-45005140D639}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
