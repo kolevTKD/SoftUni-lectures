@@ -11,17 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultipleInheritance", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HierarchicalInheritance", "Lab01 - Inheritance\03.HierarchicalInheritance\03.HierarchicalInheritance.csproj", "{66C54E0F-4F70-4D5A-B351-5E0DFB96CF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RandomList", "Lab01 - Inheritance\04.RandomList\04.RandomList.csproj", "{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.RandomList", "Lab01 - Inheritance\04.RandomList\04.RandomList.csproj", "{E3D63786-28E8-4F4C-9DE0-0566C2DE994B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{6BA03489-2852-4EEB-B501-A6C8638E66CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.StackOfStrings", "Lab01 - Inheritance\05.StackOfStrings\05.StackOfStrings.csproj", "{6BA03489-2852-4EEB-B501-A6C8638E66CB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excercise01 - Inheritance", "Excercise01 - Inheritance", "{EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise01 - Inheritance", "Exercise01 - Inheritance", "{EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Person\Person.csproj", "{F1467CB9-B840-4D89-A5D7-8B89FED83153}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Zoo\Zoo.csproj", "{052803FD-CB63-4A31-93BE-89558433679B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayersAndMonsters", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\PlayersAndMonsters\PlayersAndMonsters.csproj", "{6E267FAF-3567-4600-9771-6A9F3758385B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeedForSpeed", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\NeedForSpeed\NeedForSpeed.csproj", "{C50A6BB0-C5A4-4CE4-9AF3-231F1E2C724A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Restaurant\Restaurant.csproj", "{C4D5A691-B7DE-4687-9547-09BDDF9C2DD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animals", "..\OOP C#\01 - Inheritance\01. CSharp-OOP-Inheritance-Exercise-Skeleton\Animals\Animals.csproj", "{B3807997-E1D3-461A-A9A3-57D293A88347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,18 @@ Global
 		{6E267FAF-3567-4600-9771-6A9F3758385B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E267FAF-3567-4600-9771-6A9F3758385B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E267FAF-3567-4600-9771-6A9F3758385B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50A6BB0-C5A4-4CE4-9AF3-231F1E2C724A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50A6BB0-C5A4-4CE4-9AF3-231F1E2C724A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50A6BB0-C5A4-4CE4-9AF3-231F1E2C724A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50A6BB0-C5A4-4CE4-9AF3-231F1E2C724A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D5A691-B7DE-4687-9547-09BDDF9C2DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D5A691-B7DE-4687-9547-09BDDF9C2DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D5A691-B7DE-4687-9547-09BDDF9C2DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D5A691-B7DE-4687-9547-09BDDF9C2DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3807997-E1D3-461A-A9A3-57D293A88347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3807997-E1D3-461A-A9A3-57D293A88347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3807997-E1D3-461A-A9A3-57D293A88347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3807997-E1D3-461A-A9A3-57D293A88347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +92,9 @@ Global
 		{F1467CB9-B840-4D89-A5D7-8B89FED83153} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
 		{052803FD-CB63-4A31-93BE-89558433679B} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
 		{6E267FAF-3567-4600-9771-6A9F3758385B} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
+		{C50A6BB0-C5A4-4CE4-9AF3-231F1E2C724A} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
+		{C4D5A691-B7DE-4687-9547-09BDDF9C2DD4} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
+		{B3807997-E1D3-461A-A9A3-57D293A88347} = {EFED4436-09C4-4DF2-BEF5-231D31BB8FE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
