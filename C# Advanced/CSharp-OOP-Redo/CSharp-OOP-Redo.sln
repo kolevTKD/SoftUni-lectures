@@ -31,13 +31,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animals", "..\OOP C#\01 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab02 - Encapsulation", "Lab02 - Encapsulation", "{B140F32C-1C23-4A3D-A488-3424413CEB2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SortPersonsByNameAndAge", "Lab02 - Encapsulation\01.SortPersonsByNameAndAge\01.SortPersonsByNameAndAge.csproj", "{F563A732-F236-46B2-A5A6-88D1ED7A519A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SortPersonsByNameAndAge", "Lab02 - Encapsulation\01.SortPersonsByNameAndAge\01.SortPersonsByNameAndAge.csproj", "{F563A732-F236-46B2-A5A6-88D1ED7A519A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SalaryIncrease", "Lab02 - Encapsulation\02.SalaryIncrease\02.SalaryIncrease.csproj", "{325BD39B-4485-47CA-B42A-C4AB42BAC12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SalaryIncrease", "Lab02 - Encapsulation\02.SalaryIncrease\02.SalaryIncrease.csproj", "{325BD39B-4485-47CA-B42A-C4AB42BAC12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ValidationOfData", "Lab02 - Encapsulation\03.ValidationOfData\03.ValidationOfData.csproj", "{44284A9B-CA5B-4E9C-BECE-BBE35A682E11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ValidationOfData", "Lab02 - Encapsulation\03.ValidationOfData\03.ValidationOfData.csproj", "{44284A9B-CA5B-4E9C-BECE-BBE35A682E11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FirstAndReserveTeam", "Lab02 - Encapsulation\04.FirstAndReserveTeam\04.FirstAndReserveTeam.csproj", "{A4B6C197-6D8E-47AC-AD5C-CCA98368D9ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FirstAndReserveTeam", "Lab02 - Encapsulation\04.FirstAndReserveTeam\04.FirstAndReserveTeam.csproj", "{A4B6C197-6D8E-47AC-AD5C-CCA98368D9ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise02 - Encapsulation", "Exercise02 - Encapsulation", "{C879EDCE-C3D5-4E22-8C24-066F56D2019E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ClassBoxData", "Exercise02 - Encapsulation\01.ClassBoxData\01.ClassBoxData.csproj", "{052D15A7-F770-4551-8859-3DB25B823BA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "Exercise02 - Encapsulation\AnimalFarm\AnimalFarm\AnimalFarm.csproj", "{731C0364-AF57-4112-91B4-F52A10023ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ShoppingSpree", "Exercise02 - Encapsulation\03.ShoppingSpree\03.ShoppingSpree.csproj", "{9FDC80C4-2E61-4902-9003-464FF3333E9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,18 @@ Global
 		{A4B6C197-6D8E-47AC-AD5C-CCA98368D9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B6C197-6D8E-47AC-AD5C-CCA98368D9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B6C197-6D8E-47AC-AD5C-CCA98368D9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052D15A7-F770-4551-8859-3DB25B823BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052D15A7-F770-4551-8859-3DB25B823BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052D15A7-F770-4551-8859-3DB25B823BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052D15A7-F770-4551-8859-3DB25B823BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731C0364-AF57-4112-91B4-F52A10023ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731C0364-AF57-4112-91B4-F52A10023ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731C0364-AF57-4112-91B4-F52A10023ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731C0364-AF57-4112-91B4-F52A10023ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDC80C4-2E61-4902-9003-464FF3333E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDC80C4-2E61-4902-9003-464FF3333E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDC80C4-2E61-4902-9003-464FF3333E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDC80C4-2E61-4902-9003-464FF3333E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +145,9 @@ Global
 		{325BD39B-4485-47CA-B42A-C4AB42BAC12C} = {B140F32C-1C23-4A3D-A488-3424413CEB2E}
 		{44284A9B-CA5B-4E9C-BECE-BBE35A682E11} = {B140F32C-1C23-4A3D-A488-3424413CEB2E}
 		{A4B6C197-6D8E-47AC-AD5C-CCA98368D9ED} = {B140F32C-1C23-4A3D-A488-3424413CEB2E}
+		{052D15A7-F770-4551-8859-3DB25B823BA8} = {C879EDCE-C3D5-4E22-8C24-066F56D2019E}
+		{731C0364-AF57-4112-91B4-F52A10023ABC} = {C879EDCE-C3D5-4E22-8C24-066F56D2019E}
+		{9FDC80C4-2E61-4902-9003-464FF3333E9F} = {C879EDCE-C3D5-4E22-8C24-066F56D2019E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
