@@ -1,8 +1,9 @@
 ﻿namespace _03.ShoppingSpree
 {
-    using Models;
     using System;
     using System.Collections.Generic;
+ 
+    using Models;
 
     public class StartUp
     {
