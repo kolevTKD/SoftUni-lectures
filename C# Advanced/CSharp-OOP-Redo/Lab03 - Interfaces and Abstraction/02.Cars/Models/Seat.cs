@@ -11,8 +11,8 @@
             Color = color;
         }
 
-        public string Model { get; set; }
-        public string Color { get; set; }
+        public string Model { get; private set; }
+        public string Color { get; private set; }
 
         public string Start() => "Engine start";
         public string Stop() => "Breaaak!";
