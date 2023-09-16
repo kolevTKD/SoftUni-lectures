@@ -53,17 +53,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FootballTeamGenerator", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab03 - Interfaces and Abstraction", "Lab03 - Interfaces and Abstraction", "{9973E04E-FADE-484D-A3E2-B94C9D2C67AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Shapes", "Lab03 - Interfaces and Abstraction\01.Shapes\01.Shapes.csproj", "{8F1EAE03-4EF2-4BCD-A3B0-0A48D3E12577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Shapes", "Lab03 - Interfaces and Abstraction\01.Shapes\01.Shapes.csproj", "{8F1EAE03-4EF2-4BCD-A3B0-0A48D3E12577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Cars", "Lab03 - Interfaces and Abstraction\02.Cars\02.Cars.csproj", "{C1EFAA9A-7646-4278-BEB8-7CE695DD3D71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Cars", "Lab03 - Interfaces and Abstraction\02.Cars\02.Cars.csproj", "{C1EFAA9A-7646-4278-BEB8-7CE695DD3D71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise03 - Interfaces and Abstraction", "Exercise03 - Interfaces and Abstraction", "{D050810E-FCCA-4B9E-9D58-AB1B8195668C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineAnInterfaceIPerson", "Exercise03 - Interfaces and Abstraction\01.DefineAnInterfaceIPerson\01.DefineAnInterfaceIPerson.csproj", "{FF77DF1D-4B93-4E3F-97D6-B26D17B6A72F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineAnInterfaceIPerson", "Exercise03 - Interfaces and Abstraction\01.DefineAnInterfaceIPerson\01.DefineAnInterfaceIPerson.csproj", "{FF77DF1D-4B93-4E3F-97D6-B26D17B6A72F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MultipleImplementation", "Exercise03 - Interfaces and Abstraction\02.MultipleImplementation\02.MultipleImplementation.csproj", "{8AB90F93-D629-4C56-8F69-1429C3999F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultipleImplementation", "Exercise03 - Interfaces and Abstraction\02.MultipleImplementation\02.MultipleImplementation.csproj", "{8AB90F93-D629-4C56-8F69-1429C3999F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Telephony", "Exercise03 - Interfaces and Abstraction\03.Telephony\03.Telephony.csproj", "{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Telephony", "Exercise03 - Interfaces and Abstraction\03.Telephony\03.Telephony.csproj", "{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.BorderControl", "Exercise03 - Interfaces and Abstraction\04.BorderControl\04.BorderControl.csproj", "{56B585B1-3ED4-4A49-A379-74819C28D6CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BirthdayCelebrations", "Exercise03 - Interfaces and Abstraction\05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{9E97A13F-DA1B-4F25-98B0-97C26B96C361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FoodShortage", "Exercise03 - Interfaces and Abstraction\06.FoodShortage\06.FoodShortage.csproj", "{DEC80C8F-B287-496F-AB20-5EFCED4758CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.MilitaryElite", "Exercise03 - Interfaces and Abstraction\07.MilitaryElite\07.MilitaryElite.csproj", "{BFFE889C-CDB3-4C95-AC65-74BB359C4828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +179,22 @@ Global
 		{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B585B1-3ED4-4A49-A379-74819C28D6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B585B1-3ED4-4A49-A379-74819C28D6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B585B1-3ED4-4A49-A379-74819C28D6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B585B1-3ED4-4A49-A379-74819C28D6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E97A13F-DA1B-4F25-98B0-97C26B96C361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E97A13F-DA1B-4F25-98B0-97C26B96C361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E97A13F-DA1B-4F25-98B0-97C26B96C361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E97A13F-DA1B-4F25-98B0-97C26B96C361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC80C8F-B287-496F-AB20-5EFCED4758CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC80C8F-B287-496F-AB20-5EFCED4758CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC80C8F-B287-496F-AB20-5EFCED4758CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC80C8F-B287-496F-AB20-5EFCED4758CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +225,10 @@ Global
 		{FF77DF1D-4B93-4E3F-97D6-B26D17B6A72F} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
 		{8AB90F93-D629-4C56-8F69-1429C3999F45} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
 		{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
+		{56B585B1-3ED4-4A49-A379-74819C28D6CF} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
+		{9E97A13F-DA1B-4F25-98B0-97C26B96C361} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
+		{DEC80C8F-B287-496F-AB20-5EFCED4758CA} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
+		{BFFE889C-CDB3-4C95-AC65-74BB359C4828} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
