@@ -65,13 +65,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MultipleImplementation",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Telephony", "Exercise03 - Interfaces and Abstraction\03.Telephony\03.Telephony.csproj", "{ED56EB0C-CE7F-4C1D-8B15-BF1C649C7EE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.BorderControl", "Exercise03 - Interfaces and Abstraction\04.BorderControl\04.BorderControl.csproj", "{56B585B1-3ED4-4A49-A379-74819C28D6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.BorderControl", "Exercise03 - Interfaces and Abstraction\04.BorderControl\04.BorderControl.csproj", "{56B585B1-3ED4-4A49-A379-74819C28D6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BirthdayCelebrations", "Exercise03 - Interfaces and Abstraction\05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{9E97A13F-DA1B-4F25-98B0-97C26B96C361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BirthdayCelebrations", "Exercise03 - Interfaces and Abstraction\05.BirthdayCelebrations\05.BirthdayCelebrations.csproj", "{9E97A13F-DA1B-4F25-98B0-97C26B96C361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FoodShortage", "Exercise03 - Interfaces and Abstraction\06.FoodShortage\06.FoodShortage.csproj", "{DEC80C8F-B287-496F-AB20-5EFCED4758CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.FoodShortage", "Exercise03 - Interfaces and Abstraction\06.FoodShortage\06.FoodShortage.csproj", "{DEC80C8F-B287-496F-AB20-5EFCED4758CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.MilitaryElite", "Exercise03 - Interfaces and Abstraction\07.MilitaryElite\07.MilitaryElite.csproj", "{BFFE889C-CDB3-4C95-AC65-74BB359C4828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.MilitaryElite", "Exercise03 - Interfaces and Abstraction\07.MilitaryElite\07.MilitaryElite.csproj", "{BFFE889C-CDB3-4C95-AC65-74BB359C4828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab04 - Polymorphism", "Lab04 - Polymorphism", "{B40893F9-BD76-4BDE-ADE1-29BE2D900FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CollectionHierarchy", "Exercise03 - Interfaces and Abstraction\08.CollectionHierarchy\08.CollectionHierarchy.csproj", "{9A3B2749-ED85-4E4E-9767-8A516E1AE5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ExplicitInterfaces", "Exercise03 - Interfaces and Abstraction\09.ExplicitInterfaces\09.ExplicitInterfaces.csproj", "{FD5B1F6E-6DD8-46FD-942D-DA7EE2500048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +201,14 @@ Global
 		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFFE889C-CDB3-4C95-AC65-74BB359C4828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3B2749-ED85-4E4E-9767-8A516E1AE5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3B2749-ED85-4E4E-9767-8A516E1AE5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3B2749-ED85-4E4E-9767-8A516E1AE5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3B2749-ED85-4E4E-9767-8A516E1AE5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5B1F6E-6DD8-46FD-942D-DA7EE2500048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5B1F6E-6DD8-46FD-942D-DA7EE2500048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5B1F6E-6DD8-46FD-942D-DA7EE2500048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5B1F6E-6DD8-46FD-942D-DA7EE2500048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +243,8 @@ Global
 		{9E97A13F-DA1B-4F25-98B0-97C26B96C361} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
 		{DEC80C8F-B287-496F-AB20-5EFCED4758CA} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
 		{BFFE889C-CDB3-4C95-AC65-74BB359C4828} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
+		{9A3B2749-ED85-4E4E-9767-8A516E1AE5F1} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
+		{FD5B1F6E-6DD8-46FD-942D-DA7EE2500048} = {D050810E-FCCA-4B9E-9D58-AB1B8195668C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}

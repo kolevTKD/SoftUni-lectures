@@ -6,8 +6,8 @@
 
     using Contracts;
     using IO.Contracts;
-    using MilitaryElite.Models;
-    using MilitaryElite.Models.Enums;
+    using Models;
+    using Models.Enums;
     using Models.Contracts;
 
     public class Engine : IEngine
