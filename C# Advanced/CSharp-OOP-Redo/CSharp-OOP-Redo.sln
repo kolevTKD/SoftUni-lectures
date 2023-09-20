@@ -91,17 +91,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Vehicles", "Exercise04 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.VehiclesExtension", "Exercise04 - Polymorphism\02.VehiclesExtension\02.VehiclesExtension.csproj", "{CBF83C16-7589-485A-A0ED-2034F88E3EB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Raiding", "Exercise04 - Polymorphism\03.Raiding\03.Raiding.csproj", "{FF3352E8-6155-4AB5-B106-7B2496A8F55C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Raiding", "Exercise04 - Polymorphism\03.Raiding\03.Raiding.csproj", "{FF3352E8-6155-4AB5-B106-7B2496A8F55C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.WildFarm", "Exercise04 - Polymorphism\04.WildFarm\04.WildFarm.csproj", "{B0419CAD-11CF-4FB9-B984-396304766962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.WildFarm", "Exercise04 - Polymorphism\04.WildFarm\04.WildFarm.csproj", "{B0419CAD-11CF-4FB9-B984-396304766962}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab - Exception Handling", "Lab - Exception Handling", "{8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SquareRoot", "Lab - Exception Handling\01.SquareRoot\01.SquareRoot.csproj", "{C6A223EC-0A6A-4D5E-808F-A692C6CA6F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SquareRoot", "Lab - Exception Handling\01.SquareRoot\01.SquareRoot.csproj", "{C6A223EC-0A6A-4D5E-808F-A692C6CA6F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.EnterNumbers", "Lab - Exception Handling\02.EnterNumbers\02.EnterNumbers.csproj", "{C03CB151-25C6-4839-B5A8-BF2BF89F8CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.EnterNumbers", "Lab - Exception Handling\02.EnterNumbers\02.EnterNumbers.csproj", "{C03CB151-25C6-4839-B5A8-BF2BF89F8CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Cards", "Lab - Exception Handling\03.Cards\03.Cards.csproj", "{B3A6F618-84D7-4693-A597-0FBCADCCC568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Cards", "Lab - Exception Handling\03.Cards\03.Cards.csproj", "{B3A6F618-84D7-4693-A597-0FBCADCCC568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumOfIntegers", "Lab - Exception Handling\04.SumOfIntegers\04.SumOfIntegers.csproj", "{7F7277B5-4DEF-4521-B252-E6772C250B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PlayCatch", "Lab - Exception Handling\05.PlayCatch\05.PlayCatch.csproj", "{AEA78D5A-3AB0-40A9-B3F8-C330FBE87D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.MoneyTransactions", "Lab - Exception Handling\06.MoneyTransactions\06.MoneyTransactions.csproj", "{40B347DD-5C46-46CD-A40E-2D8DCB09FB04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +279,18 @@ Global
 		{B3A6F618-84D7-4693-A597-0FBCADCCC568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3A6F618-84D7-4693-A597-0FBCADCCC568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3A6F618-84D7-4693-A597-0FBCADCCC568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7277B5-4DEF-4521-B252-E6772C250B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7277B5-4DEF-4521-B252-E6772C250B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7277B5-4DEF-4521-B252-E6772C250B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7277B5-4DEF-4521-B252-E6772C250B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA78D5A-3AB0-40A9-B3F8-C330FBE87D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA78D5A-3AB0-40A9-B3F8-C330FBE87D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA78D5A-3AB0-40A9-B3F8-C330FBE87D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA78D5A-3AB0-40A9-B3F8-C330FBE87D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B347DD-5C46-46CD-A40E-2D8DCB09FB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B347DD-5C46-46CD-A40E-2D8DCB09FB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B347DD-5C46-46CD-A40E-2D8DCB09FB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B347DD-5C46-46CD-A40E-2D8DCB09FB04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -319,6 +337,9 @@ Global
 		{C6A223EC-0A6A-4D5E-808F-A692C6CA6F96} = {8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}
 		{C03CB151-25C6-4839-B5A8-BF2BF89F8CB5} = {8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}
 		{B3A6F618-84D7-4693-A597-0FBCADCCC568} = {8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}
+		{7F7277B5-4DEF-4521-B252-E6772C250B7C} = {8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}
+		{AEA78D5A-3AB0-40A9-B3F8-C330FBE87D42} = {8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}
+		{40B347DD-5C46-46CD-A40E-2D8DCB09FB04} = {8D93815B-28FD-486F-91F0-D1ACB3DA6F9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
