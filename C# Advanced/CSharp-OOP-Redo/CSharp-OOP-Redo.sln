@@ -117,6 +117,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.Graphic_Editor", "Lab05
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.Detail_Printer", "Lab05 - SOLID\Lab-Skeleton\P03.Detail_Printer\P03.Detail_Printer.csproj", "{5BCABE8D-F2A9-4B1D-AC9A-63C59ADFB7B6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.Recharge", "Lab05 - SOLID\Lab-Skeleton\P04.Recharge\P04.Recharge.csproj", "{C605DB07-54CC-40B8-B814-36DDB91CD26A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -311,6 +313,10 @@ Global
 		{5BCABE8D-F2A9-4B1D-AC9A-63C59ADFB7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCABE8D-F2A9-4B1D-AC9A-63C59ADFB7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCABE8D-F2A9-4B1D-AC9A-63C59ADFB7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C605DB07-54CC-40B8-B814-36DDB91CD26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C605DB07-54CC-40B8-B814-36DDB91CD26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C605DB07-54CC-40B8-B814-36DDB91CD26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C605DB07-54CC-40B8-B814-36DDB91CD26A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -363,6 +369,7 @@ Global
 		{E7C8A79C-5027-4D13-B67C-990B10C52103} = {DBE802D4-6871-4914-A0A3-6507CE4BD571}
 		{6F0AD4BA-CF81-4279-B497-A96D7A5F1FD2} = {DBE802D4-6871-4914-A0A3-6507CE4BD571}
 		{5BCABE8D-F2A9-4B1D-AC9A-63C59ADFB7B6} = {DBE802D4-6871-4914-A0A3-6507CE4BD571}
+		{C605DB07-54CC-40B8-B814-36DDB91CD26A} = {DBE802D4-6871-4914-A0A3-6507CE4BD571}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}

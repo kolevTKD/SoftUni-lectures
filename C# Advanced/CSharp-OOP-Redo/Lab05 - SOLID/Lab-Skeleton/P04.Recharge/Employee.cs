@@ -10,13 +10,12 @@
 
         public override void Sleep()
         {
-            // sleep...
+            Console.WriteLine($"{GetType().Name} is sleeping.");
         }
 
-        public override void Recharge()
+        public override void Work(int hours)
         {
-            throw new InvalidOperationException("Employees cannot recharge");
+            base.WorkingHours += hours;
         }
-        
     }
 }

@@ -1,22 +1,26 @@
 ﻿namespace P04.Recharge
 {
-    public abstract class Worker : ISleeper, IRechargeable
+    using System;
+
+    public abstract class Worker : ISleeper
     {
         private string id;
-        private int workingHours;
 
         public Worker(string id)
         {
             this.id = id;
         }
 
-        public void Work(int hours)
+        public int WorkingHours { get; protected set; }
+
+        public virtual void Work(int hours)
         {
-            this.workingHours += hours;
+            this.WorkingHours += hours;
         }
 
-        public abstract void Sleep();
-
-        public abstract void Recharge();
+        public virtual void Sleep()
+        {
+            Console.WriteLine($"{GetType().Name} is sleeping.");
+        }
     }
 }
