@@ -56,5 +56,22 @@
 
             return sb.ToString().Trim();
         }
+
+        public string RevealPrivateMethods(string className)
+        {
+            Type type = Type.GetType(className);
+
+            sb.AppendLine($"All Private Methods of Class: {type.FullName}")
+              .AppendLine($"Base Class: {type.BaseType.Name}");
+
+            MethodInfo[] privateMethods = type.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.NonPublic);
+
+            foreach (MethodInfo method in privateMethods)
+            {
+                sb.AppendLine(method.Name);
+            }
+
+            return sb.ToString().Trim();
+        }
     }
 }

@@ -56,5 +56,46 @@
 
             return sb.ToString().Trim();
         }
+
+        public string RevealPrivateMethods(string className)
+        {
+            Type type = Type.GetType(className);
+
+            sb.AppendLine($"All Private Methods of Class: {type.FullName}")
+              .AppendLine($"Base Class: {type.BaseType.Name}");
+
+            MethodInfo[] privateMethods = type.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.NonPublic);
+
+            foreach (MethodInfo method in privateMethods)
+            {
+                sb.AppendLine(method.Name);
+            }
+
+            return sb.ToString().Trim();
+        }
+
+        public string CollectGettersAndSetters(string className)
+        {
+            Type type = Type.GetType(className);
+            StringBuilder setters = new StringBuilder();
+
+            MethodInfo[] gettersAndSetters = type.GetMethods(BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic); //(BindingFlags)60
+
+            foreach (MethodInfo getterSetter in gettersAndSetters)
+            {
+                if (getterSetter.Name.StartsWith("get"))
+                {
+                    sb.AppendLine($"{getterSetter.Name} will return {getterSetter.ReturnType}");
+                }
+                else if (getterSetter.Name.StartsWith("set"))
+                {
+                    setters.AppendLine($"{getterSetter.Name} will set field of {getterSetter.GetParameters().First().ParameterType}");
+                }
+            }
+
+            sb.AppendLine(setters.ToString().Trim());
+
+            return sb.ToString().Trim();
+        }
     }
 }

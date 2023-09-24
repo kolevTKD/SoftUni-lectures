@@ -157,7 +157,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab06 - Reflection and Attr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Stealer", "Lab06 - Reflection and Attributes\01.Stealer\01.Stealer.csproj", "{919DF5DD-450E-4BA1-B277-DB5476A448F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.HighQualityMistakes", "Lab06 - Reflection and Attributes\02.HighQualityMistakes\02.HighQualityMistakes.csproj", "{E69EBC72-A0D2-4293-AC32-C93D9D6A95B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.HighQualityMistakes", "Lab06 - Reflection and Attributes\02.HighQualityMistakes\02.HighQualityMistakes.csproj", "{E69EBC72-A0D2-4293-AC32-C93D9D6A95B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MissionPrivateImpossible", "Lab06 - Reflection and Attributes\03.MissionPrivateImpossible\03.MissionPrivateImpossible.csproj", "{CBD6C962-473E-4506-903E-8D608AB56EB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Collector", "Lab06 - Reflection and Attributes\04.Collector\04.Collector.csproj", "{D5EA1477-936A-4E46-A285-A8632A50BBB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CreateAttribute", "Lab06 - Reflection and Attributes\05.CreateAttribute\05.CreateAttribute.csproj", "{4A359DB2-14F3-4337-88B0-07832702C14D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CodeTracker", "Lab06 - Reflection and Attributes\06.CodeTracker\06.CodeTracker.csproj", "{FE07F215-C195-4BAE-96BB-763FD1E2FA1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -409,6 +417,22 @@ Global
 		{E69EBC72-A0D2-4293-AC32-C93D9D6A95B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69EBC72-A0D2-4293-AC32-C93D9D6A95B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69EBC72-A0D2-4293-AC32-C93D9D6A95B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD6C962-473E-4506-903E-8D608AB56EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD6C962-473E-4506-903E-8D608AB56EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD6C962-473E-4506-903E-8D608AB56EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD6C962-473E-4506-903E-8D608AB56EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EA1477-936A-4E46-A285-A8632A50BBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EA1477-936A-4E46-A285-A8632A50BBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EA1477-936A-4E46-A285-A8632A50BBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EA1477-936A-4E46-A285-A8632A50BBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A359DB2-14F3-4337-88B0-07832702C14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A359DB2-14F3-4337-88B0-07832702C14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A359DB2-14F3-4337-88B0-07832702C14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A359DB2-14F3-4337-88B0-07832702C14D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE07F215-C195-4BAE-96BB-763FD1E2FA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE07F215-C195-4BAE-96BB-763FD1E2FA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE07F215-C195-4BAE-96BB-763FD1E2FA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE07F215-C195-4BAE-96BB-763FD1E2FA1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -480,6 +504,10 @@ Global
 		{069DB0F7-456A-4E66-B2D5-80DE41142816} = {36412499-A7D9-4EE4-81CF-D57DF1799F3A}
 		{919DF5DD-450E-4BA1-B277-DB5476A448F9} = {B70A8244-A928-4B34-9436-452EABBBF17F}
 		{E69EBC72-A0D2-4293-AC32-C93D9D6A95B9} = {B70A8244-A928-4B34-9436-452EABBBF17F}
+		{CBD6C962-473E-4506-903E-8D608AB56EB5} = {B70A8244-A928-4B34-9436-452EABBBF17F}
+		{D5EA1477-936A-4E46-A285-A8632A50BBB5} = {B70A8244-A928-4B34-9436-452EABBBF17F}
+		{4A359DB2-14F3-4337-88B0-07832702C14D} = {B70A8244-A928-4B34-9436-452EABBBF17F}
+		{FE07F215-C195-4BAE-96BB-763FD1E2FA1C} = {B70A8244-A928-4B34-9436-452EABBBF17F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E003DB6-CFBD-4563-B001-9B0418B2F56D}
