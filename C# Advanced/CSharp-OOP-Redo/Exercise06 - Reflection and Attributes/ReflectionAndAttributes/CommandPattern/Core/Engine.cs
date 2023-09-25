@@ -1,14 +1,23 @@
 ﻿namespace CommandPattern.Core
 {
-    using System;
-
     using Contracts;
+    using IO;
+    using IO.Contracts;
+    using Utilities.Contracts;
 
     public class Engine : IEngine
     {
         private readonly ICommandInterpreter commandInterpreter;
+        private readonly IReader reader;
+        private readonly IWriter writer;
 
+        private Engine()
+        {
+            reader = new ConsoleReader();
+            writer = new ConsoleWriter();
+        }
         public Engine(ICommandInterpreter commandInterpreter)
+            : this()
         {
             this.commandInterpreter = commandInterpreter;
         }
@@ -17,8 +26,8 @@
         {
             while (true)
             {
-                string input = Console.ReadLine();
-                Console.WriteLine(commandInterpreter.Read(input));
+                string input = reader.ReadLine();
+                writer.WriteLine(commandInterpreter.Read(input));
             }
         }
     }

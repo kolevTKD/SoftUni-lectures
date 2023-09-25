@@ -1,4 +1,4 @@
-﻿namespace CommandPattern.Core.Contracts
+﻿namespace CommandPattern.Utilities.Contracts
 {
     public interface ICommandInterpreter
     {

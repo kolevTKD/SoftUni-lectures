@@ -2,7 +2,7 @@
 {
     using System;
 
-    using Core.Contracts;
+    using Contracts;
 
     public class ExitCommand : ICommand
     {

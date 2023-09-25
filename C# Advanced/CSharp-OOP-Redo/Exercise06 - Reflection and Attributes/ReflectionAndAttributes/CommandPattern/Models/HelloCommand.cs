@@ -1,6 +1,6 @@
 ﻿namespace CommandPattern.Models
 {
-    using Core.Contracts;
+    using Contracts;
 
     public class HelloCommand : ICommand
     {

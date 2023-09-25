@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Reflection;
 
-    using Core.Contracts;
+    using Contracts;
 
     public class CommandInterpreter : ICommandInterpreter
     {
