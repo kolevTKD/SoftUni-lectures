@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace ExtendedDatabase
+﻿namespace ExtendedDatabase
 {
+    using System;
+    using System.Linq;
+
     public class Database
     {
         private Person[] persons;

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace FightingArena
+﻿namespace FightingArena
 {
+    using System;
+
     public class Warrior
     {
         private const int MIN_ATTACK_HP = 30;

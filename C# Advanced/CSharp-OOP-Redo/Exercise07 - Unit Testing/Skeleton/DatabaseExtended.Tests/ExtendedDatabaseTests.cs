@@ -1,9 +1,11 @@
 namespace DatabaseExtended.Tests
 {
-    using ExtendedDatabase;
-    using NUnit.Framework;
     using System;
     using System.Linq;
+
+    using ExtendedDatabase;
+
+    using NUnit.Framework;
 
     [TestFixture]
     public class ExtendedDatabaseTests

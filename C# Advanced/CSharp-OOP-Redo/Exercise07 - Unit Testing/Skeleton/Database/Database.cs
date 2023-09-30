@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Database
+﻿namespace Database
 {
+    using System;
+
     public class Database
     {
         private int[] data;

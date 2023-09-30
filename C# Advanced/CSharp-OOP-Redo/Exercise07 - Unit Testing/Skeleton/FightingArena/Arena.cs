@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace FightingArena
+﻿namespace FightingArena
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Arena
     {
         private readonly List<Warrior> warriors;

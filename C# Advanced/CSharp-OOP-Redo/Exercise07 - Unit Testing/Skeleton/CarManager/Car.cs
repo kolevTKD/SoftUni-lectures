@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CarManager
+﻿namespace CarManager
 {
+    using System;
+
     public class Car
     {
         private string make;
