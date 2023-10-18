@@ -207,10 +207,10 @@ LEFT JOIN Peaks AS p
 		, LongestRiverLength DESC
 		, c.CountryName
 
---18 Highest Peak Name and Elevation by Country
+--18* Highest Peak Name and Elevation by Country
   SELECT 
  TOP (5) CountryName
-	  AS Country
+	  AS [Country]
 	   , ISNULL(PeakName, '(no highest peak)')
 	  AS [Highest Peak Name]
 	   , ISNULL(Elevation, 0)
