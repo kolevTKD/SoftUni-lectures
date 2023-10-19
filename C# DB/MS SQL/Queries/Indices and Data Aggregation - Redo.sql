@@ -101,6 +101,23 @@ ORDER BY DepositGroup DESC
 	   , IsDepositExpired
 
 --12* Rich Wizard, Poor Wizard
+SELECT SUM([Difference])
+	AS [SumDifference]
+  FROM (
+		SELECT FirstName
+			AS [Host Wizard]
+			 , DepositAmount
+			AS [Host Wizard Deposit]
+			 , LEAD(FirstName) OVER(ORDER BY Id)
+			AS [Guest Wizard]
+			 , LEAD(DepositAmount) OVER(ORDER BY Id)
+			AS [Guest Wizard Deposit]
+			 , DepositAmount - LEAD(DepositAmount) OVER(ORDER BY Id)
+			AS [Difference]
+		  FROM WizzardDeposits
+	   )
+	AS [SumSubquery]
+
 
 --13 Departments Total Salaries
 USE SoftUni
@@ -157,5 +174,33 @@ SELECT COUNT(Salary)
  WHERE ManagerID IS NULL
 
 --18* 3rd Highest Salary
+SELECT DISTINCT
+	   DepartmentID
+	 , Salary
+	AS [ThirdHighestSalary]
+  FROM (
+		SELECT DepartmentID
+			 , Salary
+			 , DENSE_RANK() OVER(PARTITION BY DepartmentID ORDER BY Salary DESC)
+			AS [SalaryRank]
+		  FROM Employees
+	   )
+	AS [RankingSubquery]
+ WHERE SalaryRank = 3
 
 --19** Salary Challenge
+  SELECT TOP(10)
+		 e.FirstName
+	   , e.LastName
+	   , e.DepartmentID
+    FROM Employees
+      AS e
+   WHERE e.Salary > (
+					   SELECT AVG(Salary)
+						   AS [AverageSalary]
+					     FROM Employees
+					       AS eSub
+					    WHERE eSub.DepartmentID = e.DepartmentID
+					 GROUP BY DepartmentID
+					)
+ORDER BY e.DepartmentID
