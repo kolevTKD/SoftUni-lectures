@@ -195,7 +195,7 @@ GO
 EXEC usp_GetHoldersFullName
 
 --10 People with Balance Higher Than
-CREATE OR ALTER PROCEDURE usp_GetHoldersWithBalanceHigherThan
+CREATE PROCEDURE usp_GetHoldersWithBalanceHigherThan
 (@balance DECIMAL(15,2))
 AS
 BEGIN
