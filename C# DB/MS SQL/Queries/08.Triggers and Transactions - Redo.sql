@@ -120,3 +120,57 @@ SELECT *
  WHERE Id IN (5, 1)
 
 ROLLBACK TRANSACTION
+
+--8 Employees with Three Projects
+USE SoftUni
+GO
+
+CREATE PROCEDURE usp_AssignProject
+(@employeeId INT, @projectId INT)
+AS
+BEGIN
+	BEGIN TRANSACTION
+		
+		IF ((SELECT COUNT(ProjectID)
+			   FROM EmployeesProjects
+			  WHERE EmployeeID = @employeeId
+			 GROUP BY EmployeeID) >= 3)
+			 BEGIN
+			 RAISERROR('The employee has too many projects!', 16, 1);
+			 ROLLBACK TRANSACTION
+			 END
+
+		ELSE
+		INSERT INTO EmployeesProjects
+		VALUES
+		(@employeeId, @projectId)
+		COMMIT TRANSACTION
+
+END
+GO
+
+--9 Delete Employees
+CREATE TABLE Deleted_Employees
+(
+EmployeeId INT PRIMARY KEY IDENTITY(1,1),
+FirstName VARCHAR(50),
+LastName VARCHAR(50),
+MiddleName VARCHAR(50),
+JobTitle VARCHAR(50),
+DepartmentId INT,
+Salary MONEY
+)
+
+GO
+CREATE TRIGGER tr_InsertDeletedEmployees
+ON Employees FOR DELETE
+AS
+	INSERT INTO Deleted_Employees
+	SELECT d.FirstName
+		 , d.LastName
+		 , d.MiddleName
+		 , d.JobTitle
+		 , d.DepartmentID
+		 , d.Salary
+	  FROM deleted AS d
+GO
