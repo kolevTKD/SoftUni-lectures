@@ -5,10 +5,12 @@ SqlConnection connection = new SqlConnection("Server=localhost;Database=SoftUni;
 connection.Open();
 using (connection)
 {
+    SqlCommand commandCount = new SqlCommand("SELECT COUNT(*) FROM Employees", connection);
     SqlCommand command = new SqlCommand("SELECT * FROM Employees WHERE DepartmentID = 7", connection);
-    //int? peopleCount = (int?) await command.ExecuteScalarAsync();
 
-    //Console.WriteLine($"Employees count: {peopleCount}");
+    int? peopleCount = (int?)await commandCount.ExecuteScalarAsync();
+
+    Console.WriteLine($"Employees count: {peopleCount}");
 
     SqlDataReader reader = await command.ExecuteReaderAsync();
     using (reader)

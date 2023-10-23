@@ -75,7 +75,8 @@ BEGIN
 		SET @salaryLevel = 'High'
 
 	RETURN @salaryLevel;
-END;
+END
+GO
 
 SELECT dbo.ufn_GetSalaryLevel(125500.00)
 	AS [Salary Level]
