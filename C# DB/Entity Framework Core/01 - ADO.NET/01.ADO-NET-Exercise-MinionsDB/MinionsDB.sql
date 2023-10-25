@@ -69,6 +69,7 @@ UPDATE Towns
   WHERE c.Name = @countryName
 
 --Problem 06
+BEGIN TRANSACTION
 SELECT Name FROM Villains WHERE Id = @villainId
 
 DELETE FROM MinionsVillains 
@@ -76,6 +77,8 @@ DELETE FROM MinionsVillains
 
 DELETE FROM Villains
       WHERE Id = @villainId
+
+ROLLBACK TRANSACTION
 
 --Problem 07
 SELECT Name FROM Minions

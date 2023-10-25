@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.AddMinion", "01 - ADO.NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ChangeTownNamesCasing", "01 - ADO.NET\05.ChangeTownNamesCasing\05.ChangeTownNamesCasing.csproj", "{26C7959E-237F-4453-8B46-04396B1558F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RemoveVillain", "01 - ADO.NET\06.RemoveVillain\06.RemoveVillain.csproj", "{E933957E-E569-4C7C-BE3B-8869BC1E21E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{26C7959E-237F-4453-8B46-04396B1558F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C7959E-237F-4453-8B46-04396B1558F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C7959E-237F-4453-8B46-04396B1558F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E933957E-E569-4C7C-BE3B-8869BC1E21E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E933957E-E569-4C7C-BE3B-8869BC1E21E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E933957E-E569-4C7C-BE3B-8869BC1E21E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E933957E-E569-4C7C-BE3B-8869BC1E21E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{A1DD2AD9-5E18-467D-92FF-00F18ADA95E5} = {708DE3E0-FABF-4165-AA86-464FD2131839}
 		{9481026E-7192-42D2-AE08-CD4ADA2FFBEF} = {708DE3E0-FABF-4165-AA86-464FD2131839}
 		{26C7959E-237F-4453-8B46-04396B1558F5} = {708DE3E0-FABF-4165-AA86-464FD2131839}
+		{E933957E-E569-4C7C-BE3B-8869BC1E21E2} = {708DE3E0-FABF-4165-AA86-464FD2131839}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
