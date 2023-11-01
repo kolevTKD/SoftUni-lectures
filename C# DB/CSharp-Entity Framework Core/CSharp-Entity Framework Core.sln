@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniORM", "02 - ORM Fundame
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniORM.App", "02 - ORM Fundamentals\MiniORM.App\MiniORM.App.csproj", "{C7ABC1D4-173A-45E9-B381-4C2405A18547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTesting", "Tests and Experiments\EFCoreTesting\EFCoreTesting.csproj", "{4F94C0E1-C7E1-4D5A-B1FA-4656C672DB98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreTesting", "Tests and Experiments\EFCoreTesting\EFCoreTesting.csproj", "{4F94C0E1-C7E1-4D5A-B1FA-4656C672DB98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Entity Framework Introduction", "03 - Entity Framework Introduction", "{CAD55C08-CEF9-4E59-986D-59DC88EBCFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni", "03 - Entity Framework Introduction\SoftUni\SoftUni.csproj", "{57629A71-BA6F-49BA-9419-5EFDCA6D10BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,10 @@ Global
 		{4F94C0E1-C7E1-4D5A-B1FA-4656C672DB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F94C0E1-C7E1-4D5A-B1FA-4656C672DB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F94C0E1-C7E1-4D5A-B1FA-4656C672DB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +119,7 @@ Global
 		{B76F331C-EF12-4994-A58A-4F9BAD4989D7} = {312F4B56-BA35-41A4-9A68-E25F66396F6B}
 		{C7ABC1D4-173A-45E9-B381-4C2405A18547} = {312F4B56-BA35-41A4-9A68-E25F66396F6B}
 		{4F94C0E1-C7E1-4D5A-B1FA-4656C672DB98} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
+		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA} = {CAD55C08-CEF9-4E59-986D-59DC88EBCFEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
