@@ -14,7 +14,7 @@
         {
             using (SoftUniContext context = new SoftUniContext())
             {
-                Console.WriteLine(GetEmployeesByFirstNameStartingWithSa(context));
+                Console.WriteLine(RemoveTown(context));
             }
         }
 
@@ -323,6 +323,59 @@
             }
 
             return sb.ToString().TrimEnd();
+        }
+
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            IQueryable<EmployeeProject> projectsToDelete = context.EmployeesProjects
+                .Where(ep => ep.ProjectId == 2);
+
+            context.EmployeesProjects.RemoveRange(projectsToDelete);
+
+            Project projectToRemove = context.Projects
+                .Find(2)!;
+
+            context.Remove(projectToRemove);
+
+            context.SaveChanges();
+
+            List<string> projects = context.Projects
+                .AsNoTracking()
+                .Take(10)
+                .Select(p => p.Name)
+                .ToList();
+
+            return String.Join(Environment.NewLine, projects);
+        }
+
+        public static string RemoveTown(SoftUniContext context)
+        {
+            List<Employee> employeeAddresses = context.Employees
+                .Where(e => e.Address!.Town!.Name == "Seattle")
+                .ToList();
+
+            foreach(Employee employee in employeeAddresses)
+            {
+                employee.AddressId = null;
+            }
+
+            List<Address> addressTowns = context.Addresses
+                .Where(a => a.Town!.Name == "Seattle")
+                .ToList();
+
+            foreach(Address address in addressTowns)
+            {
+                address.TownId = null;
+            }
+
+            Town townToRemove = context.Towns
+                .FirstOrDefault(t => t.Name == "Seattle")!;
+
+            context.Towns.Remove(townToRemove);
+
+            context.SaveChanges();
+
+            return $"{addressTowns.Count} addresses in Seattle were deleted";
         }
     }
 }
