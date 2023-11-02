@@ -1,5 +1,6 @@
 ﻿namespace SoftUni
 {
+    using System.Globalization;
     using System.Text;
 
     using Data;
@@ -13,7 +14,7 @@
         {
             using (SoftUniContext context = new SoftUniContext())
             {
-                Console.WriteLine(AddNewAddressToEmployee(context));
+                Console.WriteLine(GetDepartmentsWithMoreThan5Employees(context));
             }
         }
 
@@ -114,6 +115,131 @@
                 .ToList();
 
             return String.Join(Environment.NewLine, addressesOfEmployees);
+        }
+
+        public static string GetEmployeesInPeriod(SoftUniContext context)
+        {
+            var employeesWithManagers = context.Employees
+                .AsNoTracking()
+                .Take(10)
+                .Select(e => new
+                {
+                    EFirstName = e.FirstName,
+                    ELastName = e.LastName,
+                    MFirstName = e.Manager!.FirstName,
+                    MLastName = e.Manager!.LastName,
+                    Projects = e.EmployeesProjects
+                        .Where(ep => ep.Project.StartDate.Year >= 2001 &&
+                                     ep.Project.StartDate.Year <= 2003)
+                        .Select(p => new
+                        {
+                            ProjectName = p.Project.Name,
+                            ProjectStartDate = p.Project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture),
+                            ProjectEndDate = p.Project.EndDate.HasValue
+                            ? p.Project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
+                            : "not finished"
+                        }).ToList()
+
+                }).ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var employee in employeesWithManagers)
+            {
+                sb.AppendLine($"{employee.EFirstName} {employee.ELastName} - Manager: {employee.MFirstName} {employee.MLastName}");
+
+                foreach (var project in employee.Projects)
+                {
+                    sb.AppendLine($"--{project.ProjectName} - {project.ProjectStartDate} - {project.ProjectEndDate}");
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetAddressesByTown(SoftUniContext context)
+        {
+            var addressInfos = context.Addresses
+                .AsNoTracking()
+                .OrderByDescending(a => a.Employees.Count)
+                .ThenBy(a => a.Town!.Name)
+                .ThenBy(a => a.AddressText)
+                .Take(10)
+                .Select(a => new
+                {
+                    a.AddressText,
+                    TownName = a.Town!.Name,
+                    EmployeesCount = a.Employees.Count
+                })
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var addressInfo in addressInfos)
+            {
+                sb.AppendLine($"{addressInfo.AddressText}, {addressInfo.TownName} - {addressInfo.EmployeesCount} employees");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetEmployee147(SoftUniContext context)
+        {
+            Employee employee147 = context.Employees
+                .AsNoTracking()
+                .Include(e => e.EmployeesProjects)
+                .ThenInclude(ep => ep.Project)
+                .FirstOrDefault(e => e.EmployeeId == 147)!;
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"{employee147.FirstName} {employee147.LastName} - {employee147.JobTitle}");
+
+            foreach (var project in employee147.EmployeesProjects.OrderBy(p => p.Project.Name))
+            {
+                sb.AppendLine(project.Project.Name);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
+        {
+            var departmentsInfo = context.Departments
+                .AsNoTracking()
+                .Where(d => d.Employees.Count > 5)
+                .OrderBy(d => d.Employees.Count)
+                .ThenBy(d => d.Name)
+                .Select(d => new
+                {
+                    DepartmentName = d.Name,
+                    DMFirstName = d.Manager.FirstName,
+                    DMLastName = d.Manager.LastName,
+                    Employees = d.Employees
+                        .Select(e => new
+                        {
+                            EFirstName = e.FirstName,
+                            ELastName = e.LastName,
+                            EJobTitle = e.JobTitle
+                        })
+                        .OrderBy(e => e.EFirstName)
+                        .ThenBy(e => e.ELastName)
+                        .ToList()
+                })
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var department in departmentsInfo)
+            {
+                sb.AppendLine($"{department.DepartmentName} - {department.DMFirstName}  {department.DMLastName}");
+
+                foreach (var employee in department.Employees)
+                {
+                    sb.AppendLine($"{employee.EFirstName} {employee.ELastName} - {employee.EJobTitle}");
+                }
+            }
+
+            return sb.ToString();
         }
     }
 }
