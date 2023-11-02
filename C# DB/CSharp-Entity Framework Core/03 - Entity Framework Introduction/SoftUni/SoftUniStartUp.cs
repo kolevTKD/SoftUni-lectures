@@ -14,7 +14,7 @@
         {
             using (SoftUniContext context = new SoftUniContext())
             {
-                Console.WriteLine(GetDepartmentsWithMoreThan5Employees(context));
+                Console.WriteLine(GetEmployeesByFirstNameStartingWithSa(context));
             }
         }
 
@@ -240,6 +240,89 @@
             }
 
             return sb.ToString();
+        }
+
+        public static string GetLatestProjects(SoftUniContext context)
+        {
+            var latestProjects = context.Projects
+                .AsNoTracking()
+                .OrderByDescending(p => p.StartDate)
+                .Take(10)
+                .Select(p => new
+                {
+                    ProjectName = p.Name,
+                    ProjectDescription = p.Description,
+                    ProjectStartDate = p.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
+                })
+                .OrderBy(p => p.ProjectName)
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var project in latestProjects)
+            {
+                sb.AppendLine(project.ProjectName)
+                  .AppendLine(project.ProjectDescription)
+                  .AppendLine(project.ProjectStartDate);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string IncreaseSalaries(SoftUniContext context)
+        {
+            var employeesWithIncreasedSalaries = context.Employees
+                .AsNoTracking()
+                .Where(e => e.Department.Name == "Engineering" ||
+                            e.Department.Name == "Tool Design" ||
+                            e.Department.Name == "Marketing" ||
+                            e.Department.Name == "Information Services")
+                .Select(e => new
+                {
+                    FirstName = e.FirstName,
+                    LastName = e.LastName,
+                    Salary = e.Salary + e.Salary * 0.12M
+                })
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var employee in employeesWithIncreasedSalaries)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} (${employee.Salary:F2})");
+            }
+
+            context.SaveChanges();
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
+        {
+            var employeesStartingWith = context.Employees
+                .AsNoTracking()
+                .Where(e => e.FirstName.ToLower().StartsWith("sa"))
+                .Select(e => new
+                {
+                    FirstName = e.FirstName,
+                    LastName = e.LastName,
+                    JobTitle = e.JobTitle,
+                    Salary = e.Salary
+                })
+                .OrderBy(e => e.FirstName)
+                .ThenBy(e => e.LastName)
+                .ToList();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var employee in employeesStartingWith)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle} - (${employee.Salary:F2})");
+            }
+
+            return sb.ToString().TrimEnd();
         }
     }
 }
