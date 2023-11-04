@@ -1,13 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using P01_StudentSystem.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace P01_StudentSystem.Data
+﻿namespace P01_StudentSystem.Data
 {
+    using Microsoft.EntityFrameworkCore;
+
+    using Models;
+
     public class StudentSystemContext : DbContext
     {
         public StudentSystemContext()
