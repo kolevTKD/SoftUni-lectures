@@ -43,7 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityRelationsDemo", "Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Entity Relations", "04 - Entity Relations", "{DC017963-E3DC-455B-9697-13BE6423EE03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.StudentSystem", "04 - Entity Relations\1.StudentSystem\1.StudentSystem.csproj", "{CEACE99E-336A-4CB0-A16E-0AFE695CCD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.StudentSystem", "04 - Entity Relations\1.StudentSystem\1.StudentSystem.csproj", "{CEACE99E-336A-4CB0-A16E-0AFE695CCD65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting", "04 - Entity Relations\2.FootballBetting\2.FootballBetting.csproj", "{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting.Data", "04 - Entity Relations\2.FootballBetting.Data\2.FootballBetting.Data.csproj", "{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting.Data.Models", "04 - Entity Relations\2.FootballBetting.Data.Models\2.FootballBetting.Data.Models.csproj", "{F7E0881C-7CB7-497E-A75B-2974A29531BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting.Data.Common", "04 - Entity Relations\2.FootballBetting.Data.Common\2.FootballBetting.Data.Common.csproj", "{D68CA747-22B3-4047-8AE6-20D99C505EAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +123,22 @@ Global
 		{CEACE99E-336A-4CB0-A16E-0AFE695CCD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEACE99E-336A-4CB0-A16E-0AFE695CCD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEACE99E-336A-4CB0-A16E-0AFE695CCD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E0881C-7CB7-497E-A75B-2974A29531BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E0881C-7CB7-497E-A75B-2974A29531BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E0881C-7CB7-497E-A75B-2974A29531BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E0881C-7CB7-497E-A75B-2974A29531BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +160,10 @@ Global
 		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA} = {CAD55C08-CEF9-4E59-986D-59DC88EBCFEC}
 		{B801C2A3-FA16-4CAF-BA6F-39C3B8FB2528} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 		{CEACE99E-336A-4CB0-A16E-0AFE695CCD65} = {DC017963-E3DC-455B-9697-13BE6423EE03}
+		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE} = {DC017963-E3DC-455B-9697-13BE6423EE03}
+		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D} = {DC017963-E3DC-455B-9697-13BE6423EE03}
+		{F7E0881C-7CB7-497E-A75B-2974A29531BC} = {DC017963-E3DC-455B-9697-13BE6423EE03}
+		{D68CA747-22B3-4047-8AE6-20D99C505EAC} = {DC017963-E3DC-455B-9697-13BE6423EE03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
