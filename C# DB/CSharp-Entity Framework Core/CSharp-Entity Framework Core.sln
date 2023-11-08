@@ -45,13 +45,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Entity Relations", "04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.StudentSystem", "04 - Entity Relations\1.StudentSystem\1.StudentSystem.csproj", "{CEACE99E-336A-4CB0-A16E-0AFE695CCD65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting", "04 - Entity Relations\2.FootballBetting\2.FootballBetting.csproj", "{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.FootballBetting", "04 - Entity Relations\2.FootballBetting\2.FootballBetting.csproj", "{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting.Data", "04 - Entity Relations\2.FootballBetting.Data\2.FootballBetting.Data.csproj", "{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.FootballBetting.Data", "04 - Entity Relations\2.FootballBetting.Data\2.FootballBetting.Data.csproj", "{4EAD46CF-2C11-400E-B5B9-605C346A1F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting.Data.Models", "04 - Entity Relations\2.FootballBetting.Data.Models\2.FootballBetting.Data.Models.csproj", "{F7E0881C-7CB7-497E-A75B-2974A29531BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.FootballBetting.Data.Models", "04 - Entity Relations\2.FootballBetting.Data.Models\2.FootballBetting.Data.Models.csproj", "{F7E0881C-7CB7-497E-A75B-2974A29531BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.FootballBetting.Data.Common", "04 - Entity Relations\2.FootballBetting.Data.Common\2.FootballBetting.Data.Common.csproj", "{D68CA747-22B3-4047-8AE6-20D99C505EAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.FootballBetting.Data.Common", "04 - Entity Relations\2.FootballBetting.Data.Common\2.FootballBetting.Data.Common.csproj", "{D68CA747-22B3-4047-8AE6-20D99C505EAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.FootballBetting", "2.FootballBetting", "{49938CA8-A815-4862-A679-59864131C27D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Relations - More Exercices", "Entity Relations - More Exercices", "{CB05C5A7-98EA-479E-B8CC-EFBB96FFDA0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HospitalDatabase", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase\1.HospitalDatabase.csproj", "{6A314607-CF28-4075-92A3-0613DA753907}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.HospitalDatabase", "1.HospitalDatabase", "{A9179F6D-8F8C-4AE5-9477-B5908801E44D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HospitalDatabase.Data", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data\1.HospitalDatabase.Data.csproj", "{6EA54B5A-D644-4960-AADE-83328163525C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.HospitalDatabase.Data.Common", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data.Common\1.HospitalDatabase.Data.Common.csproj", "{290C9F0B-806E-443F-88FC-5EC39EFD1134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.HospitalDatabase.Data.Models", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data.Models\1.HospitalDatabase.Data.Models.csproj", "{67968F89-517C-4EF5-B4A3-448628C1093E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +153,22 @@ Global
 		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D68CA747-22B3-4047-8AE6-20D99C505EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A314607-CF28-4075-92A3-0613DA753907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A314607-CF28-4075-92A3-0613DA753907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A314607-CF28-4075-92A3-0613DA753907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A314607-CF28-4075-92A3-0613DA753907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA54B5A-D644-4960-AADE-83328163525C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA54B5A-D644-4960-AADE-83328163525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA54B5A-D644-4960-AADE-83328163525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA54B5A-D644-4960-AADE-83328163525C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290C9F0B-806E-443F-88FC-5EC39EFD1134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290C9F0B-806E-443F-88FC-5EC39EFD1134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290C9F0B-806E-443F-88FC-5EC39EFD1134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290C9F0B-806E-443F-88FC-5EC39EFD1134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67968F89-517C-4EF5-B4A3-448628C1093E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67968F89-517C-4EF5-B4A3-448628C1093E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67968F89-517C-4EF5-B4A3-448628C1093E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67968F89-517C-4EF5-B4A3-448628C1093E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,10 +190,16 @@ Global
 		{57629A71-BA6F-49BA-9419-5EFDCA6D10BA} = {CAD55C08-CEF9-4E59-986D-59DC88EBCFEC}
 		{B801C2A3-FA16-4CAF-BA6F-39C3B8FB2528} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 		{CEACE99E-336A-4CB0-A16E-0AFE695CCD65} = {DC017963-E3DC-455B-9697-13BE6423EE03}
-		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE} = {DC017963-E3DC-455B-9697-13BE6423EE03}
-		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D} = {DC017963-E3DC-455B-9697-13BE6423EE03}
-		{F7E0881C-7CB7-497E-A75B-2974A29531BC} = {DC017963-E3DC-455B-9697-13BE6423EE03}
-		{D68CA747-22B3-4047-8AE6-20D99C505EAC} = {DC017963-E3DC-455B-9697-13BE6423EE03}
+		{5534AE55-4D67-4CBE-B561-5E90BCEDE9DE} = {49938CA8-A815-4862-A679-59864131C27D}
+		{4EAD46CF-2C11-400E-B5B9-605C346A1F7D} = {49938CA8-A815-4862-A679-59864131C27D}
+		{F7E0881C-7CB7-497E-A75B-2974A29531BC} = {49938CA8-A815-4862-A679-59864131C27D}
+		{D68CA747-22B3-4047-8AE6-20D99C505EAC} = {49938CA8-A815-4862-A679-59864131C27D}
+		{49938CA8-A815-4862-A679-59864131C27D} = {DC017963-E3DC-455B-9697-13BE6423EE03}
+		{6A314607-CF28-4075-92A3-0613DA753907} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
+		{A9179F6D-8F8C-4AE5-9477-B5908801E44D} = {CB05C5A7-98EA-479E-B8CC-EFBB96FFDA0A}
+		{6EA54B5A-D644-4960-AADE-83328163525C} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
+		{290C9F0B-806E-443F-88FC-5EC39EFD1134} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
+		{67968F89-517C-4EF5-B4A3-448628C1093E} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
