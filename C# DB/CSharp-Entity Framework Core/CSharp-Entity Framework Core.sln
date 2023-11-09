@@ -63,9 +63,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.HospitalDatabase", "1.Hos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HospitalDatabase.Data", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data\1.HospitalDatabase.Data.csproj", "{6EA54B5A-D644-4960-AADE-83328163525C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.HospitalDatabase.Data.Common", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data.Common\1.HospitalDatabase.Data.Common.csproj", "{290C9F0B-806E-443F-88FC-5EC39EFD1134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HospitalDatabase.Data.Common", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data.Common\1.HospitalDatabase.Data.Common.csproj", "{290C9F0B-806E-443F-88FC-5EC39EFD1134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.HospitalDatabase.Data.Models", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data.Models\1.HospitalDatabase.Data.Models.csproj", "{67968F89-517C-4EF5-B4A3-448628C1093E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HospitalDatabase.Data.Models", "Entity Relations - More Exercices\01.HospitalDatabase\1.HospitalDatabase.Data.Models\1.HospitalDatabase.Data.Models.csproj", "{67968F89-517C-4EF5-B4A3-448628C1093E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.SalesDatabase", "2.SalesDatabase", "{981B1635-3661-4F71-92C3-FEEF50E26A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase\2.SalesDatabase.csproj", "{543E061B-EE6D-4A50-8C3D-A032E3D68F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase.Data.Common", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data.Common\2.SalesDatabase.Data.Common.csproj", "{9E984029-D77F-4F16-AF16-01631C57A6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase.Data", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data\2.SalesDatabase.Data.csproj", "{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase.Data.Models", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data.Models\2.SalesDatabase.Data.Models.csproj", "{26619AF5-6473-44CC-8F91-A09F290B6BA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +179,22 @@ Global
 		{67968F89-517C-4EF5-B4A3-448628C1093E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67968F89-517C-4EF5-B4A3-448628C1093E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67968F89-517C-4EF5-B4A3-448628C1093E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543E061B-EE6D-4A50-8C3D-A032E3D68F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543E061B-EE6D-4A50-8C3D-A032E3D68F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543E061B-EE6D-4A50-8C3D-A032E3D68F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543E061B-EE6D-4A50-8C3D-A032E3D68F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E984029-D77F-4F16-AF16-01631C57A6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E984029-D77F-4F16-AF16-01631C57A6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E984029-D77F-4F16-AF16-01631C57A6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E984029-D77F-4F16-AF16-01631C57A6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26619AF5-6473-44CC-8F91-A09F290B6BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26619AF5-6473-44CC-8F91-A09F290B6BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26619AF5-6473-44CC-8F91-A09F290B6BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26619AF5-6473-44CC-8F91-A09F290B6BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +226,11 @@ Global
 		{6EA54B5A-D644-4960-AADE-83328163525C} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
 		{290C9F0B-806E-443F-88FC-5EC39EFD1134} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
 		{67968F89-517C-4EF5-B4A3-448628C1093E} = {A9179F6D-8F8C-4AE5-9477-B5908801E44D}
+		{981B1635-3661-4F71-92C3-FEEF50E26A8C} = {CB05C5A7-98EA-479E-B8CC-EFBB96FFDA0A}
+		{543E061B-EE6D-4A50-8C3D-A032E3D68F22} = {981B1635-3661-4F71-92C3-FEEF50E26A8C}
+		{9E984029-D77F-4F16-AF16-01631C57A6F0} = {981B1635-3661-4F71-92C3-FEEF50E26A8C}
+		{C5D2D87E-D2DE-4339-883F-69C817AD2D6D} = {981B1635-3661-4F71-92C3-FEEF50E26A8C}
+		{26619AF5-6473-44CC-8F91-A09F290B6BA7} = {981B1635-3661-4F71-92C3-FEEF50E26A8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
