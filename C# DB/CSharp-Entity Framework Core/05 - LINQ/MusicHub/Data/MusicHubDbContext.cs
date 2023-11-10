@@ -1,7 +1,8 @@
 ﻿namespace MusicHub.Data
 {
     using Microsoft.EntityFrameworkCore;
-    using MusicHub.Data.Models;
+
+    using Models;
 
     public class MusicHubDbContext : DbContext
     {
@@ -14,12 +15,12 @@
         {
         }
 
-        DbSet<Song> Songs { get; set; } = null!;
-        DbSet<Album> Albums { get; set; } = null!;
-        DbSet<Performer> Performers { get; set; } = null!;
-        DbSet<Producer> Producers { get; set; } = null!;
-        DbSet<Writer> Writers { get; set; } = null!;
-        DbSet<SongPerformer> SongsPerformers { get; set; } = null!;
+        public DbSet<Song> Songs { get; set; } = null!;
+        public DbSet<Album> Albums { get; set; } = null!;
+        public DbSet<Performer> Performers { get; set; } = null!;
+        public DbSet<Producer> Producers { get; set; } = null!;
+        public DbSet<Writer> Writers { get; set; } = null!;
+        public DbSet<SongPerformer> SongsPerformers { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -35,6 +36,18 @@
             builder.Entity<SongPerformer>(sp =>
             {
                 sp.HasKey(sp => new { sp.SongId, sp.PerformerId });
+            });
+
+            builder.Entity<Song>(song =>
+            {
+                song.Property(s => s.CreatedOn)
+                    .HasColumnType("date");
+            });
+
+            builder.Entity<Album>(album =>
+            {
+                album.Property(a => a.ReleaseDate)
+                    .HasColumnType("date");
             });
         }
     }
