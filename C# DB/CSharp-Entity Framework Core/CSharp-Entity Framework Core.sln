@@ -69,19 +69,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HospitalDatabase.Data.Mod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.SalesDatabase", "2.SalesDatabase", "{981B1635-3661-4F71-92C3-FEEF50E26A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase\2.SalesDatabase.csproj", "{543E061B-EE6D-4A50-8C3D-A032E3D68F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.SalesDatabase", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase\2.SalesDatabase.csproj", "{543E061B-EE6D-4A50-8C3D-A032E3D68F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase.Data.Common", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data.Common\2.SalesDatabase.Data.Common.csproj", "{9E984029-D77F-4F16-AF16-01631C57A6F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.SalesDatabase.Data.Common", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data.Common\2.SalesDatabase.Data.Common.csproj", "{9E984029-D77F-4F16-AF16-01631C57A6F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase.Data", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data\2.SalesDatabase.Data.csproj", "{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.SalesDatabase.Data", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data\2.SalesDatabase.Data.csproj", "{C5D2D87E-D2DE-4339-883F-69C817AD2D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SalesDatabase.Data.Models", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data.Models\2.SalesDatabase.Data.Models.csproj", "{26619AF5-6473-44CC-8F91-A09F290B6BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.SalesDatabase.Data.Models", "Entity Relations - More Exercices\02.SalesDatabase\2.SalesDatabase.Data.Models\2.SalesDatabase.Data.Models.csproj", "{26619AF5-6473-44CC-8F91-A09F290B6BA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - LINQ", "05 - LINQ", "{119A19A5-5A31-4B75-9287-7D3A3D1E90B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.MusicHub", "01.MusicHub", "{56845D40-32F1-4399-A71D-8ACEDCE48C25}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicHub", "05 - LINQ\MusicHub\MusicHub.csproj", "{1D4B4635-A268-4A1F-A1DA-8A8CAB8D975B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Advanced Querying", "06 - Advanced Querying", "{EA17B8F4-E5FC-4A15-B55E-BE8B97644B0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.BookShop", "01.BookShop", "{66DDD401-218F-4C2B-8E3D-3EBCE987412E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop", "06 - Advanced Querying\1.BookShop\BookShop\BookShop.csproj", "{689790FC-7394-4F3B-913F-9D9F0FA8E110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Data", "06 - Advanced Querying\1.BookShop\BookShop.Data\BookShop.Data.csproj", "{A5957121-6326-4EAE-AA10-56159EF4B26B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Initializer", "06 - Advanced Querying\1.BookShop\BookShop.Initializer\BookShop.Initializer.csproj", "{1A43EBD8-1887-404B-A481-54823AD5F848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Models", "06 - Advanced Querying\1.BookShop\BookShop.Models\BookShop.Models.csproj", "{9827F935-5EDF-4E09-B220-E02F79477ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +217,22 @@ Global
 		{1D4B4635-A268-4A1F-A1DA-8A8CAB8D975B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4B4635-A268-4A1F-A1DA-8A8CAB8D975B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4B4635-A268-4A1F-A1DA-8A8CAB8D975B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689790FC-7394-4F3B-913F-9D9F0FA8E110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689790FC-7394-4F3B-913F-9D9F0FA8E110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689790FC-7394-4F3B-913F-9D9F0FA8E110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689790FC-7394-4F3B-913F-9D9F0FA8E110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5957121-6326-4EAE-AA10-56159EF4B26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5957121-6326-4EAE-AA10-56159EF4B26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5957121-6326-4EAE-AA10-56159EF4B26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5957121-6326-4EAE-AA10-56159EF4B26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A43EBD8-1887-404B-A481-54823AD5F848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A43EBD8-1887-404B-A481-54823AD5F848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A43EBD8-1887-404B-A481-54823AD5F848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A43EBD8-1887-404B-A481-54823AD5F848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -243,6 +271,11 @@ Global
 		{26619AF5-6473-44CC-8F91-A09F290B6BA7} = {981B1635-3661-4F71-92C3-FEEF50E26A8C}
 		{56845D40-32F1-4399-A71D-8ACEDCE48C25} = {119A19A5-5A31-4B75-9287-7D3A3D1E90B9}
 		{1D4B4635-A268-4A1F-A1DA-8A8CAB8D975B} = {56845D40-32F1-4399-A71D-8ACEDCE48C25}
+		{66DDD401-218F-4C2B-8E3D-3EBCE987412E} = {EA17B8F4-E5FC-4A15-B55E-BE8B97644B0A}
+		{689790FC-7394-4F3B-913F-9D9F0FA8E110} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
+		{A5957121-6326-4EAE-AA10-56159EF4B26B} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
+		{1A43EBD8-1887-404B-A481-54823AD5F848} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
+		{9827F935-5EDF-4E09-B220-E02F79477ABF} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
