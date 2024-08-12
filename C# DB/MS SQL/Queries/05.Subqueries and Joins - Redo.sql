@@ -16,7 +16,7 @@ SELECT TOP(50) e.FirstName, e.LastName, t.[Name] AS [Town], a.AddressText
  INNER JOIN Towns AS t
     ON t.TownID = a.TownID
  ORDER BY e.FirstName
-		, e.LastName
+	 , e.LastName
 
 --3 Sales Employee
 SELECT e.EmployeeID, e.FirstName, e.LastName, d.[Name]
