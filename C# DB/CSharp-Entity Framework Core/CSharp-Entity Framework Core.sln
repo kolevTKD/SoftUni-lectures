@@ -95,6 +95,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Initializer", "06 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Models", "06 - Advanced Querying\1.BookShop\BookShop.Models\BookShop.Models.csproj", "{9827F935-5EDF-4E09-B220-E02F79477ABF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NETExRecap", "Tests and Experiments\ADO.NETExRecap\ADO.NETExRecap.csproj", "{EBA6A69F-FD20-4873-A424-FC31EBB89E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +235,10 @@ Global
 		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9827F935-5EDF-4E09-B220-E02F79477ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA6A69F-FD20-4873-A424-FC31EBB89E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA6A69F-FD20-4873-A424-FC31EBB89E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA6A69F-FD20-4873-A424-FC31EBB89E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA6A69F-FD20-4873-A424-FC31EBB89E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +282,7 @@ Global
 		{A5957121-6326-4EAE-AA10-56159EF4B26B} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
 		{1A43EBD8-1887-404B-A481-54823AD5F848} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
 		{9827F935-5EDF-4E09-B220-E02F79477ABF} = {66DDD401-218F-4C2B-8E3D-3EBCE987412E}
+		{EBA6A69F-FD20-4873-A424-FC31EBB89E29} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}

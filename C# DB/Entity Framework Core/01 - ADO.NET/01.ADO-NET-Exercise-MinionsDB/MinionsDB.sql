@@ -3,6 +3,7 @@ CREATE DATABASE MinionsDB
 
 --02.  
 USE MinionsDB
+USE master
 
 --03.  
 CREATE TABLE Countries (Id INT PRIMARY KEY IDENTITY,Name VARCHAR(50))
@@ -50,13 +51,18 @@ SELECT ROW_NUMBER() OVER (ORDER BY m.Name) AS RowNum,
                                 ORDER BY m.Name
 
 --Problem 04
-SELECT Id FROM Villains WHERE Name = @Name
+SELECT Id FROM Villains WHERE Name = @Name --
 SELECT Id FROM Minions WHERE Name = @Name
 INSERT INTO MinionsVillains (MinionId, VillainId) VALUES (@minionId, @villainId)
-INSERT INTO Villains (Name, EvilnessFactorId)  VALUES (@villainName, 4)
-INSERT INTO Minions (Name, Age, TownId) VALUES (@name, @age, @townId)
-INSERT INTO Towns (Name) VALUES (@townName)
-SELECT Id FROM Towns WHERE Name = @townName
+INSERT INTO Villains (Name, EvilnessFactorId)  VALUES (@villainName, 4) --
+INSERT INTO Minions (Name, Age, TownId) VALUES (@name, @age, @townId) --
+INSERT INTO Towns (Name) VALUES (@townName) --
+SELECT Id FROM Towns WHERE Name = @townName --
+
+SELECT * FROM MinionsVillains
+SELECT * FROM Villains
+SELECT * FROM Minions
+
 
 --Problem 05
 UPDATE Towns
@@ -82,7 +88,7 @@ SELECT Name FROM Minions
 
 --Problem 08
  UPDATE Minions
-   SET Name = UPPER(LEFT(Name, 1)) + SUBSTRING(Name, 2, LEN(Name)), Age += 1
+   SET Name = LOWER(LEFT(Name, 1)) + SUBSTRING(Name, 2, LEN(Name)), Age += 1
  WHERE Id = @Id
 
 SELECT Name, Age FROM Minions
