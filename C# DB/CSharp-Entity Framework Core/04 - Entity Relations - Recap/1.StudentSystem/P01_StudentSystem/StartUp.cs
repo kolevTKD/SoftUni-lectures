@@ -1,6 +1,6 @@
 ﻿namespace P01_StudentSystem
 {
-    internal class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
