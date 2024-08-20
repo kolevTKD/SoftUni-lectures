@@ -101,7 +101,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreScaffoldingRecap", "T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - EFIntroduction - Recap", "03 - EFIntroduction - Recap", "{665642D9-B9B1-457E-B394-5C59A7B8EE02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni", "03 - EFIntroduction - Recap\SoftUni\SoftUni.csproj", "{CBE0A900-20C1-4FD7-8667-28FA64923FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUni", "03 - EFIntroduction - Recap\SoftUni\SoftUni.csproj", "{CBE0A900-20C1-4FD7-8667-28FA64923FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityRelationsTest", "Tests and Experiments\EntityRelationsTest\EntityRelationsTest.csproj", "{4AD10556-CF1A-4524-BD91-0D535A85E189}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,10 @@ Global
 		{CBE0A900-20C1-4FD7-8667-28FA64923FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE0A900-20C1-4FD7-8667-28FA64923FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE0A900-20C1-4FD7-8667-28FA64923FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD10556-CF1A-4524-BD91-0D535A85E189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD10556-CF1A-4524-BD91-0D535A85E189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD10556-CF1A-4524-BD91-0D535A85E189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD10556-CF1A-4524-BD91-0D535A85E189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -299,6 +305,7 @@ Global
 		{EBA6A69F-FD20-4873-A424-FC31EBB89E29} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 		{E67A0DE4-4EDB-4303-8E44-9FDADC9C9FE2} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 		{CBE0A900-20C1-4FD7-8667-28FA64923FA5} = {665642D9-B9B1-457E-B394-5C59A7B8EE02}
+		{4AD10556-CF1A-4524-BD91-0D535A85E189} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
