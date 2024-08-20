@@ -10,7 +10,13 @@
     {
         public void Configure(EntityTypeBuilder<Student> modelBuilder)
         {
-            modelBuilder.HasKey(s => new { s.Id, s.FacultyNo});
+            modelBuilder.HasMany(s => s.Projects)
+                .WithOne(p => p.Student)
+                .HasForeignKey(p => p.StudentId);
+
+            modelBuilder.HasOne(s => s.Address)
+                .WithOne(s => s.Student)
+                .HasForeignKey<Address>(a => a.StudentId);
         }
     }
 }

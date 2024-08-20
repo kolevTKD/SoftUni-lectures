@@ -9,7 +9,9 @@
     {
         public void Configure(EntityTypeBuilder<Project> modelBuilder)
         {
-            modelBuilder.HasKey(p => p.Id);
+            modelBuilder.HasOne(p => p.Student)
+                .WithMany(s => s.Projects)
+                .HasForeignKey(p => p.StudentId);
         }
     }
 }
