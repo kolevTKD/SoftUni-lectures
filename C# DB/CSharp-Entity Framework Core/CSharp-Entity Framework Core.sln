@@ -109,13 +109,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Entity Relations - Rec
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.StudentSystem", "1.StudentSystem", "{8A58EF5B-223E-498C-8BB5-01D3440E26AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem\P01_StudentSystem.csproj", "{06C764DF-1FAD-4053-8C97-4CF99383113B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem\P01_StudentSystem.csproj", "{06C764DF-1FAD-4053-8C97-4CF99383113B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{089258DA-6709-46FF-A1CC-2DB9DD410C73} = {089258DA-6709-46FF-A1CC-2DB9DD410C73}
+		{83367299-73E1-4AB4-9A6E-4B231FE78257} = {83367299-73E1-4AB4-9A6E-4B231FE78257}
+		{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0} = {90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data\P01_StudentSystem.Data.csproj", "{83367299-73E1-4AB4-9A6E-4B231FE78257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data\P01_StudentSystem.Data.csproj", "{83367299-73E1-4AB4-9A6E-4B231FE78257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data.Models", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data.Models\P01_StudentSystem.Data.Models.csproj", "{089258DA-6709-46FF-A1CC-2DB9DD410C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data.Models", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data.Models\P01_StudentSystem.Data.Models.csproj", "{089258DA-6709-46FF-A1CC-2DB9DD410C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data.Common", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data.Common\P01_StudentSystem.Data.Common.csproj", "{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data.Common", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data.Common\P01_StudentSystem.Data.Common.csproj", "{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
