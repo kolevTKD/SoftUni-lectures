@@ -10,6 +10,10 @@
 *.userosscache
 *.sln.docstates
 
+# Ignore word and powerpoint documents
+*.docx
+*.pptx
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
