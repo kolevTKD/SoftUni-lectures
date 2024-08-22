@@ -122,6 +122,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data.Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data.Common", "04 - Entity Relations - Recap\1.StudentSystem\P01_StudentSystem.Data.Common\P01_StudentSystem.Data.Common.csproj", "{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.FootballBetting", "2.FootballBetting", "{7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting\P02_FootballBetting.csproj", "{914A7247-77B9-465E-8385-4ADE58F829EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting.Data", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data\P02_FootballBetting.Data.csproj", "{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting.Data.Models", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data.Models\P02_FootballBetting.Data.Models.csproj", "{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting.Data.Common", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data.Common\P02_FootballBetting.Data.Common.csproj", "{B969D0F4-3601-439D-95E8-526516E68B53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -292,6 +302,22 @@ Global
 		{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914A7247-77B9-465E-8385-4ADE58F829EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914A7247-77B9-465E-8385-4ADE58F829EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914A7247-77B9-465E-8385-4ADE58F829EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914A7247-77B9-465E-8385-4ADE58F829EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B969D0F4-3601-439D-95E8-526516E68B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B969D0F4-3601-439D-95E8-526516E68B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B969D0F4-3601-439D-95E8-526516E68B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B969D0F4-3601-439D-95E8-526516E68B53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -344,6 +370,11 @@ Global
 		{83367299-73E1-4AB4-9A6E-4B231FE78257} = {8A58EF5B-223E-498C-8BB5-01D3440E26AB}
 		{089258DA-6709-46FF-A1CC-2DB9DD410C73} = {8A58EF5B-223E-498C-8BB5-01D3440E26AB}
 		{90CF89D9-B12C-4125-B243-CA1DD9ACFDE0} = {8A58EF5B-223E-498C-8BB5-01D3440E26AB}
+		{7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061} = {4DFC31D1-2D5F-4986-B0A8-9A907D2EAEC6}
+		{914A7247-77B9-465E-8385-4ADE58F829EC} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
+		{4764DA4B-2FB4-48CA-A89B-ACFCA417845E} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
+		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
+		{B969D0F4-3601-439D-95E8-526516E68B53} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
