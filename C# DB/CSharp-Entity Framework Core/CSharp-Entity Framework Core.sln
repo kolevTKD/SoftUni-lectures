@@ -124,13 +124,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data.Comm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.FootballBetting", "2.FootballBetting", "{7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting\P02_FootballBetting.csproj", "{914A7247-77B9-465E-8385-4ADE58F829EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting\P02_FootballBetting.csproj", "{914A7247-77B9-465E-8385-4ADE58F829EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting.Data", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data\P02_FootballBetting.Data.csproj", "{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting.Data", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data\P02_FootballBetting.Data.csproj", "{4764DA4B-2FB4-48CA-A89B-ACFCA417845E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting.Data.Models", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data.Models\P02_FootballBetting.Data.Models.csproj", "{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting.Data.Models", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data.Models\P02_FootballBetting.Data.Models.csproj", "{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_FootballBetting.Data.Common", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data.Common\P02_FootballBetting.Data.Common.csproj", "{B969D0F4-3601-439D-95E8-526516E68B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_FootballBetting.Data.Common", "04 - Entity Relations - Recap\2.FootballBetting\P02_FootballBetting.Data.Common\P02_FootballBetting.Data.Common.csproj", "{B969D0F4-3601-439D-95E8-526516E68B53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - LINQ - Recap", "05 - LINQ - Recap", "{5153ED7B-8B63-41A6-B032-2CF11613B479}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicHub", "05 - LINQ - Recap\MusicHub\MusicHub.csproj", "{E2C3C181-B6A3-460F-9950-55643F04AE23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -318,6 +322,10 @@ Global
 		{B969D0F4-3601-439D-95E8-526516E68B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B969D0F4-3601-439D-95E8-526516E68B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B969D0F4-3601-439D-95E8-526516E68B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -375,6 +383,7 @@ Global
 		{4764DA4B-2FB4-48CA-A89B-ACFCA417845E} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
 		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
 		{B969D0F4-3601-439D-95E8-526516E68B53} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
+		{E2C3C181-B6A3-460F-9950-55643F04AE23} = {5153ED7B-8B63-41A6-B032-2CF11613B479}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
