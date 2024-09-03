@@ -136,6 +136,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - LINQ - Recap", "05 - L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicHub", "05 - LINQ - Recap\MusicHub\MusicHub.csproj", "{E2C3C181-B6A3-460F-9950-55643F04AE23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedQuryingTesting", "Tests and Experiments\AdvancedQuryingTesting\AdvancedQuryingTesting.csproj", "{674B4FED-A6C8-4AC0-ACA2-9A163AD33A2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +328,10 @@ Global
 		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2C3C181-B6A3-460F-9950-55643F04AE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674B4FED-A6C8-4AC0-ACA2-9A163AD33A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674B4FED-A6C8-4AC0-ACA2-9A163AD33A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674B4FED-A6C8-4AC0-ACA2-9A163AD33A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674B4FED-A6C8-4AC0-ACA2-9A163AD33A2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -384,6 +390,7 @@ Global
 		{AD11CDAC-B5C5-4545-97FF-F5AE97EFF996} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
 		{B969D0F4-3601-439D-95E8-526516E68B53} = {7C5EB8FE-1A91-4BA5-AE94-F9FC68AAD061}
 		{E2C3C181-B6A3-460F-9950-55643F04AE23} = {5153ED7B-8B63-41A6-B032-2CF11613B479}
+		{674B4FED-A6C8-4AC0-ACA2-9A163AD33A2E} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}
