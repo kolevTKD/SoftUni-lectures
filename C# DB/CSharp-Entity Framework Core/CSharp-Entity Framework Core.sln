@@ -148,6 +148,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Initializer", "06 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Models", "06 - Advanced Querying - Recap\BookShop.Models\BookShop.Models.csproj", "{134259A6-EA04-4E75-9BCB-A7FF3EF23ABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMappingTesting", "Tests and Experiments\AutoMappingTesting\AutoMappingTesting.csproj", "{0533D5B1-2B96-42F4-BD7F-2FA62198A64A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -358,6 +360,10 @@ Global
 		{134259A6-EA04-4E75-9BCB-A7FF3EF23ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{134259A6-EA04-4E75-9BCB-A7FF3EF23ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{134259A6-EA04-4E75-9BCB-A7FF3EF23ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0533D5B1-2B96-42F4-BD7F-2FA62198A64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0533D5B1-2B96-42F4-BD7F-2FA62198A64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0533D5B1-2B96-42F4-BD7F-2FA62198A64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0533D5B1-2B96-42F4-BD7F-2FA62198A64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -421,6 +427,7 @@ Global
 		{88A85886-8629-423B-AAE6-2116C11BC079} = {E1FD4EEB-98E2-404E-AA25-F084F20ED8C3}
 		{88679C42-0DD4-4397-BCB6-3DED0FBBCC5C} = {E1FD4EEB-98E2-404E-AA25-F084F20ED8C3}
 		{134259A6-EA04-4E75-9BCB-A7FF3EF23ABB} = {E1FD4EEB-98E2-404E-AA25-F084F20ED8C3}
+		{0533D5B1-2B96-42F4-BD7F-2FA62198A64A} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}

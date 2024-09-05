@@ -305,8 +305,6 @@
             context.SaveChanges();
 
             return books.Count;
-        }
+        } //16
     }
 }
-
-
