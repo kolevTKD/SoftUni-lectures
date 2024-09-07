@@ -1,4 +1,4 @@
-﻿namespace FastFood.Core.ViewModels.Items
+﻿namespace FastFood.Web.ViewModels.Items
 {
     public class CreateItemViewModel
     {

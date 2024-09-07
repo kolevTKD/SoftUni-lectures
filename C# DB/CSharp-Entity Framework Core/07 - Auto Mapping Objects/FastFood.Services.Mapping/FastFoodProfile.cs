@@ -1,8 +1,9 @@
-﻿namespace FastFood.Core.MappingConfiguration
+﻿namespace FastFood.Services.Mapping
 {
     using AutoMapper;
+
     using FastFood.Models;
-    using ViewModels.Positions;
+    using Web.ViewModels.Positions;
 
     public class FastFoodProfile : Profile
     {

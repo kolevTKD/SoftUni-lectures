@@ -1,6 +1,6 @@
 ﻿namespace FastFood.Common.EntityConfiguration
 {
-    public static class ValidationConstants
+    public static class EntitiesValidation
     {
         public const int CATEGORY_NAME_MAX_LENGTH = 30;
 

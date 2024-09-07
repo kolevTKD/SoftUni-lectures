@@ -1,8 +1,8 @@
-﻿namespace FastFood.Core.ViewModels.Orders
+﻿namespace FastFood.Web.ViewModels.Orders
 {
     public class CreateOrderInputModel
     {
-        public string Customer { get; set; }
+        public string Customer { get; set; } = null!;
 
         public int ItemId { get; set; }
 

@@ -14,16 +14,16 @@
         }
 
         [Key]
-        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
+        [MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
         public string Id { get; set; }
 
-        [StringLength(ValidationConstants.EMPLOYEE_NAME_MAX_LENGTH, MinimumLength = 3)]
+        [StringLength(EntitiesValidation.EMPLOYEE_NAME_MAX_LENGTH, MinimumLength = 3)]
         public string Name { get; set; } = null!;
 
         [Range(15, 80)]
         public int Age { get; set; }
 
-        [StringLength(ValidationConstants.EMPLOYEE_ADDRES_MAX_LENGTH, MinimumLength = 3)]
+        [StringLength(EntitiesValidation.EMPLOYEE_ADDRES_MAX_LENGTH, MinimumLength = 3)]
         public string Address { get; set; } = null!;
 
         [ForeignKey(nameof(Position))]

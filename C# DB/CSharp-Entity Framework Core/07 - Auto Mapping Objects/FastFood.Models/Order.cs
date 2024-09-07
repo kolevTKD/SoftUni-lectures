@@ -17,7 +17,7 @@
         }
 
         [Key]
-        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
+        [MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
         public string Id { get; set; }
 
         public string Customer { get; set; } = null!;

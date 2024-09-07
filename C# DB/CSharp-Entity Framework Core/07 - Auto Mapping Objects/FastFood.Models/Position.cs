@@ -13,10 +13,10 @@
         }
 
         [Key]
-        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
+        [MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
         public int Id { get; set; }
 
-        [StringLength(ValidationConstants.POSITION_NAME_MAX_LENGTH, MinimumLength = 3)]
+        [MaxLength(EntitiesValidation.POSITION_NAME_MAX_LENGTH)]
         public string Name { get; set; } = null!;
 
         public virtual ICollection<Employee> Employees { get; set; }

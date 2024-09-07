@@ -1,4 +1,4 @@
-﻿namespace FastFood.Core.Controllers
+﻿namespace FastFood.Web.Controllers
 {
     using System.Diagnostics;
     using Microsoft.AspNetCore.Mvc;

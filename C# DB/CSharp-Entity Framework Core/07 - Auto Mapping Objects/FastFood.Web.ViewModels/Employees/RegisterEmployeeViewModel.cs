@@ -1,4 +1,4 @@
-﻿namespace FastFood.Core.ViewModels.Employees
+﻿namespace FastFood.Web.ViewModels.Employees
 {
     public class RegisterEmployeeViewModel
     {
