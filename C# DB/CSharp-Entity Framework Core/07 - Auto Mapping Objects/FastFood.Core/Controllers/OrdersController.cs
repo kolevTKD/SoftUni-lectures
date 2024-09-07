@@ -20,13 +20,13 @@
 
         public IActionResult Create()
         {
-            var viewOrder = new CreateOrderViewModel
-            {
-                Items = _context.Items.Select(x => x.Id).ToList(),
-                Employees = _context.Employees.Select(x => x.Id).ToList(),
-            };
+            //var viewOrder = new CreateOrderViewModel
+            //{
+            //    Items = _context.Items.Select(x => x.Id).ToList(),
+            //    Employees = _context.Employees.Select(x => x.Id).ToList(),
+            //};
 
-            return View(viewOrder);
+            return View(/*viewOrder*/);
         }
 
         [HttpPost]

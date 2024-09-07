@@ -6,28 +6,34 @@
     using System.ComponentModel.DataAnnotations.Schema;
 
     using Enums;
+    using Common.EntityConfiguration;
 
     public class Order
     {
-        public int Id { get; set; }
+        public Order()
+        {
+            Id = Guid.NewGuid().ToString();
+            OrderItems = new HashSet<OrderItem>();
+        }
 
-        [Required]
+        [Key]
+        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
+        public string Id { get; set; }
+
         public string Customer { get; set; } = null!;
 
-        [Required]
         public DateTime DateTime { get; set; }
 
-        [Required]
         public OrderType Type { get; set; }
 
         [NotMapped]
         public decimal TotalPrice { get; set; }
 
-        public int EmployeeId { get; set; }
+        [ForeignKey(nameof(Employee))]
+        public string EmployeeId { get; set; } = null!;
 
-        [Required]
-        public Employee Employee { get; set; } = null!;
+        public virtual Employee Employee { get; set; } = null!;
 
-        public ICollection<OrderItem>? OrderItems { get; set; } = new List<OrderItem>();
+        public virtual ICollection<OrderItem>? OrderItems { get; set; }
     }
 }

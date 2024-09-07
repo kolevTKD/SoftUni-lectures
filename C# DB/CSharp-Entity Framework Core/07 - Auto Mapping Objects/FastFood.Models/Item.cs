@@ -2,22 +2,33 @@
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    using Common.EntityConfiguration;
 
     public class Item
     {
-        public int Id { get; set; }
+        public Item()
+        {
+            Id = Guid.NewGuid().ToString();
+            OrderItems = new HashSet<OrderItem>();
+        }
 
-        [StringLength(30, MinimumLength = 3)]
+        [Key]
+        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
+        public string Id { get; set; }
+
+        [StringLength(ValidationConstants.ITEM_NAME_MAX_LENGTH, MinimumLength = 3)]
         public string? Name { get; set; }
 
+        [ForeignKey(nameof(Category))]
         public int CategoryId { get; set; }
 
-        [Required]
-        public Category Category { get; set; } = null!;
+        public virtual Category Category { get; set; } = null!;
 
         [Range(typeof(decimal), "0.01", "79228162514264337593543950335")]
         public decimal Price { get; set; }
 
-        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public virtual ICollection<OrderItem> OrderItems { get; set; }
     }
 }

@@ -1,11 +1,9 @@
-﻿using System.Reflection;
-
-namespace FastFood.Data
+﻿namespace FastFood.Data
 {
     using Microsoft.EntityFrameworkCore;
+
+    using Common.DataConfiguration;
     using Models;
-    using System.Collections.Generic;
-    using System.Reflection.Emit;
 
     public class FastFoodContext : DbContext
     {
@@ -22,6 +20,7 @@ namespace FastFood.Data
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Employee> Employees { get; set; }
+
         public DbSet<Item> Items { get; set; }
 
         public DbSet<Order> Orders { get; set; }
@@ -29,6 +28,15 @@ namespace FastFood.Data
         public DbSet<OrderItem> OrderItems { get; set; }
 
         public DbSet<Position> Positions { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(ConnectionConfig.CONNECTION_STRING)
+                    .UseLazyLoadingProxies();
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

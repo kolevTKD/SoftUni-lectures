@@ -2,28 +2,35 @@
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using Common.EntityConfiguration;
 
     public class Employee
     {
-        public int Id { get; set; }
+        public Employee()
+        {
+            Id = Guid.NewGuid().ToString();
+            Orders = new HashSet<Order>();
+        }
 
-        [Required]
-        [StringLength(30, MinimumLength = 3)]
+        [Key]
+        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
+        public string Id { get; set; }
+
+        [StringLength(ValidationConstants.EMPLOYEE_NAME_MAX_LENGTH, MinimumLength = 3)]
         public string Name { get; set; } = null!;
 
-        [Required]
         [Range(15, 80)]
         public int Age { get; set; }
 
-        [Required]
-        [StringLength(30, MinimumLength = 3)]
+        [StringLength(ValidationConstants.EMPLOYEE_ADDRES_MAX_LENGTH, MinimumLength = 3)]
         public string Address { get; set; } = null!;
 
+        [ForeignKey(nameof(Position))]
         public int PositionId { get; set; }
 
-        [Required]
-        public Position Position { get; set; } = null!;
+        public virtual Position Position { get; set; } = null!;
 
-        public ICollection<Order> Orders { get; set; } = new List<Order>(); 
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 {
     public enum OrderType
     {
-        ForHere,
-        ToGo
+        ForHere = 0,
+        ToGo = 1,
     }
 }

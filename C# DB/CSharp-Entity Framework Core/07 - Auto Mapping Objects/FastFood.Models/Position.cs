@@ -3,14 +3,22 @@
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
+    using Common.EntityConfiguration;
+
     public class Position
     {
+        public Position()
+        {
+            Employees = new HashSet<Employee>();
+        }
+
+        [Key]
+        [MaxLength(ValidationConstants.GUID_MAX_LENGTH)]
         public int Id { get; set; }
 
-        [Required]
-        [StringLength(30, MinimumLength = 3)]
+        [StringLength(ValidationConstants.POSITION_NAME_MAX_LENGTH, MinimumLength = 3)]
         public string Name { get; set; } = null!;
 
-        public ICollection<Employee> Employees { get; set; } = new List<Employee>();
+        public virtual ICollection<Employee> Employees { get; set; }
     }
 }
