@@ -1,0 +1,2346 @@
+[
+  {
+    "FirstName": "Guy",
+    "MiddleName": "R",
+    "LastName": "Gilbert",
+    "име": "Guy R Gilbert",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Kevin",
+    "MiddleName": "F",
+    "LastName": "Brown",
+    "име": "Kevin F Brown",
+    "отдел": "Marketing",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Roberto",
+    "MiddleName": null,
+    "LastName": "Tamburello",
+    "име": "Roberto  Tamburello",
+    "отдел": "Engineering",
+    "заплата": 43300.0000
+  },
+  {
+    "FirstName": "Rob",
+    "MiddleName": null,
+    "LastName": "Walters",
+    "име": "Rob  Walters",
+    "отдел": "Tool Design",
+    "заплата": 29800.0000
+  },
+  {
+    "FirstName": "Thierry",
+    "MiddleName": "B",
+    "LastName": "D'Hers",
+    "име": "Thierry B D'Hers",
+    "отдел": "Tool Design",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "M",
+    "LastName": "Bradley",
+    "име": "David M Bradley",
+    "отдел": "Purchasing",
+    "заплата": 37500.0000
+  },
+  {
+    "FirstName": "JoLynn",
+    "MiddleName": "M",
+    "LastName": "Dobney",
+    "име": "JoLynn M Dobney",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Ruth",
+    "MiddleName": "Ann",
+    "LastName": "Ellerbrock",
+    "име": "Ruth Ann Ellerbrock",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Gail",
+    "MiddleName": "A",
+    "LastName": "Erickson",
+    "име": "Gail A Erickson",
+    "отдел": "Engineering",
+    "заплата": 32700.0000
+  },
+  {
+    "FirstName": "Barry",
+    "MiddleName": "K",
+    "LastName": "Johnson",
+    "име": "Barry K Johnson",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Jossef",
+    "MiddleName": "H",
+    "LastName": "Goldberg",
+    "име": "Jossef H Goldberg",
+    "отдел": "Engineering",
+    "заплата": 32700.0000
+  },
+  {
+    "FirstName": "Terri",
+    "MiddleName": "Lee",
+    "LastName": "Duffy",
+    "име": "Terri Lee Duffy",
+    "отдел": "Engineering",
+    "заплата": 63500.0000
+  },
+  {
+    "FirstName": "Sidney",
+    "MiddleName": "M",
+    "LastName": "Higa",
+    "име": "Sidney M Higa",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Taylor",
+    "MiddleName": "R",
+    "LastName": "Maxwell",
+    "име": "Taylor R Maxwell",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Jeffrey",
+    "MiddleName": "L",
+    "LastName": "Ford",
+    "име": "Jeffrey L Ford",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Jo",
+    "MiddleName": "A",
+    "LastName": "Brown",
+    "име": "Jo A Brown",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Doris",
+    "MiddleName": "M",
+    "LastName": "Hartwig",
+    "име": "Doris M Hartwig",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "John",
+    "MiddleName": "T",
+    "LastName": "Campbell",
+    "име": "John T Campbell",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Diane",
+    "MiddleName": "R",
+    "LastName": "Glimp",
+    "име": "Diane R Glimp",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Steven",
+    "MiddleName": "T",
+    "LastName": "Selikoff",
+    "име": "Steven T Selikoff",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Peter",
+    "MiddleName": "J",
+    "LastName": "Krebs",
+    "име": "Peter J Krebs",
+    "отдел": "Production Control",
+    "заплата": 24500.0000
+  },
+  {
+    "FirstName": "Stuart",
+    "MiddleName": "V",
+    "LastName": "Munson",
+    "име": "Stuart V Munson",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Greg",
+    "MiddleName": "F",
+    "LastName": "Alderson",
+    "име": "Greg F Alderson",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "",
+    "LastName": "Johnson",
+    "име": "David  Johnson",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Zheng",
+    "MiddleName": "W",
+    "LastName": "Mu",
+    "име": "Zheng W Mu",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Ivo",
+    "MiddleName": "William",
+    "LastName": "Salmre",
+    "име": "Ivo William Salmre",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Paul",
+    "MiddleName": "B",
+    "LastName": "Komosinski",
+    "име": "Paul B Komosinski",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Ashvini",
+    "MiddleName": "R",
+    "LastName": "Sharma",
+    "име": "Ashvini R Sharma",
+    "отдел": "Information Services",
+    "заплата": 32500.0000
+  },
+  {
+    "FirstName": "Kendall",
+    "MiddleName": "C",
+    "LastName": "Keil",
+    "име": "Kendall C Keil",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Paula",
+    "MiddleName": "M",
+    "LastName": "Barreto de Mattos",
+    "име": "Paula M Barreto de Mattos",
+    "отдел": "Human Resources",
+    "заплата": 27100.0000
+  },
+  {
+    "FirstName": "Alejandro",
+    "MiddleName": "E",
+    "LastName": "McGuel",
+    "име": "Alejandro E McGuel",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Garrett",
+    "MiddleName": "R",
+    "LastName": "Young",
+    "име": "Garrett R Young",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Jian Shuo",
+    "MiddleName": null,
+    "LastName": "Wang",
+    "име": "Jian Shuo  Wang",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Susan",
+    "MiddleName": "W",
+    "LastName": "Eaton",
+    "име": "Susan W Eaton",
+    "отдел": "Shipping and Receiving",
+    "заплата": 9000.0000
+  },
+  {
+    "FirstName": "Vamsi",
+    "MiddleName": "",
+    "LastName": "Kuppa",
+    "име": "Vamsi  Kuppa",
+    "отдел": "Shipping and Receiving",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Alice",
+    "MiddleName": "O",
+    "LastName": "Ciccu",
+    "име": "Alice O Ciccu",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Simon",
+    "MiddleName": "D",
+    "LastName": "Rapier",
+    "име": "Simon D Rapier",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Jinghao",
+    "MiddleName": "K",
+    "LastName": "Liu",
+    "име": "Jinghao K Liu",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "T",
+    "LastName": "Hines",
+    "име": "Michael T Hines",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Yvonne",
+    "MiddleName": "S",
+    "LastName": "McKay",
+    "име": "Yvonne S McKay",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Peng",
+    "MiddleName": "J",
+    "LastName": "Wu",
+    "име": "Peng J Wu",
+    "отдел": "Quality Assurance",
+    "заплата": 21600.0000
+  },
+  {
+    "FirstName": "Jean",
+    "MiddleName": "E",
+    "LastName": "Trenary",
+    "име": "Jean E Trenary",
+    "отдел": "Information Services",
+    "заплата": 50500.0000
+  },
+  {
+    "FirstName": "Russell",
+    "MiddleName": null,
+    "LastName": "Hunter",
+    "име": "Russell  Hunter",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "A. Scott",
+    "MiddleName": null,
+    "LastName": "Wright",
+    "име": "A. Scott  Wright",
+    "отдел": "Production Control",
+    "заплата": 23600.0000
+  },
+  {
+    "FirstName": "Fred",
+    "MiddleName": "T",
+    "LastName": "Northup",
+    "име": "Fred T Northup",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Sariya",
+    "MiddleName": "E",
+    "LastName": "Harnpadoungsataya",
+    "име": "Sariya E Harnpadoungsataya",
+    "отдел": "Marketing",
+    "заплата": 14400.0000
+  },
+  {
+    "FirstName": "Willis",
+    "MiddleName": "T",
+    "LastName": "Johnson",
+    "име": "Willis T Johnson",
+    "отдел": "Human Resources",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Jun",
+    "MiddleName": "T",
+    "LastName": "Cao",
+    "име": "Jun T Cao",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Christian",
+    "MiddleName": "E",
+    "LastName": "Kleinerman",
+    "име": "Christian E Kleinerman",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 20400.0000
+  },
+  {
+    "FirstName": "Susan",
+    "MiddleName": "A",
+    "LastName": "Metters",
+    "име": "Susan A Metters",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Reuben",
+    "MiddleName": "H",
+    "LastName": "D'sa",
+    "име": "Reuben H D'sa",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Kirk",
+    "MiddleName": "J",
+    "LastName": "Koenigsbauer",
+    "име": "Kirk J Koenigsbauer",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "J",
+    "LastName": "Ortiz",
+    "име": "David J Ortiz",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Tengiz",
+    "MiddleName": "",
+    "LastName": "Kharatishvili",
+    "име": "Tengiz  Kharatishvili",
+    "отдел": "Document Control",
+    "заплата": 16800.0000
+  },
+  {
+    "FirstName": "Hanying",
+    "MiddleName": "P",
+    "LastName": "Feng",
+    "име": "Hanying P Feng",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Kevin",
+    "MiddleName": "H",
+    "LastName": "Liu",
+    "име": "Kevin H Liu",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Annik",
+    "MiddleName": "O",
+    "LastName": "Stahl",
+    "име": "Annik O Stahl",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Suroor",
+    "MiddleName": "R",
+    "LastName": "Fatima",
+    "име": "Suroor R Fatima",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Deborah",
+    "MiddleName": "E",
+    "LastName": "Poe",
+    "име": "Deborah E Poe",
+    "отдел": "Finance",
+    "заплата": 19000.0000
+  },
+  {
+    "FirstName": "Jim",
+    "MiddleName": "H",
+    "LastName": "Scardelis",
+    "име": "Jim H Scardelis",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Carole",
+    "MiddleName": "M",
+    "LastName": "Poland",
+    "име": "Carole M Poland",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "George",
+    "MiddleName": "Z",
+    "LastName": "Li",
+    "име": "George Z Li",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Gary",
+    "MiddleName": "W",
+    "LastName": "Yukish",
+    "име": "Gary W Yukish",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Cristian",
+    "MiddleName": "K",
+    "LastName": "Petculescu",
+    "име": "Cristian K Petculescu",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Raymond",
+    "MiddleName": "K",
+    "LastName": "Sam",
+    "име": "Raymond K Sam",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Janaina",
+    "MiddleName": "Barreiro Gambaro",
+    "LastName": "Bueno",
+    "име": "Janaina Barreiro Gambaro Bueno",
+    "отдел": "Information Services",
+    "заплата": 27400.0000
+  },
+  {
+    "FirstName": "Bob",
+    "MiddleName": "",
+    "LastName": "Hohman",
+    "име": "Bob  Hohman",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Shammi",
+    "MiddleName": "G",
+    "LastName": "Mohamed",
+    "име": "Shammi G Mohamed",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Linda",
+    "MiddleName": "K",
+    "LastName": "Moschell",
+    "име": "Linda K Moschell",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Mindy",
+    "MiddleName": "C",
+    "LastName": "Martin",
+    "име": "Mindy C Martin",
+    "отдел": "Human Resources",
+    "заплата": 16600.0000
+  },
+  {
+    "FirstName": "Wendy",
+    "MiddleName": "Beth",
+    "LastName": "Kahn",
+    "име": "Wendy Beth Kahn",
+    "отдел": "Finance",
+    "заплата": 43300.0000
+  },
+  {
+    "FirstName": "Kim",
+    "MiddleName": "T",
+    "LastName": "Ralls",
+    "име": "Kim T Ralls",
+    "отдел": "Shipping and Receiving",
+    "заплата": 9000.0000
+  },
+  {
+    "FirstName": "Sandra",
+    "MiddleName": null,
+    "LastName": "Reategui Alayo",
+    "име": "Sandra  Reategui Alayo",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Kok-Ho",
+    "MiddleName": "T",
+    "LastName": "Loh",
+    "име": "Kok-Ho T Loh",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Douglas",
+    "MiddleName": "B",
+    "LastName": "Hite",
+    "име": "Douglas B Hite",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "James",
+    "MiddleName": "D",
+    "LastName": "Kramer",
+    "име": "James D Kramer",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Sean",
+    "MiddleName": "P",
+    "LastName": "Alexander",
+    "име": "Sean P Alexander",
+    "отдел": "Quality Assurance",
+    "заплата": 10600.0000
+  },
+  {
+    "FirstName": "Nitin",
+    "MiddleName": "S",
+    "LastName": "Mirchandani",
+    "име": "Nitin S Mirchandani",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Diane",
+    "MiddleName": "L",
+    "LastName": "Margheim",
+    "име": "Diane L Margheim",
+    "отдел": "Research and Development",
+    "заплата": 40900.0000
+  },
+  {
+    "FirstName": "Rebecca",
+    "MiddleName": "A",
+    "LastName": "Laszlo",
+    "име": "Rebecca A Laszlo",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Rajesh",
+    "MiddleName": "M",
+    "LastName": "Patel",
+    "име": "Rajesh M Patel",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Vidur",
+    "MiddleName": "X",
+    "LastName": "Luthra",
+    "име": "Vidur X Luthra",
+    "отдел": "Human Resources",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "John",
+    "MiddleName": "P",
+    "LastName": "Evans",
+    "име": "John P Evans",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Nancy",
+    "MiddleName": "A",
+    "LastName": "Anderson",
+    "име": "Nancy A Anderson",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Pilar",
+    "MiddleName": "G",
+    "LastName": "Ackerman",
+    "име": "Pilar G Ackerman",
+    "отдел": "Shipping and Receiving",
+    "заплата": 19200.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "A",
+    "LastName": "Yalovsky",
+    "име": "David A Yalovsky",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "P",
+    "LastName": "Hamilton",
+    "име": "David P Hamilton",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Laura",
+    "MiddleName": "C",
+    "LastName": "Steele",
+    "име": "Laura C Steele",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Margie",
+    "MiddleName": "W",
+    "LastName": "Shoop",
+    "име": "Margie W Shoop",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Zainal",
+    "MiddleName": "T",
+    "LastName": "Arifin",
+    "име": "Zainal T Arifin",
+    "отдел": "Document Control",
+    "заплата": 17800.0000
+  },
+  {
+    "FirstName": "Lorraine",
+    "MiddleName": "O",
+    "LastName": "Nay",
+    "име": "Lorraine O Nay",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Fadi",
+    "MiddleName": "K",
+    "LastName": "Fakhouri",
+    "име": "Fadi K Fakhouri",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Ryan",
+    "MiddleName": "L",
+    "LastName": "Cornelsen",
+    "име": "Ryan L Cornelsen",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Candy",
+    "MiddleName": "L",
+    "LastName": "Spoon",
+    "име": "Candy L Spoon",
+    "отдел": "Finance",
+    "заплата": 19000.0000
+  },
+  {
+    "FirstName": "Nuan",
+    "MiddleName": null,
+    "LastName": "Yu",
+    "име": "Nuan  Yu",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "William",
+    "MiddleName": "S",
+    "LastName": "Vong",
+    "име": "William S Vong",
+    "отдел": "Production Control",
+    "заплата": 16000.0000
+  },
+  {
+    "FirstName": "Bjorn",
+    "MiddleName": "M",
+    "LastName": "Rettig",
+    "име": "Bjorn M Rettig",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Scott",
+    "MiddleName": "R",
+    "LastName": "Gode",
+    "име": "Scott R Gode",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "L",
+    "LastName": "Rothkugel",
+    "име": "Michael L Rothkugel",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Lane",
+    "MiddleName": "M",
+    "LastName": "Sacksteder",
+    "име": "Lane M Sacksteder",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Pete",
+    "MiddleName": "C",
+    "LastName": "Male",
+    "име": "Pete C Male",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Dan",
+    "MiddleName": "K",
+    "LastName": "Bacon",
+    "име": "Dan K Bacon",
+    "отдел": "Information Services",
+    "заплата": 27400.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "M",
+    "LastName": "Barber",
+    "име": "David M Barber",
+    "отдел": "Finance",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Lolan",
+    "MiddleName": "B",
+    "LastName": "Song",
+    "име": "Lolan B Song",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Paula",
+    "MiddleName": "R",
+    "LastName": "Nartker",
+    "име": "Paula R Nartker",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Mary",
+    "MiddleName": "E",
+    "LastName": "Gibson",
+    "име": "Mary E Gibson",
+    "отдел": "Marketing",
+    "заплата": 14400.0000
+  },
+  {
+    "FirstName": "Mindaugas",
+    "MiddleName": "J",
+    "LastName": "Krapauskas",
+    "име": "Mindaugas J Krapauskas",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Eric",
+    "MiddleName": null,
+    "LastName": "Gubbels",
+    "име": "Eric  Gubbels",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Ken",
+    "MiddleName": "J",
+    "LastName": "Sanchez",
+    "име": "Ken J Sanchez",
+    "отдел": "Executive",
+    "заплата": 125500.0000
+  },
+  {
+    "FirstName": "Jason",
+    "MiddleName": "M",
+    "LastName": "Watters",
+    "име": "Jason M Watters",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Mark",
+    "MiddleName": "L",
+    "LastName": "Harrington",
+    "име": "Mark L Harrington",
+    "отдел": "Quality Assurance",
+    "заплата": 10600.0000
+  },
+  {
+    "FirstName": "Janeth",
+    "MiddleName": "M",
+    "LastName": "Esteves",
+    "име": "Janeth M Esteves",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Marc",
+    "MiddleName": "J",
+    "LastName": "Ingle",
+    "име": "Marc J Ingle",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Gigi",
+    "MiddleName": "",
+    "LastName": "Matthew",
+    "име": "Gigi  Matthew",
+    "отдел": "Research and Development",
+    "заплата": 40900.0000
+  },
+  {
+    "FirstName": "Paul",
+    "MiddleName": "R",
+    "LastName": "Singh",
+    "име": "Paul R Singh",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Frank",
+    "MiddleName": "T",
+    "LastName": "Lee",
+    "име": "Frank T Lee",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Francois",
+    "MiddleName": "P",
+    "LastName": "Ajenstat",
+    "име": "Francois P Ajenstat",
+    "отдел": "Information Services",
+    "заплата": 38500.0000
+  },
+  {
+    "FirstName": "Diane",
+    "MiddleName": "H",
+    "LastName": "Tibbott",
+    "име": "Diane H Tibbott",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Jill",
+    "MiddleName": "A",
+    "LastName": "Williams",
+    "име": "Jill A Williams",
+    "отдел": "Marketing",
+    "заплата": 14400.0000
+  },
+  {
+    "FirstName": "Angela",
+    "MiddleName": "W",
+    "LastName": "Barbariol",
+    "име": "Angela W Barbariol",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Matthias",
+    "MiddleName": "T",
+    "LastName": "Berndt",
+    "име": "Matthias T Berndt",
+    "отдел": "Shipping and Receiving",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Bryan",
+    "MiddleName": null,
+    "LastName": "Baker",
+    "име": "Bryan  Baker",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Jeff",
+    "MiddleName": "V",
+    "LastName": "Hay",
+    "име": "Jeff V Hay",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Eugene",
+    "MiddleName": "R",
+    "LastName": "Zabokritski",
+    "име": "Eugene R Zabokritski",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Barbara",
+    "MiddleName": "S",
+    "LastName": "Decker",
+    "име": "Barbara S Decker",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Chris",
+    "MiddleName": "T",
+    "LastName": "Preston",
+    "име": "Chris T Preston",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Sean",
+    "MiddleName": "",
+    "LastName": "Chai",
+    "име": "Sean  Chai",
+    "отдел": "Document Control",
+    "заплата": 10300.0000
+  },
+  {
+    "FirstName": "Dan",
+    "MiddleName": "B",
+    "LastName": "Wilson",
+    "име": "Dan B Wilson",
+    "отдел": "Information Services",
+    "заплата": 38500.0000
+  },
+  {
+    "FirstName": "Mark",
+    "MiddleName": "K",
+    "LastName": "McArthur",
+    "име": "Mark K McArthur",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Bryan",
+    "MiddleName": "A",
+    "LastName": "Walton",
+    "име": "Bryan A Walton",
+    "отдел": "Finance",
+    "заплата": 19000.0000
+  },
+  {
+    "FirstName": "Houman",
+    "MiddleName": "",
+    "LastName": "Pournasseh",
+    "име": "Houman  Pournasseh",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Sairaj",
+    "MiddleName": "L",
+    "LastName": "Uddin",
+    "име": "Sairaj L Uddin",
+    "отдел": "Production Control",
+    "заплата": 16000.0000
+  },
+  {
+    "FirstName": "Michiko",
+    "MiddleName": "F",
+    "LastName": "Osada",
+    "име": "Michiko F Osada",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Benjamin",
+    "MiddleName": "R",
+    "LastName": "Martin",
+    "име": "Benjamin R Martin",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Cynthia",
+    "MiddleName": "S",
+    "LastName": "Randall",
+    "име": "Cynthia S Randall",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Kathie",
+    "MiddleName": "E",
+    "LastName": "Flood",
+    "име": "Kathie E Flood",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Britta",
+    "MiddleName": "L",
+    "LastName": "Simon",
+    "име": "Britta L Simon",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Brian",
+    "MiddleName": "T",
+    "LastName": "Lloyd",
+    "име": "Brian T Lloyd",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "J",
+    "LastName": "Liu",
+    "име": "David J Liu",
+    "отдел": "Finance",
+    "заплата": 34700.0000
+  },
+  {
+    "FirstName": "Laura",
+    "MiddleName": "F",
+    "LastName": "Norman",
+    "име": "Laura F Norman",
+    "отдел": "Executive",
+    "заплата": 60100.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "W",
+    "LastName": "Patten",
+    "име": "Michael W Patten",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Andy",
+    "MiddleName": "M",
+    "LastName": "Ruth",
+    "име": "Andy M Ruth",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Yuhong",
+    "MiddleName": "L",
+    "LastName": "Li",
+    "име": "Yuhong L Li",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Robert",
+    "MiddleName": "J",
+    "LastName": "Rounthwaite",
+    "име": "Robert J Rounthwaite",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Andreas",
+    "MiddleName": "T",
+    "LastName": "Berglund",
+    "име": "Andreas T Berglund",
+    "отдел": "Quality Assurance",
+    "заплата": 10600.0000
+  },
+  {
+    "FirstName": "Reed",
+    "MiddleName": "T",
+    "LastName": "Koch",
+    "име": "Reed T Koch",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Linda",
+    "MiddleName": "A",
+    "LastName": "Randall",
+    "име": "Linda A Randall",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "James",
+    "MiddleName": "R",
+    "LastName": "Hamilton",
+    "име": "James R Hamilton",
+    "отдел": "Production",
+    "заплата": 84100.0000
+  },
+  {
+    "FirstName": "Ramesh",
+    "MiddleName": "V",
+    "LastName": "Meyyappan",
+    "име": "Ramesh V Meyyappan",
+    "отдел": "Information Services",
+    "заплата": 27400.0000
+  },
+  {
+    "FirstName": "Stephanie",
+    "MiddleName": "A",
+    "LastName": "Conroy",
+    "име": "Stephanie A Conroy",
+    "отдел": "Information Services",
+    "заплата": 39700.0000
+  },
+  {
+    "FirstName": "Samantha",
+    "MiddleName": "H",
+    "LastName": "Smith",
+    "име": "Samantha H Smith",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Tawana",
+    "MiddleName": "G",
+    "LastName": "Nusbaum",
+    "име": "Tawana G Nusbaum",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Denise",
+    "MiddleName": "H",
+    "LastName": "Smith",
+    "име": "Denise H Smith",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Hao",
+    "MiddleName": "O",
+    "LastName": "Chen",
+    "име": "Hao O Chen",
+    "отдел": "Human Resources",
+    "заплата": 13900.0000
+  },
+  {
+    "FirstName": "Alex",
+    "MiddleName": "M",
+    "LastName": "Nayberg",
+    "име": "Alex M Nayberg",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Eugene",
+    "MiddleName": "O",
+    "LastName": "Kogan",
+    "име": "Eugene O Kogan",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Brandon",
+    "MiddleName": "G",
+    "LastName": "Heidepriem",
+    "име": "Brandon G Heidepriem",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Dylan",
+    "MiddleName": "A",
+    "LastName": "Miller",
+    "име": "Dylan A Miller",
+    "отдел": "Research and Development",
+    "заплата": 50500.0000
+  },
+  {
+    "FirstName": "Shane",
+    "MiddleName": "S",
+    "LastName": "Kim",
+    "име": "Shane S Kim",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "John",
+    "MiddleName": "Y",
+    "LastName": "Chen",
+    "име": "John Y Chen",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Karen",
+    "MiddleName": "R",
+    "LastName": "Berge",
+    "име": "Karen R Berge",
+    "отдел": "Document Control",
+    "заплата": 10300.0000
+  },
+  {
+    "FirstName": "Jose",
+    "MiddleName": "R",
+    "LastName": "Lugo",
+    "име": "Jose R Lugo",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Mandar",
+    "MiddleName": "H",
+    "LastName": "Samant",
+    "име": "Mandar H Samant",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Mikael",
+    "MiddleName": "Q",
+    "LastName": "Sandberg",
+    "име": "Mikael Q Sandberg",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Sameer",
+    "MiddleName": "A",
+    "LastName": "Tejani",
+    "име": "Sameer A Tejani",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Dragan",
+    "MiddleName": "K",
+    "LastName": "Tomic",
+    "име": "Dragan K Tomic",
+    "отдел": "Finance",
+    "заплата": 19000.0000
+  },
+  {
+    "FirstName": "Carol",
+    "MiddleName": "M",
+    "LastName": "Philips",
+    "име": "Carol M Philips",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Rob",
+    "MiddleName": "T",
+    "LastName": "Caron",
+    "име": "Rob T Caron",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Don",
+    "MiddleName": "L",
+    "LastName": "Hall",
+    "име": "Don L Hall",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Alan",
+    "MiddleName": "J",
+    "LastName": "Brewer",
+    "име": "Alan J Brewer",
+    "отдел": "Production Control",
+    "заплата": 16000.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "Oliver",
+    "LastName": "Lawrence",
+    "име": "David Oliver Lawrence",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Baris",
+    "MiddleName": "F",
+    "LastName": "Cetinok",
+    "име": "Baris F Cetinok",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "Sean",
+    "LastName": "Ray",
+    "име": "Michael Sean Ray",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Steve",
+    "MiddleName": "F",
+    "LastName": "Masters",
+    "име": "Steve F Masters",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Suchitra",
+    "MiddleName": "O",
+    "LastName": "Mohan",
+    "име": "Suchitra O Mohan",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Karen",
+    "MiddleName": "A",
+    "LastName": "Berg",
+    "име": "Karen A Berg",
+    "отдел": "Information Services",
+    "заплата": 27400.0000
+  },
+  {
+    "FirstName": "Terrence",
+    "MiddleName": "W",
+    "LastName": "Earls",
+    "име": "Terrence W Earls",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Barbara",
+    "MiddleName": "C",
+    "LastName": "Moreland",
+    "име": "Barbara C Moreland",
+    "отдел": "Finance",
+    "заплата": 26400.0000
+  },
+  {
+    "FirstName": "Chad",
+    "MiddleName": "W",
+    "LastName": "Niswonger",
+    "име": "Chad W Niswonger",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Rostislav",
+    "MiddleName": "E",
+    "LastName": "Shabalin",
+    "име": "Rostislav E Shabalin",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Belinda",
+    "MiddleName": "M",
+    "LastName": "Newman",
+    "име": "Belinda M Newman",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Katie",
+    "MiddleName": "L",
+    "LastName": "McAskill-White",
+    "име": "Katie L McAskill-White",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Russell",
+    "MiddleName": "M",
+    "LastName": "King",
+    "име": "Russell M King",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Jack",
+    "MiddleName": "S",
+    "LastName": "Richins",
+    "име": "Jack S Richins",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Andrew",
+    "MiddleName": "R",
+    "LastName": "Hill",
+    "име": "Andrew R Hill",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Nicole",
+    "MiddleName": "B",
+    "LastName": "Holliday",
+    "име": "Nicole B Holliday",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Frank",
+    "MiddleName": "T",
+    "LastName": "Miller",
+    "име": "Frank T Miller",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Peter",
+    "MiddleName": "I",
+    "LastName": "Connelly",
+    "име": "Peter I Connelly",
+    "отдел": "Information Services",
+    "заплата": 32500.0000
+  },
+  {
+    "FirstName": "Anibal",
+    "MiddleName": "T",
+    "LastName": "Sousa",
+    "име": "Anibal T Sousa",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Ken",
+    "MiddleName": "L",
+    "LastName": "Myer",
+    "име": "Ken L Myer",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Grant",
+    "MiddleName": "",
+    "LastName": "Culbertson",
+    "име": "Grant  Culbertson",
+    "отдел": "Human Resources",
+    "заплата": 13900.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "T",
+    "LastName": "Entin",
+    "име": "Michael T Entin",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Lionel",
+    "MiddleName": "C",
+    "LastName": "Penuchot",
+    "име": "Lionel C Penuchot",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Thomas",
+    "MiddleName": "R",
+    "LastName": "Michaels",
+    "име": "Thomas R Michaels",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Jimmy",
+    "MiddleName": "T",
+    "LastName": "Bischoff",
+    "име": "Jimmy T Bischoff",
+    "отдел": "Shipping and Receiving",
+    "заплата": 9000.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "T",
+    "LastName": "Vanderhyde",
+    "име": "Michael T Vanderhyde",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Lori",
+    "MiddleName": "A",
+    "LastName": "Kane",
+    "име": "Lori A Kane",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Arvind",
+    "MiddleName": "B",
+    "LastName": "Rao",
+    "име": "Arvind B Rao",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Stefen",
+    "MiddleName": "A",
+    "LastName": "Hesse",
+    "име": "Stefen A Hesse",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Hazem",
+    "MiddleName": "E",
+    "LastName": "Abolrous",
+    "име": "Hazem E Abolrous",
+    "отдел": "Quality Assurance",
+    "заплата": 28800.0000
+  },
+  {
+    "FirstName": "Janet",
+    "MiddleName": "L",
+    "LastName": "Sheperdigian",
+    "име": "Janet L Sheperdigian",
+    "отдел": "Finance",
+    "заплата": 19000.0000
+  },
+  {
+    "FirstName": "Elizabeth",
+    "MiddleName": "I",
+    "LastName": "Keyser",
+    "име": "Elizabeth I Keyser",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Terry",
+    "MiddleName": "J",
+    "LastName": "Eminhizer",
+    "име": "Terry J Eminhizer",
+    "отдел": "Marketing",
+    "заплата": 14400.0000
+  },
+  {
+    "FirstName": "John",
+    "MiddleName": "",
+    "LastName": "Frum",
+    "име": "John  Frum",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Merav",
+    "MiddleName": "A",
+    "LastName": "Netz",
+    "име": "Merav A Netz",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Brian",
+    "MiddleName": "P",
+    "LastName": "LaMee",
+    "име": "Brian P LaMee",
+    "отдел": "Production Control",
+    "заплата": 16000.0000
+  },
+  {
+    "FirstName": "Kitti",
+    "MiddleName": "H",
+    "LastName": "Lertpiriyasuwat",
+    "име": "Kitti H Lertpiriyasuwat",
+    "отдел": "Production",
+    "заплата": 11000.0000
+  },
+  {
+    "FirstName": "Jay",
+    "MiddleName": "G",
+    "LastName": "Adams",
+    "име": "Jay G Adams",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Jan",
+    "MiddleName": "S",
+    "LastName": "Miksovsky",
+    "име": "Jan S Miksovsky",
+    "отдел": "Production",
+    "заплата": 9500.0000
+  },
+  {
+    "FirstName": "Brenda",
+    "MiddleName": "M",
+    "LastName": "Diaz",
+    "име": "Brenda M Diaz",
+    "отдел": "Production",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Andrew",
+    "MiddleName": "M",
+    "LastName": "Cencini",
+    "име": "Andrew M Cencini",
+    "отдел": "Production",
+    "заплата": 10000.0000
+  },
+  {
+    "FirstName": "Chris",
+    "MiddleName": "K",
+    "LastName": "Norred",
+    "име": "Chris K Norred",
+    "отдел": "Document Control",
+    "заплата": 16800.0000
+  },
+  {
+    "FirstName": "Chris",
+    "MiddleName": "O",
+    "LastName": "Okelberry",
+    "име": "Chris O Okelberry",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Shelley",
+    "MiddleName": "",
+    "LastName": "Dyck",
+    "име": "Shelley  Dyck",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Gabe",
+    "MiddleName": "B",
+    "LastName": "Mares",
+    "име": "Gabe B Mares",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Mike",
+    "MiddleName": "K",
+    "LastName": "Seamans",
+    "име": "Mike K Seamans",
+    "отдел": "Finance",
+    "заплата": 26400.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": null,
+    "LastName": "Raheem",
+    "име": "Michael  Raheem",
+    "отдел": "Research and Development",
+    "заплата": 42500.0000
+  },
+  {
+    "FirstName": "Gary",
+    "MiddleName": "E.",
+    "LastName": "Altman",
+    "име": "Gary E. Altman",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 24000.0000
+  },
+  {
+    "FirstName": "Charles",
+    "MiddleName": "B",
+    "LastName": "Fitzgerald",
+    "име": "Charles B Fitzgerald",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Ebru",
+    "MiddleName": "",
+    "LastName": "Ersan",
+    "име": "Ebru  Ersan",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Sylvester",
+    "MiddleName": "A",
+    "LastName": "Valdez",
+    "име": "Sylvester A Valdez",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Brian",
+    "MiddleName": "Richard",
+    "LastName": "Goldstein",
+    "име": "Brian Richard Goldstein",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Linda",
+    "MiddleName": "P",
+    "LastName": "Meisner",
+    "име": "Linda P Meisner",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Betsy",
+    "MiddleName": "A",
+    "LastName": "Stadick",
+    "име": "Betsy A Stadick",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Magnus",
+    "MiddleName": "E",
+    "LastName": "Hedlund",
+    "име": "Magnus E Hedlund",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 9800.0000
+  },
+  {
+    "FirstName": "Karan",
+    "MiddleName": "R",
+    "LastName": "Khanna",
+    "име": "Karan R Khanna",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Mary",
+    "MiddleName": "R",
+    "LastName": "Baker",
+    "име": "Mary R Baker",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Kevin",
+    "MiddleName": "M",
+    "LastName": "Homer",
+    "име": "Kevin M Homer",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Mihail",
+    "MiddleName": "U",
+    "LastName": "Frintu",
+    "име": "Mihail U Frintu",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Bonnie",
+    "MiddleName": "",
+    "LastName": "Kearney",
+    "име": "Bonnie  Kearney",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Fukiko",
+    "MiddleName": "J",
+    "LastName": "Ogisu",
+    "име": "Fukiko J Ogisu",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Hung-Fu",
+    "MiddleName": "T",
+    "LastName": "Ting",
+    "име": "Hung-Fu T Ting",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Gordon",
+    "MiddleName": "L",
+    "LastName": "Hee",
+    "име": "Gordon L Hee",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Kimberly",
+    "MiddleName": "B",
+    "LastName": "Zimmerman",
+    "име": "Kimberly B Zimmerman",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Kim",
+    "MiddleName": "B",
+    "LastName": "Abercrombie",
+    "име": "Kim B Abercrombie",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Sandeep",
+    "MiddleName": "P",
+    "LastName": "Kaliyath",
+    "име": "Sandeep P Kaliyath",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Prasanna",
+    "MiddleName": "E",
+    "LastName": "Samarawickrama",
+    "име": "Prasanna E Samarawickrama",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Frank",
+    "MiddleName": "S",
+    "LastName": "Pellow",
+    "име": "Frank S Pellow",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Min",
+    "MiddleName": "G",
+    "LastName": "Su",
+    "име": "Min G Su",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Eric",
+    "MiddleName": "L",
+    "LastName": "Brown",
+    "име": "Eric L Brown",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Eric",
+    "MiddleName": "S",
+    "LastName": "Kurjan",
+    "име": "Eric S Kurjan",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Pat",
+    "MiddleName": "H",
+    "LastName": "Coleman",
+    "име": "Pat H Coleman",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 9300.0000
+  },
+  {
+    "FirstName": "Maciej",
+    "MiddleName": "W",
+    "LastName": "Dusza",
+    "име": "Maciej W Dusza",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Erin",
+    "MiddleName": "M",
+    "LastName": "Hagens",
+    "име": "Erin M Hagens",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Patrick",
+    "MiddleName": "C",
+    "LastName": "Wedge",
+    "име": "Patrick C Wedge",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Frank",
+    "MiddleName": "R",
+    "LastName": "Martinez",
+    "име": "Frank R Martinez",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Ed",
+    "MiddleName": "R",
+    "LastName": "Dudenhoefer",
+    "име": "Ed R Dudenhoefer",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Christopher",
+    "MiddleName": "E",
+    "LastName": "Hill",
+    "име": "Christopher E Hill",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Patrick",
+    "MiddleName": "M",
+    "LastName": "Cook",
+    "име": "Patrick M Cook",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Krishna",
+    "MiddleName": null,
+    "LastName": "Sunkammurali",
+    "име": "Krishna  Sunkammurali",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Lori",
+    "MiddleName": "K",
+    "LastName": "Penor",
+    "име": "Lori K Penor",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 9300.0000
+  },
+  {
+    "FirstName": "Danielle",
+    "MiddleName": "C",
+    "LastName": "Tiedt",
+    "име": "Danielle C Tiedt",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Sootha",
+    "MiddleName": "T",
+    "LastName": "Charncherngkha",
+    "име": "Sootha T Charncherngkha",
+    "отдел": "Quality Assurance",
+    "заплата": 10600.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "J",
+    "LastName": "Zwilling",
+    "име": "Michael J Zwilling",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "Randy",
+    "MiddleName": "T",
+    "LastName": "Reeves",
+    "име": "Randy T Reeves",
+    "отдел": "Production",
+    "заплата": 12500.0000
+  },
+  {
+    "FirstName": "John",
+    "MiddleName": "T",
+    "LastName": "Kane",
+    "име": "John T Kane",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Jack",
+    "MiddleName": "T",
+    "LastName": "Creasey",
+    "име": "Jack T Creasey",
+    "отдел": "Production",
+    "заплата": 15000.0000
+  },
+  {
+    "FirstName": "Olinda",
+    "MiddleName": "C",
+    "LastName": "Turner",
+    "име": "Olinda C Turner",
+    "отдел": "Production",
+    "заплата": 14000.0000
+  },
+  {
+    "FirstName": "Stuart",
+    "MiddleName": "J",
+    "LastName": "Macrae",
+    "име": "Stuart J Macrae",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 9300.0000
+  },
+  {
+    "FirstName": "Jo",
+    "MiddleName": "L",
+    "LastName": "Berry",
+    "име": "Jo L Berry",
+    "отдел": "Facilities and Maintenance",
+    "заплата": 9300.0000
+  },
+  {
+    "FirstName": "Ben",
+    "MiddleName": "T",
+    "LastName": "Miller",
+    "име": "Ben T Miller",
+    "отдел": "Purchasing",
+    "заплата": 18300.0000
+  },
+  {
+    "FirstName": "Tom",
+    "MiddleName": "M",
+    "LastName": "Vande Velde",
+    "име": "Tom M Vande Velde",
+    "отдел": "Production",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Ovidiu",
+    "MiddleName": "V",
+    "LastName": "Cracium",
+    "име": "Ovidiu V Cracium",
+    "отдел": "Tool Design",
+    "заплата": 28800.0000
+  },
+  {
+    "FirstName": "Annette",
+    "MiddleName": "L",
+    "LastName": "Hill",
+    "име": "Annette L Hill",
+    "отдел": "Purchasing",
+    "заплата": 12800.0000
+  },
+  {
+    "FirstName": "Janice",
+    "MiddleName": "M",
+    "LastName": "Galvin",
+    "име": "Janice M Galvin",
+    "отдел": "Tool Design",
+    "заплата": 25000.0000
+  },
+  {
+    "FirstName": "Reinout",
+    "MiddleName": "",
+    "LastName": "Hillmann",
+    "име": "Reinout  Hillmann",
+    "отдел": "Purchasing",
+    "заплата": 12800.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "I",
+    "LastName": "Sullivan",
+    "име": "Michael I Sullivan",
+    "отдел": "Engineering",
+    "заплата": 36100.0000
+  },
+  {
+    "FirstName": "Stephen",
+    "MiddleName": "Y",
+    "LastName": "Jiang",
+    "име": "Stephen Y Jiang",
+    "отдел": "Sales",
+    "заплата": 48100.0000
+  },
+  {
+    "FirstName": "Wanida",
+    "MiddleName": "M",
+    "LastName": "Benshoof",
+    "име": "Wanida M Benshoof",
+    "отдел": "Marketing",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Sharon",
+    "MiddleName": "B",
+    "LastName": "Salavaria",
+    "име": "Sharon B Salavaria",
+    "отдел": "Engineering",
+    "заплата": 32700.0000
+  },
+  {
+    "FirstName": "John",
+    "MiddleName": "L",
+    "LastName": "Wood",
+    "име": "John L Wood",
+    "отдел": "Marketing",
+    "заплата": 14400.0000
+  },
+  {
+    "FirstName": "Mary",
+    "MiddleName": "A",
+    "LastName": "Dempsey",
+    "име": "Mary A Dempsey",
+    "отдел": "Marketing",
+    "заплата": 13500.0000
+  },
+  {
+    "FirstName": "Brian",
+    "MiddleName": "S",
+    "LastName": "Welcker",
+    "име": "Brian S Welcker",
+    "отдел": "Sales",
+    "заплата": 72100.0000
+  },
+  {
+    "FirstName": "Sheela",
+    "MiddleName": "H",
+    "LastName": "Word",
+    "име": "Sheela H Word",
+    "отдел": "Quality Assurance",
+    "заплата": 30000.0000
+  },
+  {
+    "FirstName": "Michael",
+    "MiddleName": "G",
+    "LastName": "Blythe",
+    "име": "Michael G Blythe",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Linda",
+    "MiddleName": "C",
+    "LastName": "Mitchell",
+    "име": "Linda C Mitchell",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Jillian",
+    "MiddleName": null,
+    "LastName": "Carson",
+    "име": "Jillian  Carson",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Garrett",
+    "MiddleName": "R",
+    "LastName": "Vargas",
+    "име": "Garrett R Vargas",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Tsvi",
+    "MiddleName": "Michael",
+    "LastName": "Reiter",
+    "име": "Tsvi Michael Reiter",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Pamela",
+    "MiddleName": "O",
+    "LastName": "Ansman-Wolfe",
+    "име": "Pamela O Ansman-Wolfe",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Shu",
+    "MiddleName": "K",
+    "LastName": "Ito",
+    "име": "Shu K Ito",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Jose",
+    "MiddleName": "Edvaldo",
+    "LastName": "Saraiva",
+    "име": "Jose Edvaldo Saraiva",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "David",
+    "MiddleName": "R",
+    "LastName": "Campbell",
+    "име": "David R Campbell",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Amy",
+    "MiddleName": "E",
+    "LastName": "Alberts",
+    "име": "Amy E Alberts",
+    "отдел": "Sales",
+    "заплата": 48100.0000
+  },
+  {
+    "FirstName": "Jae",
+    "MiddleName": "B",
+    "LastName": "Pak",
+    "име": "Jae B Pak",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Ranjit",
+    "MiddleName": "R",
+    "LastName": "Varkey Chudukatil",
+    "име": "Ranjit R Varkey Chudukatil",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Tete",
+    "MiddleName": "A",
+    "LastName": "Mensa-Annan",
+    "име": "Tete A Mensa-Annan",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Syed",
+    "MiddleName": "E",
+    "LastName": "Abbas",
+    "име": "Syed E Abbas",
+    "отдел": "Sales",
+    "заплата": 48100.0000
+  },
+  {
+    "FirstName": "Rachel",
+    "MiddleName": "B",
+    "LastName": "Valdez",
+    "име": "Rachel B Valdez",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Lynn",
+    "MiddleName": "",
+    "LastName": "Tsoflias",
+    "име": "Lynn  Tsoflias",
+    "отдел": "Sales",
+    "заплата": 23100.0000
+  },
+  {
+    "FirstName": "Svetlin",
+    "MiddleName": "Ivanov",
+    "LastName": "Nakov",
+    "име": "Svetlin Ivanov Nakov",
+    "отдел": "Research and Development",
+    "заплата": 48000.0000
+  },
+  {
+    "FirstName": "Martin",
+    "MiddleName": null,
+    "LastName": "Kulov",
+    "име": "Martin  Kulov",
+    "отдел": "Research and Development",
+    "заплата": 48000.0000
+  },
+  {
+    "FirstName": "George",
+    "MiddleName": null,
+    "LastName": "Denchev",
+    "име": "George  Denchev",
+    "отдел": "Research and Development",
+    "заплата": 48000.0000
+  }
+]
