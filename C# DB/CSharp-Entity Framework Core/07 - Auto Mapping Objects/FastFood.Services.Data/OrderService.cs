@@ -23,11 +23,45 @@
 
         public async Task CreateAsync(CreateOrderInputModel model)
         {
-            Order order = this.mapper.Map<Order>(model);
+            try
+            {
+                // Ensure employee exists and is valid
+                var employee = await this.context.Employees.FindAsync(model.EmployeeId);
+                if (employee == null)
+                {
+                    throw new Exception("Invalid EmployeeId.");
+                }
 
-            await this.context.Orders.AddAsync(order);
-            await this.context.SaveChangesAsync();
+                // Create new order
+                var order = this.mapper.Map<Order>(model);
+                order.Employee = employee; // Associate the employee object
+
+                // Handling OrderItems
+                var orderItem = new OrderItem
+                {
+                    OrderId = order.Id, // Use order's generated Id
+                    ItemId = model.ItemId.ToString(), // Ensure ItemId matches the model and database
+                    Quantity = model.Quantity
+                };
+
+                order.OrderItems.Add(orderItem);
+
+                // Save the new order to the database
+                await this.context.Orders.AddAsync(order);
+                await this.context.SaveChangesAsync(); // Exception likely occurs here
+
+
+                // ... existing code ...
+
+                await this.context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                var innerException = ex.InnerException?.Message;
+                throw new Exception($"An error occurred: {innerException}", ex);
+            }
         }
+
 
         public async Task<IEnumerable<OrderAllViewModel>> GetAllAsync()
                 => await this.context.Orders

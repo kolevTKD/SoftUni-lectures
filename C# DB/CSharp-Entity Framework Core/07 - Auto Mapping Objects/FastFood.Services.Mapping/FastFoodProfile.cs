@@ -48,17 +48,44 @@
 
             // Mapping from order entity to create order view model
             CreateMap<Order, CreateOrderViewModel>()
-                .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.OrderItems!.Select(oi => oi.ItemId).ToList()))
-                .ForMember(dest => dest.Employees, opt => opt.MapFrom(src => new List<Employee> { src.Employee }));
+                .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.OrderItems!.Select(oi => new ItemsAllViewModel
+                {
+                    Name = oi.Item.Name, // Ensure correct mapping from Item entity
+                    Price = oi.Item.Price,
+                    Category = oi.Item.Category.Name
+                }).ToList()))
+                .ForMember(dest => dest.Employees, opt => opt.Ignore());
+
+
+
+
+            CreateMap<Order, CreateOrderViewModel>()
+                .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.OrderItems.Select(oi => new ItemsAllViewModel { Id = oi.Item.Id, Name = oi.Item.Name }).ToList()))
+                .ForMember(dest => dest.Employees, opt => opt.MapFrom(src => new List<EmployeesAllViewModel> { new EmployeesAllViewModel { Name = src.Employee.Name, Age = src.Employee.Age, Address = src.Employee.Address, Position = src.Employee.Position.Name } }));
+
+            CreateMap<CreateOrderInputModel, Order>()
+                .ForMember(dest => dest.EmployeeId, opt => opt.MapFrom(src => src.EmployeeId))
+                .ForMember(dest => dest.OrderItems, opt => opt.MapFrom(src => new List<OrderItem>
+                {
+                    new OrderItem
+                    {
+                        ItemId = src.ItemId.ToString(), // Make sure you convert to the correct type if necessary
+                        Quantity = src.Quantity
+                    }
+                }))
+                .ForMember(dest => dest.DateTime, opt => opt.MapFrom(src => DateTime.UtcNow)); // Or any specific date handling
+
+
+            CreateMap<CreateOrderInputModel, Order>()
+                .ForMember(dest => dest.EmployeeId, opt => opt.MapFrom(src => src.EmployeeId))
+                .ForMember(dest => dest.OrderItems, opt => opt.Ignore()); // Handling OrderItems separately
+
 
 
             CreateMap<Order, OrderAllViewModel>();
 
             CreateMap<CreateOrderInputModel, Order>()
                 .ForMember(dest => dest.EmployeeId, opt => opt.MapFrom(src => src.EmployeeId)); // Ensure correct mapping
-
-    // Other mappings
-
 
             //Employees
             CreateMap<Employee, RegisterEmployeeViewModel>();
