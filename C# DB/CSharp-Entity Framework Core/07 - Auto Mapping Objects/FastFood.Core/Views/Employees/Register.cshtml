@@ -15,11 +15,11 @@
         <input type="number" step="1" min="18" class="form-control" id="age" placeholder="Age..." name="age">
     </div>
     <div class="form-group">
-        <label for="position">Position Id</label>
+        <label for="position">Position</label>
         <select id="position" class="form-control" name="PositionId">
             @foreach (var position in Model)
             {
-                <option value="@position.PositionId">@position.PositionId</option>
+                <option value="@position.PositionId">@position.PositionName</option>
             }
         </select>
     </div>

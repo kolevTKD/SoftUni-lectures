@@ -7,10 +7,9 @@
 
     using FastFood.Data;
     using FastFood.Models;
-    using Web.ViewModels.Categories;
     using Web.ViewModels.Positions;
 
-    public class PositionsService : IPositionsService
+    public class PositionsService : IPositionService
     {
         private readonly IMapper mapper;
         private readonly FastFoodContext context;

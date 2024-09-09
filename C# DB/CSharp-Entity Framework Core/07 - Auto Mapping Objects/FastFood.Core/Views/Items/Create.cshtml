@@ -15,11 +15,11 @@
         <input type="number" step="0.01" min="0.01" class="form-control" id="price" placeholder="Price..." name="price">
     </div>
     <div class="form-group">
-        <label for="category">Category Id</label>
+        <label for="category">Category</label>
         <select id="category" class="form-control" name="CategoryId">
             @foreach (var item in Model)
             {
-                    <option value="@item.CategoryId">@item.CategoryId</option>
+                    <option value="@item.CategoryId">@item.CategoryName</option>
             }
         </select>
     </div>

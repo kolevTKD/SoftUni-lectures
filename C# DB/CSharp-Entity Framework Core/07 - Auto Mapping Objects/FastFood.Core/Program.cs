@@ -19,7 +19,15 @@ builder.Services.AddAutoMapper(cfg =>
 });
 
 //Register services (DI)
-builder.Services.AddTransient<IPositionsService, PositionsService>();
+builder.Services.AddTransient<IPositionService, PositionsService>();
+
+builder.Services.AddTransient<ICategoryService, CategoriesService>();
+
+builder.Services.AddTransient<IItemService, ItemsService>();
+
+builder.Services.AddTransient<IOrderService, OrderService>();
+
+builder.Services.AddTransient<IEmployeeService, EmployeeService>();
 
 var app = builder.Build();
 

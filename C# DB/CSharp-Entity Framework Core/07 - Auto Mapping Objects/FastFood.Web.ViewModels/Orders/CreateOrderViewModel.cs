@@ -2,10 +2,13 @@
 {
     using System.Collections.Generic;
 
+    using Employees;
+    using Items;
+
     public class CreateOrderViewModel
     {
-        public List<int> Items { get; set; } = null!;
+        public List<ItemsAllViewModel> Items { get; set; } = null!;
 
-        public List<int> Employees { get; set; } = null!;
+        public List<EmployeesAllViewModel> Employees { get; set; } = null!;
     }
 }

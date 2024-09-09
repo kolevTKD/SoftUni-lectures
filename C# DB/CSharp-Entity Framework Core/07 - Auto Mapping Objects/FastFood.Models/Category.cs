@@ -15,7 +15,7 @@
         [Key]
         public int Id { get; set; }
 
-        [StringLength(EntitiesValidation.CATEGORY_NAME_MAX_LENGTH, MinimumLength = 3)]
+        [MaxLength(EntitiesValidation.CATEGORY_NAME_MAX_LENGTH)]
         public string Name { get; set; } = null!;
 
         public virtual ICollection<Item> Items { get; set; }

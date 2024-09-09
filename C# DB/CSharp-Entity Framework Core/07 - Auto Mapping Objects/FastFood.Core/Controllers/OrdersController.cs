@@ -4,40 +4,47 @@
     using System.Linq;
     using AutoMapper;
     using Data;
+    using FastFood.Services.Data;
     using Microsoft.AspNetCore.Mvc;
     using ViewModels.Orders;
 
     public class OrdersController : Controller
     {
-        private readonly FastFoodContext _context;
-        private readonly IMapper _mapper;
+        private readonly IOrderService orderService;
 
-        public OrdersController(FastFoodContext context, IMapper mapper)
+        public OrdersController(IOrderService orderService)
         {
-            _context = context;
-            _mapper = mapper;
+            this.orderService = orderService;
         }
 
-        public IActionResult Create()
+        [HttpGet]
+        public async Task<IActionResult> Create()
         {
-            //var viewOrder = new CreateOrderViewModel
-            //{
-            //    Items = _context.Items.Select(x => x.Id).ToList(),
-            //    Employees = _context.Employees.Select(x => x.Id).ToList(),
-            //};
+            CreateOrderViewModel employeesItems =
+                await this.orderService.GetAllItemsEmployeesAsync();
 
-            return View(/*viewOrder*/);
+            return View(employeesItems);
         }
 
         [HttpPost]
-        public IActionResult Create(CreateOrderInputModel model)
+        public async Task<IActionResult> Create(CreateOrderInputModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                RedirectToAction("Error", "Home");
+            }
+
+            await this.orderService.CreateAsync(model);
+
             return RedirectToAction("All", "Orders");
         }
 
-        public IActionResult All()
+        public async Task<IActionResult> All()
         {
-            throw new NotImplementedException();
+            IEnumerable<OrderAllViewModel> orders =
+                await this.orderService.GetAllAsync();
+
+            return View(orders);
         }
     }
 }

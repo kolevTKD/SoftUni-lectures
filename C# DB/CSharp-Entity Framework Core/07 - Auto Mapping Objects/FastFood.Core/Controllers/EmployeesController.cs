@@ -1,36 +1,51 @@
 ﻿namespace FastFood.Web.Controllers
 {
     using System;
+
     using AutoMapper;
-    using Data;
     using Microsoft.AspNetCore.Mvc;
+
+    using Data;
+    using Services.Data;
     using ViewModels.Employees;
 
     public class EmployeesController : Controller
     {
-        private readonly FastFoodContext _context;
-        private readonly IMapper _mapper;
+        private readonly IEmployeeService employeeService;
 
-        public EmployeesController(FastFoodContext context, IMapper mapper)
+        public EmployeesController(IEmployeeService employeeService)
         {
-            _context = context;
-            _mapper = mapper;
+            this.employeeService = employeeService;
         }
 
-        public IActionResult Register()
+        [HttpGet]
+        public async Task<IActionResult> Register()
         {
-            throw new NotImplementedException();
+            IEnumerable<RegisterEmployeeViewModel> allPositions =
+                await employeeService.GetAllPositionsAsync();
+
+            return View(allPositions);
         }
 
         [HttpPost]
-        public IActionResult Register(RegisterEmployeeInputModel model)
+        public async Task<IActionResult> Register(RegisterEmployeeInputModel model)
         {
-            throw new NotImplementedException();
+            if (!ModelState.IsValid)
+            {
+                RedirectToAction("Error", "Home");
+            }
+
+            await this.employeeService.RegisterAsync(model);
+
+            return RedirectToAction("All");
         }
 
-        public IActionResult All()
+        public async Task<IActionResult> All()
         {
-            throw new NotImplementedException();
+            IEnumerable<EmployeesAllViewModel> employees =
+                await employeeService.GetAllAsync();
+
+            return View(employees);
         }
     }
 }

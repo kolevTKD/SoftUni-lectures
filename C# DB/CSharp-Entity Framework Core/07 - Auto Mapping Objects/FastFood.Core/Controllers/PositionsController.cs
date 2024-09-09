@@ -13,9 +13,9 @@
 
     public class PositionsController : Controller
     {
-        private readonly IPositionsService positionsService;
+        private readonly IPositionService positionsService;
 
-        public PositionsController(IPositionsService positionsService)
+        public PositionsController(IPositionService positionsService)
         {
             this.positionsService = positionsService;
         }
