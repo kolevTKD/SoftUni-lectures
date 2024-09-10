@@ -68,7 +68,11 @@
                 .ForMember(dest => dest.OrderId, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Customer, opt => opt.MapFrom(src => src.Customer))
                 .ForMember(dest => dest.Employee, opt => opt.MapFrom(src => src.Employee.Name))
-                .ForMember(dest => dest.DateTime, opt => opt.MapFrom(src => src.DateTime.ToString("yyyy-MM-dd")));
+                .ForMember(dest => dest.DateTime, opt => opt.MapFrom(src => src.DateTime.ToString("yyyy-MM-dd HH:mm")));
+
+            CreateMap<CreateOrderInputModel, Order>()
+            .ForMember(dest => dest.OrderItems, opt => opt.Ignore()) // Ignore OrderItems in this mapping; handled manually
+            .ForMember(dest => dest.EmployeeId, opt => opt.MapFrom(src => src.EmployeeId));
 
             // Employees
             CreateMap<Employee, EmployeesAllViewModel>()

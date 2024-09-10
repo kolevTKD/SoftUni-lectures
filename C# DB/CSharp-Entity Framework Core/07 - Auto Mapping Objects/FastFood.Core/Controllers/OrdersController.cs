@@ -34,6 +34,11 @@
                 RedirectToAction("Error", "Home");
             }
 
+            if (model.OrderDate == default)
+            {
+                model.OrderDate = DateTime.Now;
+            }
+
             await this.orderService.CreateAsync(model);
 
             return RedirectToAction("All", "Orders");

@@ -174,7 +174,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood.Services.Data", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood.Web.ViewModels", "07 - Auto Mapping Objects\FastFood.Web.ViewModels\FastFood.Web.ViewModels.csproj", "{0836E8F2-91CE-40F6-AF0A-D386EC159D1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONProcessingTest", "Tests and Experiments\JSONProcessingTest\JSONProcessingTest.csproj", "{4C66A18D-86F2-4456-9FB9-274D15A042AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONProcessingTest", "Tests and Experiments\JSONProcessingTest\JSONProcessingTest.csproj", "{4C66A18D-86F2-4456-9FB9-274D15A042AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - JSON Processing", "08 - JSON Processing", "{57086D95-FE44-4435-B14A-B7DF30E0F42A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductShop", "ProductShop", "{701B4FCB-9247-48D7-A58B-4E788369A613}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop", "08 - JSON Processing\ProductShop\ProductShop\ProductShop.csproj", "{E9C61F43-7E71-4613-BCDC-EA18776BBE80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -422,6 +428,10 @@ Global
 		{4C66A18D-86F2-4456-9FB9-274D15A042AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C66A18D-86F2-4456-9FB9-274D15A042AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C66A18D-86F2-4456-9FB9-274D15A042AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C61F43-7E71-4613-BCDC-EA18776BBE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C61F43-7E71-4613-BCDC-EA18776BBE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C61F43-7E71-4613-BCDC-EA18776BBE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C61F43-7E71-4613-BCDC-EA18776BBE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -498,6 +508,8 @@ Global
 		{70AD14AB-7920-479F-8318-0A308488ED8A} = {11391CC4-484D-47DA-9C71-82E3B6E30938}
 		{0836E8F2-91CE-40F6-AF0A-D386EC159D1E} = {7D915CB2-66F5-45ED-90DF-04ADD2726B4F}
 		{4C66A18D-86F2-4456-9FB9-274D15A042AA} = {91CAA42A-72C1-4CED-8331-5A4A6FD7AA65}
+		{701B4FCB-9247-48D7-A58B-4E788369A613} = {57086D95-FE44-4435-B14A-B7DF30E0F42A}
+		{E9C61F43-7E71-4613-BCDC-EA18776BBE80} = {701B4FCB-9247-48D7-A58B-4E788369A613}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {591F91B8-D60C-4F79-8E5E-490E37505815}

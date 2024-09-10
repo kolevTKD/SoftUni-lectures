@@ -3,37 +3,44 @@
 @{
     ViewData["Title"] = "Create Order";
 }
+
 <h1 class="text-center">Create Order</h1>
 <hr class="bg-secondary half-width" />
+
 <form class="mx-auto half-width" asp-controller="Orders" asp-action="Create" method="post">
     <div class="form-group">
-        <label for="name">Customer</label>
-        <input type="text" class="form-control" id="customer" placeholder="Customer..." name="customer">
+        <label for="customer">Customer</label>
+        <input type="text" class="form-control" id="customer" placeholder="Customer..." name="Customer">
     </div>
+
     <div class="form-group">
         <label for="employee">Employee</label>
         <select id="employee" class="form-control" name="EmployeeId">
             @foreach (var employee in Model.Employees)
             {
-                <option value="@employee.">@employee</option>
+                    <option value="@employee.Id">@employee.Name</option>
             }
         </select>
     </div>
+
     <div class="form-group">
         <label for="item">Item</label>
         <select id="item" class="form-control" name="ItemId">
             @foreach (var item in Model.Items)
             {
-                <option value="@item">@item</option>
+                    <option value="@item.Id">@item.Name</option>
             }
         </select>
     </div>
+
     <div class="form-group">
         <label for="quantity">Quantity</label>
-        <input type="number" step="1" min="1" class="form-control" id="quantity" placeholder="Quantity..." name="quantity">
+        <input type="number" step="1" min="1" class="form-control" id="quantity" placeholder="Quantity..." name="Quantity">
     </div>
+
     <hr class="bg-secondary half-width" />
-	<div class="d-flex justify-content-center">
+
+    <div class="d-flex justify-content-center">
         <button type="submit" class="btn btn-primary me-1">Create</button>
         <a class="btn btn-primary ms-1" asp-controller="Orders" asp-action="All">View All</a>
     </div>

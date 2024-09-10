@@ -23,39 +23,37 @@
 
         public async Task CreateAsync(CreateOrderInputModel model)
         {
-            try
+            // Create the Order entity and set basic properties
+            var order = new Order
             {
-                // Ensure employee exists and is valid
-                var employee = await this.context.Employees.FindAsync(model.EmployeeId);
-                if (employee == null)
-                {
-                    throw new Exception("Invalid EmployeeId.");
-                }
+                Customer = model.Customer,
+                EmployeeId = model.EmployeeId,
+                DateTime = model.OrderDate
+            };
 
-                // Create new order
-                var order = this.mapper.Map<Order>(model);
-                order.Employee = employee; // Associate the employee object
+            // Retrieve the item based on ItemId from the input model
+            var item = await this.context.Items
+                .FirstOrDefaultAsync(i => i.Id == model.ItemId);
 
-                // Handling OrderItems
-                var orderItem = new OrderItem
-                {
-                    ItemId = model.ItemId, // Ensure ItemId matches the model and database
-                    Quantity = model.Quantity
-                };
-
-                // Initialize OrderItems list if null
-                order.OrderItems = new List<OrderItem> { orderItem };
-
-                // Save the new order to the database
-                await this.context.Orders.AddAsync(order);
-                await this.context.SaveChangesAsync();
-            }
-            catch (DbUpdateException ex)
+            if (item == null)
             {
-                // Log the detailed exception message
-                var innerException = ex.InnerException?.Message;
-                throw new Exception($"An error occurred: {innerException}", ex);
+                throw new Exception("Invalid ItemId.");
             }
+
+            // Create an OrderItem entity and link it to the Order
+            var orderItem = new OrderItem
+            {
+                ItemId = item.Id,
+                Quantity = model.Quantity,
+                Order = order
+            };
+
+            // Initialize the OrderItems collection and add the OrderItem
+            order.OrderItems = new List<OrderItem> { orderItem };
+
+            // Add the new order to the database
+            await this.context.Orders.AddAsync(order);
+            await this.context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<OrderAllViewModel>> GetAllAsync()
