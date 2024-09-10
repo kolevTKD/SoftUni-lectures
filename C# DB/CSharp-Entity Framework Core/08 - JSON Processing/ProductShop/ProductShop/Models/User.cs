@@ -20,9 +20,9 @@
         public int? Age { get; set; }
 
         [InverseProperty("Seller")]
-        public ICollection<Product> ProductsSold { get; set; }
+        public virtual ICollection<Product> ProductsSold { get; set; }
 
         [InverseProperty("Buyer")]
-        public ICollection<Product> ProductsBought { get; set; }
+        public virtual ICollection<Product> ProductsBought { get; set; }
     }
 }

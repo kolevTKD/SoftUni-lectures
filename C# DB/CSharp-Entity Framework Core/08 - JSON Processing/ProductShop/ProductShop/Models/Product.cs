@@ -16,11 +16,11 @@
         public decimal Price { get; set; }
 
         public int SellerId { get; set; }
-        public User Seller { get; set; } = null!;
+        public virtual User Seller { get; set; } = null!;
 
         public int? BuyerId { get; set; }
-        public User Buyer { get; set; } = null!;
+        public virtual User Buyer { get; set; } = null!;
 
-        public ICollection<CategoryProduct> CategoriesProducts { get; set; }
+        public virtual ICollection<CategoryProduct> CategoriesProducts { get; set; }
     }
 }

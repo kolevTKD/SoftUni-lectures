@@ -43,11 +43,13 @@ namespace ProductShop.Data
             {
                 entity.HasMany(x => x.ProductsBought)
                       .WithOne(x => x.Buyer)
-                      .HasForeignKey(x => x.BuyerId);
+                      .HasForeignKey(x => x.BuyerId)
+                      .OnDelete(DeleteBehavior.NoAction);
 
                 entity.HasMany(x => x.ProductsSold)
                       .WithOne(x => x.Seller)
-                      .HasForeignKey(x => x.SellerId);
+                      .HasForeignKey(x => x.SellerId)
+                      .OnDelete(DeleteBehavior.NoAction);
             });
         }
     }
