@@ -15,7 +15,7 @@
         <select id="employee" class="form-control" name="EmployeeId">
             @foreach (var employee in Model.Employees)
             {
-                <option value="@employee.">@employee.Name</option>
+                <option value="@employee.">@employee</option>
             }
         </select>
     </div>
@@ -24,7 +24,7 @@
         <select id="item" class="form-control" name="ItemId">
             @foreach (var item in Model.Items)
             {
-                <option value="@item">@item.Name</option>
+                <option value="@item">@item</option>
             }
         </select>
     </div>

@@ -6,12 +6,12 @@
     public class OrderItem
     {
         [ForeignKey(nameof(Order))]
-        public string OrderId { get; set; } = null!;
+        public int OrderId { get; set; }
 
         public virtual Order Order { get; set; } = null!;
 
         [ForeignKey(nameof(Item))]
-        public string ItemId { get; set; } = null!;
+        public int ItemId { get; set; }
 
         public virtual Item Item { get; set; } = null!;
 

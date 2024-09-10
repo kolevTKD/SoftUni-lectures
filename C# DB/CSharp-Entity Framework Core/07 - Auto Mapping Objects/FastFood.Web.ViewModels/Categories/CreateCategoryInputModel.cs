@@ -1,8 +1,9 @@
-﻿using FastFood.Common.EntityConfiguration;
-using System.ComponentModel.DataAnnotations;
-
-namespace FastFood.Web.ViewModels.Categories
+﻿namespace FastFood.Web.ViewModels.Categories
 {
+    using System.ComponentModel.DataAnnotations;
+
+    using Common.EntityConfiguration;
+
     public class CreateCategoryInputModel
     {
         [MinLength(ViewModelsValidation.CATEGORY_NAME_MIN_LENGTH)]

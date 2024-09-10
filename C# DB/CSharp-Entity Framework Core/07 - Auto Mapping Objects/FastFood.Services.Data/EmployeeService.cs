@@ -21,7 +21,7 @@
 
         public async Task RegisterAsync(RegisterEmployeeInputModel model)
         {
-            Employee employee = this.mapper.Map<Employee>(model);
+            var employee = this.mapper.Map<Employee>(model);
 
             await this.context.Employees.AddAsync(employee);
             await this.context.SaveChangesAsync();
@@ -29,12 +29,13 @@
 
         public async Task<IEnumerable<EmployeesAllViewModel>> GetAllAsync()
             => await this.context.Employees
-            .ProjectTo<EmployeesAllViewModel>(mapper.ConfigurationProvider)
-            .ToArrayAsync();
+                .ProjectTo<EmployeesAllViewModel>(mapper.ConfigurationProvider)
+                .ToArrayAsync();
 
         public async Task<IEnumerable<RegisterEmployeeViewModel>> GetAllPositionsAsync()
             => await this.context.Positions
                 .ProjectTo<RegisterEmployeeViewModel>(mapper.ConfigurationProvider)
                 .ToArrayAsync();
     }
+
 }

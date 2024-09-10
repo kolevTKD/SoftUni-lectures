@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FastFood.Data.Migrations
 {
     [DbContext(typeof(FastFoodContext))]
-    [Migration("20240907001916_InitialMigration")]
+    [Migration("20240910005937_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,22 +44,22 @@ namespace FastFood.Data.Migrations
 
             modelBuilder.Entity("FastFood.Models.Employee", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Address")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PositionId")
                         .HasColumnType("int");
@@ -73,9 +73,11 @@ namespace FastFood.Data.Migrations
 
             modelBuilder.Entity("FastFood.Models.Item", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
@@ -99,9 +101,11 @@ namespace FastFood.Data.Migrations
 
             modelBuilder.Entity("FastFood.Models.Order", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Customer")
                         .IsRequired()
@@ -110,9 +114,8 @@ namespace FastFood.Data.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("EmployeeId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Type")
                         .HasColumnType("int");
@@ -126,11 +129,11 @@ namespace FastFood.Data.Migrations
 
             modelBuilder.Entity("FastFood.Models.OrderItem", b =>
                 {
-                    b.Property<string>("OrderId")
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ItemId")
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<int>("ItemId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");

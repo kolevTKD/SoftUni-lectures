@@ -6,9 +6,9 @@
     {
         public string Customer { get; set; } = null!;
 
-        public string ItemId { get; set; }
+        public int ItemId { get; set; }
 
-        public string EmployeeId { get; set; }
+        public int EmployeeId { get; set; }
 
         [Range(1, int.MaxValue)]
         public int Quantity { get; set; }

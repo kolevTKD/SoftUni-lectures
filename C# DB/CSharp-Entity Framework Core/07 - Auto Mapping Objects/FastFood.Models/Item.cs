@@ -10,13 +10,13 @@
     {
         public Item()
         {
-            Id = Guid.NewGuid().ToString();
+            //Id = Guid.NewGuid().ToString();
             OrderItems = new HashSet<OrderItem>();
         }
 
         [Key]
-        [MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
-        public string Id { get; set; }
+        //[MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
+        public int Id { get; set; }
 
         [MaxLength(EntitiesValidation.ITEM_NAME_MAX_LENGTH)]
         public string? Name { get; set; }

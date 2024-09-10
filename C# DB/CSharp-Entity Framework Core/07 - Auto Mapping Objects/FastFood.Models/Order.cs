@@ -12,13 +12,13 @@
     {
         public Order()
         {
-            Id = Guid.NewGuid().ToString();
+            //Id = Guid.NewGuid().ToString();
             OrderItems = new HashSet<OrderItem>();
         }
 
         [Key]
-        [MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
-        public string Id { get; set; }
+        //[MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
+        public int Id { get; set; }
 
         public string Customer { get; set; } = null!;
 
@@ -30,7 +30,7 @@
         public decimal TotalPrice { get; set; }
 
         [ForeignKey(nameof(Employee))]
-        public string EmployeeId { get; set; } = null!;
+        public int EmployeeId { get; set; }
 
         public virtual Employee Employee { get; set; } = null!;
 

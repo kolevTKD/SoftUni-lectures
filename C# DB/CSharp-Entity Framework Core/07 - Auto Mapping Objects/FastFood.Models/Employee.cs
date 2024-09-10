@@ -10,13 +10,13 @@
     {
         public Employee()
         {
-            Id = Guid.NewGuid().ToString();
+            //Id = Guid.NewGuid().ToString();
             Orders = new HashSet<Order>();
         }
 
         [Key]
-        [MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
-        public string Id { get; set; }
+        //[MaxLength(EntitiesValidation.GUID_MAX_LENGTH)]
+        public int Id { get; set; }
 
         public string Name { get; set; } = null!;
 

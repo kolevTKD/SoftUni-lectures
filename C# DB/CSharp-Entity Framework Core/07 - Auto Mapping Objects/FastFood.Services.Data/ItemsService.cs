@@ -18,22 +18,24 @@
             this.mapper = mapper;
             this.context = context;
         }
+
         public async Task CreateAsync(CreateItemInputModel model)
         {
-            Item item = this.mapper.Map<Item>(model);
+            var item = this.mapper.Map<Item>(model);
 
             await this.context.Items.AddAsync(item);
             await this.context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<ItemsAllViewModel>> GetAllAsync()
-            => await context.Items
+            => await this.context.Items
                 .ProjectTo<ItemsAllViewModel>(mapper.ConfigurationProvider)
                 .ToArrayAsync();
 
         public async Task<IEnumerable<CreateItemViewModel>> GetAllCategoriesAsync()
-            => await context.Categories
+            => await this.context.Categories
                 .ProjectTo<CreateItemViewModel>(mapper.ConfigurationProvider)
                 .ToArrayAsync();
     }
+
 }

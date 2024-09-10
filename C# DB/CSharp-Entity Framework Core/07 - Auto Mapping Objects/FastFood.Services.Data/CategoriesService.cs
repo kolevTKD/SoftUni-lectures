@@ -21,7 +21,7 @@
 
         public async Task CreateAsync(CreateCategoryInputModel inputModel)
         {
-            Category category = this.mapper.Map<Category>(inputModel);
+            var category = this.mapper.Map<Category>(inputModel);
 
             await this.context.Categories.AddAsync(category);
             await this.context.SaveChangesAsync();
@@ -32,4 +32,5 @@
                 .ProjectTo<CategoryAllViewModel>(mapper.ConfigurationProvider)
                 .ToArrayAsync();
     }
+
 }

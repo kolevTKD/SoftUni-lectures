@@ -19,17 +19,19 @@
             this.mapper = mapper;
             this.context = context;
         }
+
         public async Task CreateAsync(CreatePositionInputModel inputModel)
         {
-            Position position = this.mapper.Map<Position>(inputModel);
+            var position = this.mapper.Map<Position>(inputModel);
 
-            await context.Positions.AddAsync(position);
-            await context.SaveChangesAsync();
+            await this.context.Positions.AddAsync(position);
+            await this.context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<PositionsAllViewModel>> GetAllAsync()
-            => await context.Positions
+            => await this.context.Positions
                 .ProjectTo<PositionsAllViewModel>(mapper.ConfigurationProvider)
                 .ToArrayAsync();
     }
+
 }

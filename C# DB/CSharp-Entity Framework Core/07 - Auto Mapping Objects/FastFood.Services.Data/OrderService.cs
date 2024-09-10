@@ -39,38 +39,32 @@
                 // Handling OrderItems
                 var orderItem = new OrderItem
                 {
-                    OrderId = order.Id, // Use order's generated Id
-                    ItemId = model.ItemId.ToString(), // Ensure ItemId matches the model and database
+                    ItemId = model.ItemId, // Ensure ItemId matches the model and database
                     Quantity = model.Quantity
                 };
 
-                order.OrderItems.Add(orderItem);
+                // Initialize OrderItems list if null
+                order.OrderItems = new List<OrderItem> { orderItem };
 
                 // Save the new order to the database
                 await this.context.Orders.AddAsync(order);
-                await this.context.SaveChangesAsync(); // Exception likely occurs here
-
-
-                // ... existing code ...
-
                 await this.context.SaveChangesAsync();
             }
             catch (DbUpdateException ex)
             {
+                // Log the detailed exception message
                 var innerException = ex.InnerException?.Message;
                 throw new Exception($"An error occurred: {innerException}", ex);
             }
         }
 
-
         public async Task<IEnumerable<OrderAllViewModel>> GetAllAsync()
-                => await this.context.Orders
-                    .ProjectTo<OrderAllViewModel>(mapper.ConfigurationProvider)
-                    .ToArrayAsync();
+            => await this.context.Orders
+                .ProjectTo<OrderAllViewModel>(mapper.ConfigurationProvider)
+                .ToArrayAsync();
 
         public async Task<CreateOrderViewModel> GetAllItemsEmployeesAsync()
         {
-            // Project Items and Employees to their ViewModel types
             var items = await this.context.Items
                 .ProjectTo<ItemsAllViewModel>(mapper.ConfigurationProvider)
                 .ToListAsync();
@@ -79,14 +73,11 @@
                 .ProjectTo<EmployeesAllViewModel>(mapper.ConfigurationProvider)
                 .ToListAsync();
 
-            var createOrderViewModel = new CreateOrderViewModel
+            return new CreateOrderViewModel
             {
-                Items = items, // Already in the correct format
-                Employees = employees // Already in the correct format
+                Items = items,
+                Employees = employees
             };
-
-            return createOrderViewModel;
         }
-
     }
 }
