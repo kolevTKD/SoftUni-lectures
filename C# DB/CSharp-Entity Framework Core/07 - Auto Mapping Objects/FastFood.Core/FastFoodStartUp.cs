@@ -23,7 +23,7 @@ builder.Services.AddTransient<IPositionService, PositionsService>();
 
 builder.Services.AddTransient<ICategoryService, CategoriesService>();
 
-builder.Services.AddTransient<IItemService, ItemsService>();
+builder.Services.AddTransient<IItemService, ItemService>();
 
 builder.Services.AddTransient<IOrderService, OrderService>();
 

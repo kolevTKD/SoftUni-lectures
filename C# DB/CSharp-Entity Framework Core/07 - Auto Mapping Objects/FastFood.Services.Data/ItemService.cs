@@ -8,12 +8,12 @@
     using Models;
     using Web.ViewModels.Items;
 
-    public class ItemsService : IItemService
+    public class ItemService : IItemService
     {
         private readonly IMapper mapper;
         private readonly FastFoodContext context;
 
-        public ItemsService(IMapper mapper, FastFoodContext context)
+        public ItemService(IMapper mapper, FastFoodContext context)
         {
             this.mapper = mapper;
             this.context = context;
