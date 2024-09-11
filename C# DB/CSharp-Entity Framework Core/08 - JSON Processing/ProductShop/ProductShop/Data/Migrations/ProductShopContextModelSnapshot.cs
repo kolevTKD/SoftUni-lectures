@@ -36,7 +36,7 @@ namespace ProductShop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("ProductShop.Models.CategoryProduct", b =>
@@ -51,7 +51,7 @@ namespace ProductShop.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("CategoriesProducts");
+                    b.ToTable("CategoriesProducts", (string)null);
                 });
 
             modelBuilder.Entity("ProductShop.Models.Product", b =>
@@ -63,7 +63,6 @@ namespace ProductShop.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<int?>("BuyerId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -82,7 +81,7 @@ namespace ProductShop.Migrations
 
                     b.HasIndex("SellerId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("ProductShop.Models.User", b =>
@@ -105,7 +104,7 @@ namespace ProductShop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("ProductShop.Models.CategoryProduct", b =>
@@ -132,8 +131,7 @@ namespace ProductShop.Migrations
                     b.HasOne("ProductShop.Models.User", "Buyer")
                         .WithMany("ProductsBought")
                         .HasForeignKey("BuyerId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.HasOne("ProductShop.Models.User", "Seller")
                         .WithMany("ProductsSold")
