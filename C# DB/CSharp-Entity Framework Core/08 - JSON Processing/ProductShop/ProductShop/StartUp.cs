@@ -6,9 +6,10 @@
 	using Newtonsoft.Json;
 
 	using Data;
+	using DTOs.Export;
 	using DTOs.Import;
 	using Models;
-	using ProductShop.DTOs.Export;
+	using Newtonsoft.Json.Serialization;
 
 	public class StartUp
 	{
@@ -19,7 +20,7 @@
 				//string path = @"..\..\..\Datasets\categories-products.json";
 				//string inputJson = ReadJson(path);
 
-				WriteJson(GetSoldProducts(context));
+				WriteJson(GetUsersWithProducts(context));
 			}
 		}
 
@@ -137,6 +138,66 @@
 			return JsonConvert.SerializeObject(soldProductsDtos, Formatting.Indented);
 		}
 
+		public static string GetCategoriesByProductsCount(ProductShopContext context) //07-Export Categories by Products Count
+		{
+			IMapper mapper = CreateMapper();
+
+			ExportCategoryByProductDto[] categoryByProduct = context.Categories
+				.AsNoTracking()
+				.OrderByDescending(c => c.CategoriesProducts.Count)
+				.ProjectTo<ExportCategoryByProductDto>(mapper.ConfigurationProvider)
+				.ToArray();
+
+			return JsonConvert.SerializeObject(categoryByProduct, Formatting.Indented);
+		}
+
+		public static string GetUsersWithProducts(ProductShopContext context) //08-Export Users and Products
+		{
+			IMapper mapper = CreateMapper();
+			IContractResolver contractResolver = ConfigureCamelCaseNaming();
+
+			var users = context
+				.Users
+				.Where(u => u.ProductsSold.Any(p => p.Buyer != null))
+				.Select(u => new
+				{
+					// UserDTO
+					u.FirstName,
+					u.LastName,
+					u.Age,
+					SoldProducts = new
+					{
+						// ProductWrapperDTO
+						Count = u.ProductsSold
+							.Count(p => p.Buyer != null),
+						Products = u.ProductsSold
+							.Where(p => p.Buyer != null)
+							.Select(p => new
+							{
+								// ProductDTO
+								p.Name,
+								p.Price
+							})
+							.ToArray()
+					}
+				})
+				.OrderByDescending(u => u.SoldProducts.Count)
+				.AsNoTracking()
+				.ToArray();
+
+			var userWrapperDto = new
+			{
+				UsersCount = users.Length,
+				Users = users
+			};
+
+			return JsonConvert.SerializeObject(userWrapperDto, Formatting.Indented, new JsonSerializerSettings()
+			{
+				ContractResolver = contractResolver,
+				NullValueHandling = NullValueHandling.Ignore
+			});
+		}
+
 		private static string ReadJson(string path)
 			=> File.ReadAllText(path);
 
@@ -152,6 +213,14 @@
 			{
 				cfg.AddProfile<ProductShopProfile>();
 			}));
+		}
+
+		private static IContractResolver ConfigureCamelCaseNaming()
+		{
+			return new DefaultContractResolver()
+			{
+				NamingStrategy = new CamelCaseNamingStrategy(false, true)
+			};
 		}
 	}
 }
