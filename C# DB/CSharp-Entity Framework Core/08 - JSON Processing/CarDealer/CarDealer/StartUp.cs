@@ -243,7 +243,7 @@
 			});
 		}
 
-		public static string GetSalesWithAppliedDiscount(CarDealerContext context)
+		public static string GetSalesWithAppliedDiscount(CarDealerContext context) //11-Export Sales with Applied Discount
 		{
 			IContractResolver contractResolver = ConfigureCamelCaseNaming();
 
