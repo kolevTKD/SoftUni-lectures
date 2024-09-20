@@ -11,11 +11,11 @@ This repository contains all lectures, exercises, and projects from my studies a
 
 | Section                         | Description                                                                                                                                 |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Programming Basics C#**      | Introductory level C# programming, focusing on loops, conditionals, arrays, and basic algorithms. Great for beginners to get started with C#. |
-| **Programming Fundamentals C#** | Intermediate C# concepts that build on programming basics. Includes more complex algorithms, problem-solving tasks, and OOP.                |
-| **C# Advanced**                 | Focuses on advanced C# programming techniques, such as working with collections, LINQ, streams, and more.                                   |
-| **C# DB**                      | Covers database management with C# using Entity Framework, SQL, and ADO.NET.                                                               |
-| **JS Front-End**                | Topics include JavaScript, DOM manipulation, and web development fundamentals.                                                              |
+| **Programming Basics C#**      | Introductory level C# programming, focusing on loops, conditionals, and basic algorithms. Great for beginners to get started with C#. |
+| **Programming Fundamentals C#** | Intermediate C# concepts that build on programming basics. Includes more complex algorithms, problem-solving tasks, and OOP introduction.                |
+| **C# Advanced**                 | Focuses on advanced C# programming techniques, such as working with collections, LINQ, streams, and more. In-depth study of OOP and functional programming.                                   |
+| **C# DB**                      | Covers database management with C# using Entity Framework, SQL, and ADO.NET. JSON and XML processing serialization and deserialization.                                                              |
+| **JS Front-End**                | Topics include HTML, CSS, JavaScript, DOM manipulation, and web development fundamentals.                                                              |
 
 ## 📚 How to Use
 
