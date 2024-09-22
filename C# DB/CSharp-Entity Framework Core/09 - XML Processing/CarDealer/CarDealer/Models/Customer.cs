@@ -1,15 +1,20 @@
 ﻿namespace CarDealer.Models
 {
-    public class Customer
-    {
-        public int Id { get; set; }
+	public class Customer
+	{
+		public Customer()
+		{
+			Sales = new HashSet<Sale>();
+		}
 
-        public string Name { get; set; } = null!;
+		public int Id { get; set; }
 
-        public DateTime BirthDate { get; set; }
+		public string Name { get; set; } = null!;
 
-        public bool IsYoungDriver { get; set; }
+		public DateTime BirthDate { get; set; }
 
-        public ICollection<Sale> Sales { get; set; } = new List<Sale>(); 
-    }
+		public bool IsYoungDriver { get; set; }
+
+		public virtual ICollection<Sale> Sales { get; set; }
+	}
 }
