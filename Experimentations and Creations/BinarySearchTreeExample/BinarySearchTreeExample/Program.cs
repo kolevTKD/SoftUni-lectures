@@ -7,7 +7,7 @@
             Node root = null;
             Random rnd = new Random();
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 10; i++)
             {
                 int x = rnd.Next(0, 100);
                 Node n = new Node(x);
@@ -22,6 +22,8 @@
                     n.AddNode(root);
                 }
             }
+
+            Console.WriteLine(root.LevelOrderTraversal());
         }
     }
 }
