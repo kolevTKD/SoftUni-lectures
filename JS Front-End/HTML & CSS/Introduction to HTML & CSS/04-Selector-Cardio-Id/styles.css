@@ -1,0 +1,27 @@
+/* 15. Selector Cardio: Attribute
+
+h1 {
+    font-size: 50px;
+}
+
+.first {
+    text-decoration: underline;
+}
+
+#second {
+    font-style: italic;
+} */
+
+/* 16. CSS Properties Cardio: Background
+div {
+    background-color: green;
+} */
+
+/* 17. CSS Properties Cardio: Color
+div {
+    color: red;
+} */
+
+div {
+    font-family: 'Gill Sans', sans-serif;
+}
