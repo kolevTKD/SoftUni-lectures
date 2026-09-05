@@ -13,6 +13,7 @@
 # Ignore word and powerpoint documents
 *.docx
 *.pptx
+*.zip
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
