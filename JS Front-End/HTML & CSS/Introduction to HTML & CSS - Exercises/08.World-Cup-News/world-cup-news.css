@@ -2,7 +2,7 @@
     width: 700px;
     height: 730px;
     border: 1px solid #000000;
-    justify-content: center;
+    margin: 0 auto;
     padding: 10px 20px;
     background-color: #a6e1ec
 }
