@@ -1,0 +1,22 @@
+html {
+    font: "Helvetica", "sans-serif";
+}
+
+header {
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: 100px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+}
+ nav li a {
+    color: green;
+    text-decoration: none;
+ }
