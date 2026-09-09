@@ -1,0 +1,36 @@
+html {
+    font-family: "Helvetica", "sans-serif";
+    line-height: 22px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+aside {
+    float: right;
+    padding: 2em;
+    width: 400px;
+}
+
+li {
+    line-height: 24px;;
+}
+
+article {
+    padding: 2em;
+    width: 70%;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    width: 50%;
+}
+
+span {
+    display: block;
+    padding: 10px 0;
+    text-align: left;
+}

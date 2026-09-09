@@ -1,0 +1,44 @@
+h3 {
+    font: 1em/1.2 400 "Georgia", "sans-serif";
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px transparent #fff;
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card .text {
+    padding: 16px;
+}
+
+button {
+    position: relative;
+    background-color: rgb(0, 153, 0);
+    border-radius: 3px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    padding: 10px 20px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
