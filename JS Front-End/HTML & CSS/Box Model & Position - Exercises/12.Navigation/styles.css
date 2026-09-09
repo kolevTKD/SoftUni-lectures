@@ -1,0 +1,42 @@
+body {
+    padding: 40px;
+}
+
+main {
+    display: block;
+    max-width: 75ch;
+}
+
+aside {
+    position: absolute;
+    right: 50px;
+}
+
+body header {
+    display:flex;
+    align-items: center;
+}
+
+body header p{
+    font: 3em/1.2 "Georgia", "serif";
+    text-transform: uppercase;
+    margin: 0;
+    display: block;
+    padding-right: 20px;
+}
+
+body header nav {
+    position: absolute;
+    right: 30px;
+    display: block;
+}
+
+body header nav li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+body header nav li a {
+    color: green;
+    text-decoration: none;
+}
