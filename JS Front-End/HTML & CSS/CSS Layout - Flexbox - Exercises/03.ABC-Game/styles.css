@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px Helvetica, sans-serif;
+}
+
+body {
+    padding: 2em;
+    margin: 2em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 15vw;
+    height: 36rem;
+    gap: 0.5em;
+}
+
+span {
+    display: flex;
+    border: 1px solid black;
+    width: 3em;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+.S {
+    order: 0;
+}
+
+.e {
+    order: 1;
+}
+
+.m {
+    order: 2;
+}
+
+.a {
+    order: 3;
+}
+
+.n {
+    order: 4;
+}
+
+.t {
+    order: 5;
+}
+
+.i {
+    order: 6;
+}
+
+.c {
+    order: 7;
+}
+
+.H {
+    order: 8;
+}
+
+.T {
+    order: 9;
+}
+
+.M {
+    order: 10;
+}
+
+.L {
+    order: 11;
+}
