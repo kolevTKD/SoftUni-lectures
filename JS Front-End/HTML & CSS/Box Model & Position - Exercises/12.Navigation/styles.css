@@ -11,7 +11,7 @@ main {
 
 aside {
     position: absolute;
-    right: 50px;
+    right: 180px
 }
 
 a {
@@ -30,9 +30,14 @@ div {
 }
 
 img {
-    display: block;
-    width: 100%;
-    height: auto;
+    width: 12rem;
+    display: inline-block;
+    background-color: #fff;
+    border: 0.4rem solid #000;
+    padding: 1rem;
+    vertical-align: middle;
+    margin: 0.5rem;
+    
 }
 
 img:nth-of-type(1) {
@@ -66,4 +71,12 @@ body header nav li {
 body header nav li a {
     color: green;
     text-decoration: none;
+}
+
+img.align-right {
+    float: right;
+}
+
+img.align-left {
+    float: left;
 }
