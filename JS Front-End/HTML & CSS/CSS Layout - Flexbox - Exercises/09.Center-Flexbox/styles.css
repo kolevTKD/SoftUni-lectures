@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    max-width: 35vw;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.3);
+    padding: 2em;
+}
