@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    background-color: #eee;
+}
+
+ul {
+    padding-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2.8em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+
+header > p {
+    font: 600 36px/2em Georgia, sans-serif;
+    text-transform: uppercase;
+}
+
+.page {
+    max-width: 50em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.site-header {
+    flex: 0 0  100%;
+    border-bottom: 2px solid #000;
+}
+
+.site-main {
+    flex: 0 0 60%;
+}
+
+.site-aside {
+    flex: 1 0 auto;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+img[class*="align"] {
+    border: 3px solid #333;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.3);
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+blockquote[class*="align"] {
+    opacity: 0.7;
+    font-style: italic;
+    max-width: 50%;
+}
+
+blockquote.align-right {
+    padding-left: 1em;
+    border-left: 3px solid #ccc;
+}
+
+aside {
+    padding-left: 3em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0)
+}
