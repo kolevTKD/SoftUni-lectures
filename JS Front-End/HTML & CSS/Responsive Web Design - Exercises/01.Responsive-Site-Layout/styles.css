@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+}
+
+body header {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    border: 1px solid green;
+    padding: 1em;
+    width: 50vw;
+}
+
+main {
+    display: flex;
+    border: 2px solid red;
+    width: 30vw;
+}
+
+aside {
+    display: flex;
+    border: 2px solid magenta;
+    float: left;
+    width: 20vw;
+    height: 30px;
+}
