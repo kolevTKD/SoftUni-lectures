@@ -24,7 +24,7 @@ function solve(...input) {
                 break;
         }
 
-        console.log(number);
+        console.log(parseFloat(number.toFixed(2)));
     }
 }
 

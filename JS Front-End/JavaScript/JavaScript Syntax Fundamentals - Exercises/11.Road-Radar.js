@@ -1,8 +1,6 @@
 function solve (speed, area) {
 
     let limit = 0;
-    let residentialLimit = 20;
-    let speedExceed = 0;
 
     if (area == 'motorway') {
 
